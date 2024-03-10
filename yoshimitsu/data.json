@@ -1,0 +1,51 @@
+{
+  "frameData": [
+    { "move": "1", "startup": 10, "blockAdvantage": 1, "property": "h" },
+    { "move": "u1", "startup": 24, "blockAdvantage": -5, "property": "m" },
+    { "move": "b1", "startup": 17, "blockAdvantage": 1, "property": "h" },
+    { "move": "db1", "startup": 26, "blockAdvantage": -11, "property": "l" },
+    { "move": "df1", "startup": 13, "blockAdvantage": -4, "property": "m" },
+    { "move": "d1", "startup": 24, "blockAdvantage": -9, "property": "m" },
+    { "move": "2", "startup": 11, "blockAdvantage": -1, "property": "h" },
+    { "move": "u2", "startup": 35, "blockAdvantage": -16, "property": "l" },
+    { "move": "b2", "startup": 14, "blockAdvantage": -9, "property": "m" },
+    { "move": "db2", "startup": 15, "blockAdvantage": -5, "property": "m" },
+    { "move": "d2", "startup": 16, "blockAdvantage": -9, "property": "m" },
+    { "move": "df2", "startup": 15, "blockAdvantage": -7, "property": "m" },
+    { "move": "f2", "startup": 17, "blockAdvantage": -4, "property": "h" },
+    { "move": "3", "startup": 15, "blockAdvantage": -9, "property": "m" },
+    { "move": "u3", "startup": 15, "blockAdvantage": -13, "property": "m" },
+    { "move": "db3", "startup": 18, "blockAdvantage": -25, "property": "l" },
+    { "move": "d3", "startup": 16, "blockAdvantage": -17, "property": "l" },
+    { "move": "df3", "startup": 17, "blockAdvantage": -4, "property": "m" },
+    { "move": "f3", "startup": 16, "blockAdvantage": -9, "property": "h" },
+    { "move": "4", "startup": 12, "blockAdvantage": -11, "property": "h" },
+    { "move": "u4", "startup": 20, "blockAdvantage": -9, "property": "m" },
+    { "move": "db4", "startup": 17, "blockAdvantage": -12, "property": "l" },
+    { "move": "d4", "startup": 12, "blockAdvantage": -15, "property": "l" },
+    { "move": "df4", "startup": 12, "blockAdvantage": -7, "property": "m" },
+    { "move": "f4", "startup": 18, "blockAdvantage": -13, "property": "m" },
+    { "move": "1+4", "startup": 6, "blockAdvantage": -15, "property": "m" }
+  ],
+  "moves": [
+    { "number": 20, "blockAdvantage": -14, "property": "", "notes": "" },
+    { "number": 21, "blockAdvantage": -6, "property": "", "notes": "" },
+    { "number": 28, "blockAdvantage": -8, "property": "", "notes": "" },
+    {
+      "number": 29,
+      "blockAdvantage": null,
+      "property": "tornado",
+      "notes": ""
+    },
+    { "number": 32, "blockAdvantage": null, "property": "homing", "notes": "" },
+    {
+      "number": 36,
+      "blockAdvantage": null,
+      "property": "tornado",
+      "notes": ""
+    },
+    { "number": 38, "blockAdvantage": -12, "property": "", "notes": "" },
+    { "number": 44, "blockAdvantage": null, "property": "", "notes": "" },
+    { "number": 46, "blockAdvantage": null, "property": "", "notes": "wall" }
+  ]
+}
