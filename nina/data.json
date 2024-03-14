@@ -94,8 +94,7 @@
         "move": "b1+2",
         "startup": 16,
         "blockAdvantage": -7,
-        "property": "m",
-        "type": "crush"
+        "property": "m"
       },
       {
         "move": "db1+2",
@@ -116,15 +115,230 @@
         "startup": 12,
         "blockAdvantage": "n/a",
         "property": "h"
+      },
+      {
+        "move": "ss1+2",
+        "startup": 19,
+        "blockAdvantage": -9,
+        "property": "m"
+      },
+      {
+        "move": "3+4",
+        "startup": 18,
+        "blockAdvantage": -10,
+        "property": "m",
+        "type": "homing"
+      },
+      {
+        "move": "uf3+4",
+        "startup": 23,
+        "blockAdvantage": -23,
+        "property": "m",
+        "type": "downed"
+      },
+      {
+        "move": "df3+4",
+        "startup": 31,
+        "blockAdvantage": -37,
+        "property": "l"
+      },
+      {
+        "move": "db3+4",
+        "startup": 18,
+        "blockAdvantage": -17,
+        "property": "m",
+        "type": "tornado"
+      },
+      {
+        "move": "b3+4",
+        "startup": 14,
+        "blockAdvantage": -9,
+        "property": "h"
+      },
+      {
+        "move": "1+4",
+        "startup": 15,
+        "blockAdvantage": -5,
+        "property": "m,m"
+      },
+      {
+        "move": "b1+4",
+        "startup": 15,
+        "blockAdvantage": -15,
+        "property": "m,m",
+        "type": "tornado"
       }
     ],
-    "hbs": [
-      { "move": "1", "startup": 12, "blockAdvantage": -13, "property": "m" }
+    "sway": [
+      {
+        "move": 4,
+        "startup": 19,
+        "blockAdvantage": -12,
+        "property": "m",
+        "type": "tornado"
+      }
+    ],
+    "duckstep": [
+      {
+        "move": "1",
+        "startup": 14,
+        "blockAdvantage": 1,
+        "property": "h"
+      },
+      {
+        "move": "2",
+        "startup": 17,
+        "blockAdvantage": -8,
+        "property": "m",
+        "type": "heat"
+      },
+      {
+        "move": "3",
+        "startup": 19,
+        "blockAdvantage": -20,
+        "property": "l"
+      },
+      {
+        "move": "4",
+        "startup": 14,
+        "blockAdvantage": -8,
+        "property": "m"
+      },
+      {
+        "move": "2+3",
+        "startup": 24,
+        "blockAdvantage": 36,
+        "property": "unblockable"
+      }
     ]
   },
   "combos": [
-    { "inputs": "4,4,4", "property": "h h l", "notes": "" },
-    { "inputs": "4,4,3+4", "property": "h h m m", "notes": "" },
-    { "inputs": "f2,1,3", "property": "h m m", "type": "tornado", "notes": "" }
+    { "inputs": "4,4,4", "property": "h h l" },
+    { "inputs": "4,4,3+4", "property": "h h m m" },
+    { "inputs": "f2,1,3", "property": "h m m", "type": "tornado" }
+  ],
+  "orderedStartup": [
+    { "move": "1", "startup": 10, "blockAdvantage": 1, "property": "h" },
+    { "move": "d1", "startup": 10, "blockAdvantage": -5, "property": "s.low" },
+    { "move": "2", "startup": 10, "blockAdvantage": -1, "property": "h" },
+    { "move": "fc2", "startup": 11, "blockAdvantage": -4, "property": "s.low" },
+    { "move": "4", "startup": 11, "blockAdvantage": -9, "property": "h" },
+    { "move": "ws4", "startup": 11, "blockAdvantage": -4, "property": "m" },
+    {
+      "move": "db1+2",
+      "startup": 11,
+      "blockAdvantage": -14,
+      "property": "h,m",
+      "type": "heat"
+    },
+    { "move": "b1", "startup": 12, "blockAdvantage": -7, "property": "h" },
+    {
+      "move": "b2",
+      "startup": 12,
+      "blockAdvantage": -14,
+      "property": "h",
+      "type": "homing"
+    },
+    { "move": "d4", "startup": 12, "blockAdvantage": -15, "property": "l" },
+    { "move": "df4", "startup": 12, "blockAdvantage": -4, "property": "m" },
+    {
+      "move": "uf1+2",
+      "startup": 12,
+      "blockAdvantage": "n/a",
+      "property": "h"
+    },
+    { "move": "ws1", "startup": 13, "blockAdvantage": -6, "property": "m" },
+    { "move": "df1", "startup": 13, "blockAdvantage": -1, "property": "m" },
+    { "move": "f2", "startup": 13, "blockAdvantage": -3, "property": "h" },
+    { "move": "ss2", "startup": 13, "blockAdvantage": -14, "property": "m" },
+    { "move": "ws3", "startup": 13, "blockAdvantage": -13, "property": "m" },
+    { "move": "ss1", "startup": 14, "blockAdvantage": -10, "property": "m" },
+    { "move": "3", "startup": 14, "blockAdvantage": -16, "property": "h" },
+    { "move": "u3", "startup": 14, "blockAdvantage": -15, "property": "m" },
+    { "move": "df3", "startup": 14, "blockAdvantage": -11, "property": "m" },
+    { "move": "f3", "startup": 14, "blockAdvantage": 3, "property": "h,h" },
+    { "move": "b4", "startup": 14, "blockAdvantage": -9, "property": "h" },
+    { "move": "b3+4", "startup": 14, "blockAdvantage": -9, "property": "h" },
+    { "move": "ws2", "startup": 15, "blockAdvantage": -13, "property": "m" },
+    { "move": "df2", "startup": 15, "blockAdvantage": -7, "property": "m" },
+    { "move": "1+4", "startup": 15, "blockAdvantage": -5, "property": "m,m" },
+    {
+      "move": "b1+4",
+      "startup": 15,
+      "blockAdvantage": -15,
+      "property": "m,m",
+      "type": "tornado"
+    },
+    { "move": "d3", "startup": 16, "blockAdvantage": -17, "property": "l" },
+    {
+      "move": "db4",
+      "startup": 16,
+      "blockAdvantage": -9,
+      "property": "l",
+      "type": "downed"
+    },
+    { "move": "2+3", "startup": 16, "blockAdvantage": 1, "property": "m" },
+    {
+      "move": "1+2",
+      "startup": 16,
+      "blockAdvantage": -3,
+      "property": "m",
+      "type": "homing"
+    },
+    { "move": "b1+2", "startup": 16, "blockAdvantage": -7, "property": "m" },
+    {
+      "move": "f1+2",
+      "startup": 17,
+      "blockAdvantage": -14,
+      "property": "m",
+      "type": "crush, heat"
+    },
+    { "move": "u2", "startup": 18, "blockAdvantage": -10, "property": "m" },
+    { "move": "b3", "startup": 18, "blockAdvantage": -6, "property": "m" },
+    { "move": "uf4", "startup": 18, "blockAdvantage": -9, "property": "h" },
+    {
+      "move": "3+4",
+      "startup": 18,
+      "blockAdvantage": -10,
+      "property": "m",
+      "type": "homing"
+    },
+    {
+      "move": "db3+4",
+      "startup": 18,
+      "blockAdvantage": -17,
+      "property": "m",
+      "type": "tornado"
+    },
+    { "move": "ss1+2", "startup": 19, "blockAdvantage": -9, "property": "m" },
+    {
+      "move": "ub1",
+      "startup": 20,
+      "blockAdvantage": -16,
+      "property": "m",
+      "type": "ssl"
+    },
+    { "move": "d2", "startup": 20, "blockAdvantage": -12, "property": "l" },
+    { "move": "db3", "startup": 20, "blockAdvantage": -13, "property": "l" },
+    { "move": "ss4", "startup": 20, "blockAdvantage": -14, "property": "l" },
+    { "move": "f4", "startup": 21, "blockAdvantage": -5, "property": "m" },
+    { "move": "u4", "startup": 23, "blockAdvantage": 0, "property": "m" },
+    {
+      "move": "uf3+4",
+      "startup": 23,
+      "blockAdvantage": -23,
+      "property": "m",
+      "type": "downed"
+    },
+    {
+      "move": "db2",
+      "startup": 24,
+      "blockAdvantage": -5,
+      "property": "m",
+      "type": "homing"
+    },
+    { "move": "u1", "startup": 26, "blockAdvantage": -5, "property": "m" },
+    { "move": "df3+4", "startup": 31, "blockAdvantage": -37, "property": "l" },
+    { "move": "db2+3", "startup": 32, "blockAdvantage": -12, "property": "l" }
   ]
 }
