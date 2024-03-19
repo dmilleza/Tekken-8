@@ -1,6 +1,8 @@
 const nina = require('./data.json')
 
-// const fast = nina.frameData.duckstep.sort((a, b) => a.startup - b.startup)
-const dmg = nina.frameData.sway.sort((a, b) => b.damage - a.damage)
+const added = nina.frameData.dstance
+  .concat(nina.frameData.sway)
+  .concat(nina.frameData.duckstep)
 
-console.log(dmg)
+const fast = added.sort((a, b) => b.damage - a.damage)
+console.log(fast)
