@@ -124,6 +124,14 @@
         "damage": 12
       },
       {
+        "move": "fF2",
+        "startup": 14,
+        "block": -4,
+        "property": "h",
+        "damage": 20,
+        "type": "wall"
+      },
+      {
         "move": "ss2",
         "startup": 13,
         "block": -14,
@@ -187,6 +195,21 @@
         "damage": 30
       },
       {
+        "move": "fF3",
+        "startup": 15,
+        "block": -14,
+        "property": "m",
+        "damage": 24
+      },
+      {
+        "move": "ffF3",
+        "startup": 20,
+        "block": -8,
+        "property": "m",
+        "damage": 10
+      },
+
+      {
         "move": "4",
         "startup": 11,
         "block": -9,
@@ -244,6 +267,14 @@
         "damage": 15
       },
       {
+        "move": "fF4",
+        "startup": 28,
+        "block": 16,
+        "property": "m",
+        "damage": 30,
+        "type": "downed"
+      },
+      {
         "move": "uf4",
         "startup": 18,
         "block": -9,
@@ -262,6 +293,7 @@
         "startup": 16,
         "block": 1,
         "property": "m",
+        "type": "heat, crush",
         "damage": 12
       },
 
@@ -285,7 +317,7 @@
         "startup": 11,
         "block": -14,
         "property": "h,m",
-        "type": "heat",
+        "type": "heat, hdash",
         "damage": 27
       },
       {
@@ -293,8 +325,24 @@
         "startup": 17,
         "block": -14,
         "property": "m",
-        "type": "crush, heat, dash",
+        "type": "crush, heat, hdash",
         "damage": 24
+      },
+      {
+        "move": "fF1+2",
+        "startup": 22,
+        "block": -5,
+        "property": "m",
+        "type": "wall",
+        "damage": 26
+      },
+      {
+        "move": "ffF1+2",
+        "startup": 20,
+        "block": 4,
+        "property": "m",
+        "type": "wall, heat",
+        "damage": 30
       },
       {
         "move": "uf1+2",
@@ -387,7 +435,7 @@
         "startup": 17,
         "block": -8,
         "property": "m",
-        "type": "heat",
+        "type": "heat, hdash",
         "damage": 25
       },
       {
@@ -414,9 +462,67 @@
     ]
   },
   "combos": [
-    { "inputs": "4,4,4", "property": "h,h,l" },
-    { "inputs": "4,4,3+4", "property": "h,h,m,m" },
-    { "inputs": "f2,1,3", "property": "h,m,m", "type": "tornado" },
+    { "inputs": "1,2", "property": "h,h", "block": -3 },
+    { "inputs": "1,4", "property": "h,h", "block": -4 },
+    { "inputs": "1,4,1", "property": "h,h,m", "block": -11 },
+    { "inputs": "1,2,1", "property": "h,h,h", "block": -3 },
+    { "inputs": "1,2,4", "property": "h,h,h", "block": -6 },
+    { "inputs": "1,2,1+2", "property": "h,h,m", "block": -14 },
+    { "inputs": "1,2,1,1+2", "property": "h,h,h,h,h,h", "block": -9 },
+    { "inputs": "b1,4", "property": "h,m", "block": -12, "type": "tornado" },
+    { "inputs": "df1,2,1+2", "property": "m,h,m", "block": -14 },
+    { "inputs": "df1,2,ss1+2", "property": "m,h,m", "block": -9 },
+    { "inputs": "ws1,4", "property": "m,m", "block": -3 },
+    { "inputs": "ws1,1+2", "property": "m,h,h,h", "block": -9 },
+    { "inputs": "ss1,2", "property": "m,m", "block": -3 },
+    { "inputs": "u2,1", "property": "m,m", "block": -13 },
+    {
+      "inputs": "f2,1,3",
+      "property": "h,m,m",
+      "block": -15,
+      "type": "tornado"
+    },
+    { "inputs": "f2,1,4", "property": "h,m,h", "block": -3 },
+    { "inputs": "d2,2", "property": "l,m", "block": -12, "type": "tornado" },
+    { "inputs": "b2,2", "property": "h,h", "block": -6 },
+    { "inputs": "b2,2,2", "property": "h,h,h", "block": -9 },
+    { "inputs": "3,2", "property": "h,m", "block": -9 },
+    { "inputs": "3,4", "property": "h,h", "block": -6 },
+    { "inputs": "df3,1", "property": "m,h", "block": -8 },
+    { "inputs": "df3,1,2", "property": "m,h,m", "block": -12 },
+    { "inputs": "df3,2,1,2", "property": "m,h,h,h", "block": -10 },
+    { "inputs": "df3,2,1,2,4", "property": "m,h,h,h,h", "block": -20 },
+    { "inputs": "df3,2,1,2,1+2", "property": "m,h,h,h,m", "block": -14 },
+    { "inputs": "df3,2,1,4", "property": "m,h,h,l", "block": -13 },
+    {
+      "inputs": "df3,2,3",
+      "property": "m,h,m",
+      "block": -17,
+      "type": "tornado"
+    },
+    { "inputs": "df3,2,4", "property": "m,h,h", "block": -6 },
+    { "inputs": "df3,3", "property": "m,m", "block": -10 },
+    { "inputs": "d3,2", "property": "l,m", "block": -11 },
+    { "inputs": "d3,4", "property": "l,h", "block": -8 },
+    { "inputs": "d3,4,3", "property": "l,h,m", "block": -7 },
+    { "inputs": "b3,4", "property": "m,h", "block": -8 },
+    { "inputs": "ffF3,3", "property": "m,m", "block": -4 },
+    { "inputs": "ffF3,4", "property": "m,m", "block": -13, "type": "tornado" },
+    { "inputs": "4,2", "property": "h,m", "block": -9 },
+    { "inputs": "4,3", "property": "h,m", "block": -2 },
+    { "inputs": "4,4,4", "property": "h,h,l", "block": -12 },
+    { "inputs": "4,4,3+4", "property": "h,h,m,m", "block": -6 },
+    { "inputs": "f4,2", "property": "m,h", "block": -9, "type": "heat, hdash" },
+    { "inputs": "d4,1", "property": "l,h", "block": 0 },
+    { "inputs": "db4,3", "property": "l,m", "block": 12, "type": "tornado" },
+    { "inputs": "ws4,3", "property": "m,h", "block": -10 },
+    { "inputs": "ws4,3,1+2", "property": "m,h,h,h,h", "block": -9 },
+    { "inputs": "ss4,2", "property": "l,h", "block": -7 },
+    { "inputs": "ss4,2", "property": "l,h", "block": -7 },
+    { "inputs": "dstep4,3", "property": "m,h", "block": -10 },
+    { "inputs": "dstep4,3,1+2", "property": "m,h,h,h,h", "block": -9 },
+    { "inputs": "b3+4,3", "property": "h,m", "block": -15, "type": "tornado" },
+    { "inputs": "b3+4,1+2", "property": "h,h,h,h", "block": -9 },
     {
       "db3+4": {
         "withHeat": [
@@ -449,628 +555,6 @@
           }
         ]
       }
-    }
-  ],
-  "orderedStartup": [
-    { "move": "1", "startup": 10, "block": 1, "property": "h", "damage": 5 },
-    {
-      "move": "d1",
-      "startup": 10,
-      "block": -5,
-      "property": "s.low",
-      "damage": 5
-    },
-    { "move": "2", "startup": 10, "block": -1, "property": "h", "damage": 10 },
-    {
-      "move": "fc2",
-      "startup": 11,
-      "block": -4,
-      "property": "s.low",
-      "damage": 8
-    },
-    { "move": "4", "startup": 11, "block": -9, "property": "h", "damage": 15 },
-    {
-      "move": "ws4",
-      "startup": 11,
-      "block": -4,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "db1+2",
-      "startup": 11,
-      "block": -14,
-      "property": "h,m",
-      "type": "heat",
-      "damage": 27
-    },
-    { "move": "b1", "startup": 12, "block": -7, "property": "h", "damage": 10 },
-    {
-      "move": "b2",
-      "startup": 12,
-      "block": -14,
-      "property": "h",
-      "type": "homing",
-      "damage": 12
-    },
-    { "move": "d4", "startup": 12, "block": -15, "property": "l", "damage": 6 },
-    {
-      "move": "df4",
-      "startup": 12,
-      "block": -4,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "uf1+2",
-      "startup": 12,
-      "block": "n/a",
-      "property": "h",
-      "damage": 40
-    },
-    {
-      "move": "ws1",
-      "startup": 13,
-      "block": -6,
-      "property": "m",
-      "damage": 17
-    },
-    {
-      "move": "df1",
-      "startup": 13,
-      "block": -1,
-      "property": "m",
-      "damage": 13
-    },
-    { "move": "f2", "startup": 13, "block": -3, "property": "h", "damage": 12 },
-    {
-      "move": "ss2",
-      "startup": 13,
-      "block": -14,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "ws3",
-      "startup": 13,
-      "block": -13,
-      "property": "m",
-      "damage": 25
-    },
-    {
-      "move": "ss1",
-      "startup": 14,
-      "block": -10,
-      "property": "m",
-      "damage": 15
-    },
-    { "move": "3", "startup": 14, "block": -16, "property": "h", "damage": 14 },
-    {
-      "move": "u3",
-      "startup": 14,
-      "block": -15,
-      "property": "m",
-      "damage": 20
-    },
-    {
-      "move": "df3",
-      "startup": 14,
-      "block": -11,
-      "property": "m",
-      "damage": 13
-    },
-    {
-      "move": "f3",
-      "startup": 14,
-      "block": 3,
-      "property": "h,h",
-      "damage": 30
-    },
-    { "move": "b4", "startup": 14, "block": -9, "property": "h", "damage": 15 },
-    {
-      "move": "b3+4",
-      "startup": 14,
-      "block": -9,
-      "property": "h",
-      "damage": 16
-    },
-    {
-      "move": "dstep1",
-      "startup": 14,
-      "block": 1,
-      "property": "h",
-      "damage": 21
-    },
-    {
-      "move": "dstep4",
-      "startup": 14,
-      "block": -8,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "ws2",
-      "startup": 15,
-      "block": -13,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "df2",
-      "startup": 15,
-      "block": -7,
-      "property": "m",
-      "damage": 12
-    },
-    {
-      "move": "1+4",
-      "startup": 15,
-      "block": -5,
-      "property": "m,m",
-      "damage": 24
-    },
-    {
-      "move": "b1+4",
-      "startup": 15,
-      "block": -15,
-      "property": "m,m",
-      "type": "tornado",
-      "damage": 18
-    },
-    {
-      "move": "d3",
-      "startup": 16,
-      "block": -17,
-      "property": "l",
-      "damage": 10
-    },
-    {
-      "move": "db4",
-      "startup": 16,
-      "block": -9,
-      "property": "l",
-      "type": "downed",
-      "damage": 5
-    },
-    { "move": "2+3", "startup": 16, "block": 1, "property": "m", "damage": 12 },
-    {
-      "move": "1+2",
-      "startup": 16,
-      "block": -3,
-      "property": "m",
-      "type": "homing",
-      "damage": 19
-    },
-    {
-      "move": "b1+2",
-      "startup": 16,
-      "block": -7,
-      "property": "m",
-      "damage": 25
-    },
-    {
-      "move": "f1+2",
-      "startup": 17,
-      "block": -14,
-      "property": "m",
-      "type": "crush, heat, dash",
-      "damage": 24
-    },
-    {
-      "move": "dstep2",
-      "startup": 17,
-      "block": -8,
-      "property": "m",
-      "type": "heat",
-      "damage": 25
-    },
-    {
-      "move": "u2",
-      "startup": 18,
-      "block": -10,
-      "property": "m",
-      "damage": 10
-    },
-    { "move": "b3", "startup": 18, "block": -6, "property": "m", "damage": 10 },
-    {
-      "move": "uf4",
-      "startup": 18,
-      "block": -9,
-      "property": "h",
-      "damage": 23
-    },
-    {
-      "move": "3+4",
-      "startup": 18,
-      "block": -10,
-      "property": "m",
-      "type": "homing",
-      "damage": 20
-    },
-    {
-      "move": "db3+4",
-      "startup": 18,
-      "block": -17,
-      "property": "m",
-      "type": "tornado",
-      "damage": 21
-    },
-    {
-      "move": "ss1+2",
-      "startup": 19,
-      "block": -9,
-      "property": "m",
-      "damage": 22
-    },
-    {
-      "move": "sway4",
-      "startup": 19,
-      "block": -12,
-      "property": "m",
-      "type": "tornado",
-      "damage": 20
-    },
-    {
-      "move": "dstep3",
-      "startup": 19,
-      "block": -20,
-      "property": "l",
-      "damage": 17
-    },
-    {
-      "move": "ub1",
-      "startup": 20,
-      "block": -16,
-      "property": "m",
-      "type": "ssl",
-      "damage": 15
-    },
-    {
-      "move": "d2",
-      "startup": 20,
-      "block": -12,
-      "property": "l",
-      "damage": 13
-    },
-    {
-      "move": "db3",
-      "startup": 20,
-      "block": -13,
-      "property": "l",
-      "damage": 17
-    },
-    {
-      "move": "ss4",
-      "startup": 20,
-      "block": -14,
-      "property": "l",
-      "damage": 14
-    },
-    { "move": "f4", "startup": 21, "block": -5, "property": "m", "damage": 15 },
-    { "move": "u4", "startup": 23, "block": 0, "property": "m", "damage": 21 },
-    {
-      "move": "uf3+4",
-      "startup": 23,
-      "block": -23,
-      "property": "m",
-      "type": "downed",
-      "damage": 33
-    },
-    {
-      "move": "db2",
-      "startup": 24,
-      "block": -5,
-      "property": "m",
-      "type": "homing",
-      "damage": 20
-    },
-    {
-      "move": "dstep2+3",
-      "startup": 24,
-      "block": 36,
-      "property": "unblockable",
-      "damage": 10
-    },
-    { "move": "u1", "startup": 26, "block": -5, "property": "m", "damage": 20 },
-    {
-      "move": "df3+4",
-      "startup": 31,
-      "block": -37,
-      "property": "l",
-      "damage": 20
-    }
-  ],
-  "orderedDamage": [
-    {
-      "move": "uf1+2",
-      "startup": 12,
-      "block": "n/a",
-      "property": "h",
-      "damage": 40
-    },
-    {
-      "move": "uf3+4",
-      "startup": 23,
-      "block": -23,
-      "property": "m",
-      "type": "downed",
-      "damage": 33
-    },
-    {
-      "move": "f3",
-      "startup": 14,
-      "block": 3,
-      "property": "h,h",
-      "damage": 30
-    },
-    {
-      "move": "db1+2",
-      "startup": 11,
-      "block": -14,
-      "property": "h,m",
-      "type": "heat",
-      "damage": 27
-    },
-    {
-      "move": "ws3",
-      "startup": 13,
-      "block": -13,
-      "property": "m",
-      "damage": 25
-    },
-    {
-      "move": "b1+2",
-      "startup": 16,
-      "block": -7,
-      "property": "m",
-      "damage": 25
-    },
-    {
-      "move": "f1+2",
-      "startup": 17,
-      "block": -14,
-      "property": "m",
-      "type": "crush, heat, dash",
-      "damage": 24
-    },
-    {
-      "move": "1+4",
-      "startup": 15,
-      "block": -5,
-      "property": "m,m",
-      "damage": 24
-    },
-    {
-      "move": "uf4",
-      "startup": 18,
-      "block": -9,
-      "property": "h",
-      "damage": 23
-    },
-    {
-      "move": "ss1+2",
-      "startup": 19,
-      "block": -9,
-      "property": "m",
-      "damage": 22
-    },
-    { "move": "u4", "startup": 23, "block": 0, "property": "m", "damage": 21 },
-    {
-      "move": "db3+4",
-      "startup": 18,
-      "block": -17,
-      "property": "m",
-      "type": "tornado",
-      "damage": 21
-    },
-    {
-      "move": "sway4",
-      "startup": 19,
-      "block": -12,
-      "property": "m",
-      "type": "tornado",
-      "damage": 20
-    },
-    { "move": "u1", "startup": 26, "block": -5, "property": "m", "damage": 20 },
-    {
-      "move": "db2",
-      "startup": 24,
-      "block": -5,
-      "property": "m",
-      "type": "homing",
-      "damage": 20
-    },
-    {
-      "move": "u3",
-      "startup": 14,
-      "block": -15,
-      "property": "m",
-      "damage": 20
-    },
-    {
-      "move": "3+4",
-      "startup": 18,
-      "block": -10,
-      "property": "m",
-      "type": "homing",
-      "damage": 20
-    },
-    {
-      "move": "df3+4",
-      "startup": 31,
-      "block": -37,
-      "property": "l",
-      "damage": 20
-    },
-    {
-      "move": "1+2",
-      "startup": 16,
-      "block": -3,
-      "property": "m",
-      "type": "homing",
-      "damage": 19
-    },
-    {
-      "move": "b1+4",
-      "startup": 15,
-      "block": -15,
-      "property": "m,m",
-      "type": "tornado",
-      "damage": 18
-    },
-    {
-      "move": "ws1",
-      "startup": 13,
-      "block": -6,
-      "property": "m",
-      "damage": 17
-    },
-    {
-      "move": "db3",
-      "startup": 20,
-      "block": -13,
-      "property": "l",
-      "damage": 17
-    },
-    {
-      "move": "b3+4",
-      "startup": 14,
-      "block": -9,
-      "property": "h",
-      "damage": 16
-    },
-    {
-      "move": "ub1",
-      "startup": 20,
-      "block": -16,
-      "property": "m",
-      "type": "ssl",
-      "damage": 15
-    },
-    {
-      "move": "ss1",
-      "startup": 14,
-      "block": -10,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "ws2",
-      "startup": 15,
-      "block": -13,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "ss2",
-      "startup": 13,
-      "block": -14,
-      "property": "m",
-      "damage": 15
-    },
-    { "move": "4", "startup": 11, "block": -9, "property": "h", "damage": 15 },
-    { "move": "b4", "startup": 14, "block": -9, "property": "h", "damage": 15 },
-    {
-      "move": "ws4",
-      "startup": 11,
-      "block": -4,
-      "property": "m",
-      "damage": 15
-    },
-    {
-      "move": "df4",
-      "startup": 12,
-      "block": -4,
-      "property": "m",
-      "damage": 15
-    },
-    { "move": "f4", "startup": 21, "block": -5, "property": "m", "damage": 15 },
-    { "move": "3", "startup": 14, "block": -16, "property": "h", "damage": 14 },
-    {
-      "move": "ss4",
-      "startup": 20,
-      "block": -14,
-      "property": "l",
-      "damage": 14
-    },
-    {
-      "move": "df1",
-      "startup": 13,
-      "block": -1,
-      "property": "m",
-      "damage": 13
-    },
-    {
-      "move": "d2",
-      "startup": 20,
-      "block": -12,
-      "property": "l",
-      "damage": 13
-    },
-    {
-      "move": "df3",
-      "startup": 14,
-      "block": -11,
-      "property": "m",
-      "damage": 13
-    },
-    {
-      "move": "b2",
-      "startup": 12,
-      "block": -14,
-      "property": "h",
-      "type": "homing",
-      "damage": 12
-    },
-    {
-      "move": "df2",
-      "startup": 15,
-      "block": -7,
-      "property": "m",
-      "damage": 12
-    },
-    { "move": "f2", "startup": 13, "block": -3, "property": "h", "damage": 12 },
-    { "move": "2+3", "startup": 16, "block": 1, "property": "m", "damage": 12 },
-    { "move": "b1", "startup": 12, "block": -7, "property": "h", "damage": 10 },
-    { "move": "2", "startup": 10, "block": -1, "property": "h", "damage": 10 },
-    {
-      "move": "u2",
-      "startup": 18,
-      "block": -10,
-      "property": "m",
-      "damage": 10
-    },
-    { "move": "b3", "startup": 18, "block": -6, "property": "m", "damage": 10 },
-    {
-      "move": "d3",
-      "startup": 16,
-      "block": -17,
-      "property": "l",
-      "damage": 10
-    },
-    {
-      "move": "fc2",
-      "startup": 11,
-      "block": -4,
-      "property": "s.low",
-      "damage": 8
-    },
-    { "move": "d4", "startup": 12, "block": -15, "property": "l", "damage": 6 },
-    { "move": "1", "startup": 10, "block": 1, "property": "h", "damage": 5 },
-    {
-      "move": "d1",
-      "startup": 10,
-      "block": -5,
-      "property": "s.low",
-      "damage": 5
-    },
-    {
-      "move": "db4",
-      "startup": 16,
-      "block": -9,
-      "property": "l",
-      "type": "downed",
-      "damage": 5
     }
   ]
 }
