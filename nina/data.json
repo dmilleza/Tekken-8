@@ -6,14 +6,16 @@
         "startup": 10,
         "block": 1,
         "property": "h",
-        "damage": 5
+        "damage": 5,
+        "range": 1.9
       },
       {
         "move": "u1",
         "startup": 26,
         "block": -5,
         "property": "m",
-        "damage": 20
+        "damage": 20,
+        "range": 3.2
       },
       {
         "move": "ub1",
@@ -21,14 +23,16 @@
         "block": -16,
         "property": "m",
         "type": "ssl",
-        "damage": 15
+        "damage": 15,
+        "range": 1.4
       },
       {
         "move": "b1",
         "startup": 12,
         "block": -7,
         "property": "h",
-        "damage": 10
+        "damage": 10,
+        "range": 2.3
       },
       {
         "move": "d1",
@@ -36,42 +40,47 @@
         "block": -5,
         "property": "s.low",
         "type": "crouch",
-        "damage": 5
+        "damage": 5,
+        "range": 1.6
       },
       {
         "move": "ws1",
         "startup": 13,
         "block": -6,
         "property": "m",
-        "damage": 17
+        "damage": 17,
+        "range": 2.3
       },
       {
         "move": "df1",
         "startup": 13,
         "block": -1,
         "property": "m",
-        "damage": 13
+        "damage": 13,
+        "range": 2.1
       },
       {
         "move": "ss1",
         "startup": 14,
         "block": -10,
         "property": "m",
-        "damage": 15
+        "damage": 1.8
       },
       {
         "move": "2",
         "startup": 10,
         "block": -1,
         "property": "h",
-        "damage": 10
+        "damage": 10,
+        "range": 1.7
       },
       {
         "move": "u2",
         "startup": 18,
         "block": -10,
         "property": "m",
-        "damage": 10
+        "damage": 10,
+        "range": 2.4
       },
       {
         "move": "b2",
@@ -95,7 +104,8 @@
         "block": -12,
         "property": "l",
         "type": "crouch",
-        "damage": 13
+        "damage": 13,
+        "range": 2.6
       },
       {
         "move": "fc2",
@@ -471,14 +481,14 @@
       "inputs": "1,2",
       "property": "h,h",
       "block": -3,
-      "type": true,
+      "type": "true",
       "damage": 15
     },
     {
       "inputs": "1,4",
       "property": "h,h",
       "block": -4,
-      "type": true,
+      "type": "true",
       "damage": 22
     },
     { "inputs": "1,4,1", "property": "h,h,m", "block": -11 },
@@ -497,7 +507,7 @@
       "inputs": "df1,2",
       "property": "m,h",
       "block": -3,
-      "type": true,
+      "type": "true",
       "damage": 23
     },
     { "inputs": "df1,2,1", "property": "m,h,h", "block": -3 },
@@ -509,7 +519,7 @@
       "inputs": "ws1,1+2",
       "property": "m,h,h,h",
       "block": -9,
-      "type": true,
+      "type": "true",
       "damage": 35
     },
     { "inputs": "ss1,2", "property": "m,m", "block": -3 },
@@ -517,7 +527,7 @@
       "inputs": "u2,1",
       "property": "m,m",
       "block": -13,
-      "type": true,
+      "type": "true",
       "damage": 20
     },
     {
@@ -532,7 +542,7 @@
       "inputs": "b2,2",
       "property": "h,h",
       "block": -6,
-      "type": true,
+      "type": "true",
       "damage": 28
     },
     { "inputs": "b2,2,2", "property": "h,h,h", "block": -9 },
@@ -541,7 +551,7 @@
       "inputs": "3,4",
       "property": "h,h",
       "block": -6,
-      "type": true,
+      "type": "true",
       "damage": 34
     },
     { "inputs": "df3,1", "property": "m,h", "block": -8 },
@@ -550,7 +560,7 @@
       "inputs": "df3,2",
       "property": "m,h",
       "block": -10,
-      "type": true,
+      "type": "true",
       "damage": 25
     },
     { "inputs": "df3,2,1,2", "property": "m,h,h,h", "block": -10 },
@@ -568,7 +578,7 @@
       "inputs": "df3,3",
       "property": "m,m",
       "block": -10,
-      "type": true,
+      "type": "true",
       "damage": 27
     },
     { "inputs": "d3,2", "property": "l,m", "block": -11 },
@@ -578,14 +588,14 @@
       "inputs": "b3,4",
       "property": "m,h",
       "block": -8,
-      "type": true,
+      "type": "true",
       "damage": 27
     },
     {
       "inputs": "ffF3,3",
       "property": "m,m",
       "block": -4,
-      "type": true,
+      "type": "true",
       "damage": 30
     },
     {
@@ -617,29 +627,99 @@
       "inputs": "dstep4,3",
       "property": "m,h",
       "block": -10,
-      "type": true,
+      "type": "true",
       "damage": 38
     },
     {
       "inputs": "dstep4,3,1+2",
       "property": "m,h,h,h,h",
       "block": -9,
-      "type": true,
+      "type": "true",
       "damage": 47
     },
-    { "inputs": "b3+4,3", "property": "h,m", "block": -15, "type": "tornado" },
+    {
+      "inputs": "b3+4,3",
+      "property": "h,m",
+      "block": -15,
+      "type": "tornado",
+      "notes": "5 frame window to hit 3"
+    },
     {
       "inputs": "b3+4,1+2",
       "property": "h,h,h,h",
       "block": -9,
-      "type": true,
+      "type": "true",
       "damage": 34
+    },
+    {
+      "lowParry": [
+        {
+          "damage": 45,
+          "difficulty": 1,
+          "inputs": "db2 ->  b2,2 -> df3,2 -> dstep4,3,1+2",
+          "distance": 3.5
+        },
+        {
+          "damage": 43,
+          "difficulty": 3,
+          "inputs": "db2 ->  df3,2,sway -> db2 -> df3,2,dstep2",
+          "distance": 3.5
+        },
+        {
+          "damage": 41,
+          "difficulty": 3,
+          "inputs": "db2 ->  df3,2,sway -> db2 -> df3,2,dstep3",
+          "distance": 3.5
+        },
+        {
+          "damage": 39,
+          "difficulty": 1,
+          "inputs": "db2 -> b2,2 -> df3,2,dstep2",
+          "distance": 3.5
+        },
+        {
+          "damage": 37,
+          "difficulty": 1,
+          "inputs": "db2 ->  df3,2 -> dstep4,3,1+2",
+          "distance": 3.5
+        },
+        {
+          "damage": 36,
+          "difficulty": 1,
+          "inputs": "db2 -> f2 -> f2 -> f2,1,3",
+          "distance": 3.5
+        },
+        {
+          "damage": 33,
+          "difficulty": 2,
+          "inputs": "df3,2 -> dstep1 -> b3+4,3",
+          "distance": 3.5
+        },
+        {
+          "damage": 32,
+          "difficulty": 2,
+          "inputs": "df3,2 -> dstep -> ws1,1 -> b3+4,3",
+          "distance": 3.5
+        },
+        {
+          "damage": 30,
+          "difficulty": 2,
+          "inputs": "df3,2 -> dstep4,3,1+2",
+          "distance": 6
+        },
+        {
+          "damage": 29,
+          "difficulty": 2,
+          "inputs": "df3,2 -> dstep -> ws1,1 -> b3+4,1+2",
+          "distance": 6
+        }
+      ]
     },
     {
       "df2": {
         "withHeat": null,
         "noHeat": [
-          {"notes": "sway4 is preferred over 3 in df3,2,3"},
+          { "notes": "sway4 is preferred over 3 in df3,2,3" },
           {
             "damage": 36,
             "difficulty": 2,
@@ -659,6 +739,59 @@
             "damage": 42,
             "difficulty": 2,
             "inputs": "b2,2 -> df3,2 -> sway4"
+          },
+          {
+            "damage": 46,
+            "difficulty": 2,
+            "inputs": "b2,2 -> df3,2 -> b3+4,3"
+          }
+        ]
+      }
+    },
+    {
+      "b1+4": {
+        "withHeat": [
+          {
+            "damage": 97,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1,1,db3+4 -> ff -> db2 -> hb -> db2 -> dstep2 or f1+2 -> hd -> charge fF1+2"
+          },
+          {
+            "damage": 95,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> db2 -> dstep2 or f1+2 -> hd -> charge fF1+2"
+          },
+          {
+            "damage": 84,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep4,3,1+2"
+          }
+        ],
+        "noHeat": [
+          {
+            "damage": 75,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2,sway -> b3+4,3 -> ff -> db2 -> fF3"
+          },
+          {
+            "damage": 75,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2,sway -> b3+4,3 -> ff -> db2 -> f1+2"
+          },
+          {
+            "damage": 64,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1, 1, db3+4"
+          },
+          {
+            "damage": 58,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> sway4"
+          },
+          {
+            "damage": 62,
+            "difficulty": 3,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3"
           }
         ]
       }
@@ -667,6 +800,27 @@
       "db3+4": {
         "withHeat": [
           {
+            "damage": 111,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1,1,db3+4 -> ff -> db2 -> hb -> db2 -> dstep2 or f1+2 -> hd -> 3+4, dstep3"
+          },
+          {
+            "damage": 100,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1,1,db3+4 -> ff -> db2 -> hb -> db2 -> dstep2 or f1+2 -> hd -> charge fF1+2"
+          },
+          {
+            "damage": 98,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> f1+2 -> hd -> charge fF1+2"
+          },
+          {
+            "damage": 94,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep2 -> hd -> charge fF1+2"
+          },
+
+          {
             "damage": 90,
             "difficulty": 1,
             "inputs": "uf4 ->  uf3 -> df3,2,3 -> ff -> db2 -> hb -> f1+2 -> hd -> charge fF1+2"
@@ -674,12 +828,22 @@
           {
             "damage": 87,
             "difficulty": 4,
-            "inputs": "sway1 -> sway1 -> f2,1,3 -> ff -> db2 -> hb -> f1+2 -> hd -> fF1+2"
+            "inputs": "dstep1 -> dstep1 -> f2,1,3 -> ff -> db2 -> hb -> f1+2 -> hd -> fF1+2"
+          },
+          {
+            "damage": 87,
+            "difficulty": 2,
+            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep4,3,1+2"
           }
         ],
         "noHeat": [
           {
-            "damage": 75,
+            "damage": 78,
+            "difficulty": 1,
+            "inputs": "uf4 ->  uf3 -> df3,2,sway -> b3+4,3 -> ff -> db2 -> fF3"
+          },
+          {
+            "damage": 74,
             "difficulty": 1,
             "inputs": "uf4 ->  uf3 -> df3,2,3 -> ff -> db2 -> fF3"
           },
@@ -688,6 +852,7 @@
             "difficulty": 2,
             "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1 -> 1 -> db3+4 -> ff -> db2 -> fF3"
           },
+          { "notes": "b2,2,2 only works after df3,2,3 and df3,2,sway4" },
           {
             "damage": 91,
             "difficulty": 2,
