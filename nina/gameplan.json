@@ -1,0 +1,123 @@
+{
+  "trueCombos": [
+    {
+      "inputs": "1,2",
+      "property": "h,h",
+      "block": -3,
+      "type": "true",
+      "damage": 15
+    },
+    {
+      "inputs": "1,4",
+      "property": "h,h",
+      "block": -4,
+      "type": "true",
+      "damage": 22
+    },
+    {
+      "inputs": "b1,4",
+      "property": "h,m",
+      "block": -12,
+      "type": "tornado, true",
+      "damage": 32
+    },
+    {
+      "inputs": "df1,2",
+      "property": "m,h",
+      "block": -3,
+      "type": "true",
+      "damage": 23
+    },
+    {
+      "inputs": "ws1,1+2",
+      "property": "m,h,h,h",
+      "block": -9,
+      "type": "true",
+      "damage": 35
+    },
+    {
+      "inputs": "u2,1",
+      "property": "m,m",
+      "block": -13,
+      "type": "true",
+      "damage": 20
+    },
+    {
+      "inputs": "b2,2",
+      "property": "h,h",
+      "block": -6,
+      "type": "true",
+      "damage": 28
+    },
+    {
+      "inputs": "3,4",
+      "property": "h,h",
+      "block": -6,
+      "type": "true",
+      "damage": 34
+    },
+    {
+      "inputs": "df3,2",
+      "property": "m,h",
+      "block": -10,
+      "type": "true",
+      "damage": 25
+    },
+    {
+      "inputs": "df3,3",
+      "property": "m,m",
+      "block": -10,
+      "type": "true",
+      "damage": 27
+    },
+    {
+      "inputs": "b3,4",
+      "property": "m,h",
+      "block": -8,
+      "type": "true",
+      "damage": 27
+    },
+    {
+      "inputs": "ffF3,3",
+      "property": "m,m",
+      "block": -4,
+      "type": "true",
+      "damage": 30
+    },
+    {
+      "inputs": "ffF3,4",
+      "property": "m,m",
+      "block": -13,
+      "type": "tornado, true",
+      "damage": 31
+    },
+    {
+      "inputs": "f4,2",
+      "property": "m,h",
+      "block": -9,
+      "type": "heat, hdash, true",
+      "damage": 37
+    },
+    {
+      "inputs": "dstep4,3",
+      "property": "m,h",
+      "block": -10,
+      "type": "true",
+      "damage": 38
+    },
+    {
+      "inputs": "dstep4,3,1+2",
+      "property": "m,h,h,h,h",
+      "block": -9,
+      "type": "true",
+      "damage": 47
+    },
+    {
+      "inputs": "b3+4,1+2",
+      "property": "h,h,h,h",
+      "block": -9,
+      "type": "true",
+      "damage": 34
+    }
+  ]
+}
