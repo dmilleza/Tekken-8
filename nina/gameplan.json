@@ -1,4 +1,62 @@
 {
+  "best": {
+    "fastHigh": {
+      "10": "1 || 2",
+      "11": "4 || db1+2",
+      "12": "b1 || b2 || uf1+2",
+      "13": "f2",
+      "14": "fF2 || 3 || f3 || b4 || b3+4 || dstep1 || dstep4",
+      "18": "uf4"
+    },
+    "fastMid": {
+      "11": "ws4",
+      "12": "df4",
+      "13": "ws1 || df1 || ss2 || ws3",
+      "14": "ss1 || u3 || df3",
+      "15": "ws2 || df2 || fF3 || 1+4",
+      "16": "2+3 || 1+2 || b1+2",
+      "17": "f1+2 || dstep2",
+      "18": "u2 || b3 || 3+4 || db3+4"
+    },
+    "fastLow": [{ "12": "d4", "16": "d3 || db4" }]
+  },
+  "neutralPokes": {
+    "singleHits": [
+      {
+        "move": "1",
+        "startup": 10,
+        "block": 1,
+        "property": "h",
+        "damage": 5,
+        "range": 1.9
+      },
+      {
+        "move": "b1",
+        "startup": 12,
+        "block": -7,
+        "property": "h",
+        "damage": 10,
+        "range": 2.3
+      },
+      {
+        "move": "d1",
+        "startup": 10,
+        "block": -5,
+        "property": "s.low",
+        "type": "crouch",
+        "damage": 5,
+        "range": 1.6
+      },
+      {
+        "move": "df1",
+        "startup": 13,
+        "block": -1,
+        "property": "m",
+        "damage": 13,
+        "range": 2.1
+      }
+    ]
+  },
   "trueCombos": [
     {
       "inputs": "1,2",

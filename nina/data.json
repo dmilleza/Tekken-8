@@ -88,7 +88,8 @@
         "block": -14,
         "property": "h",
         "type": "homing",
-        "damage": 12
+        "damage": 12,
+        "range": 2
       },
       {
         "move": "db2",
@@ -96,7 +97,8 @@
         "block": -5,
         "property": "m",
         "type": "homing",
-        "damage": 20
+        "damage": 20,
+        "range": 3.1
       },
       {
         "move": "d2",
@@ -112,28 +114,32 @@
         "startup": 11,
         "block": -4,
         "property": "s.low",
-        "damage": 8
+        "damage": 8,
+        "range": 1.9
       },
       {
         "move": "ws2",
         "startup": 15,
         "block": -13,
         "property": "m",
-        "damage": 15
+        "damage": 15,
+        "range": 2.2
       },
       {
         "move": "df2",
         "startup": 15,
         "block": -7,
         "property": "m",
-        "damage": 12
+        "damage": 12,
+        "range": 2
       },
       {
         "move": "f2",
         "startup": 13,
         "block": -3,
         "property": "h",
-        "damage": 12
+        "damage": 12,
+        "range": 2.2
       },
       {
         "move": "fF2",
@@ -141,42 +147,48 @@
         "block": -4,
         "property": "h",
         "damage": 20,
-        "type": "wall"
+        "type": "wall",
+        "range": 3
       },
       {
         "move": "ss2",
         "startup": 13,
         "block": -14,
         "property": "m",
-        "damage": 15
+        "damage": 15,
+        "range": 2
       },
       {
         "move": "3",
         "startup": 14,
         "block": -16,
         "property": "h",
-        "damage": 14
+        "damage": 14,
+        "range": 1.6
       },
       {
         "move": "u3",
         "startup": 14,
         "block": -15,
         "property": "m",
-        "damage": 20
+        "damage": 20,
+        "range": 1.4
       },
       {
         "move": "b3",
         "startup": 18,
         "block": -6,
         "property": "m",
-        "damage": 10
+        "damage": 10,
+        "range": 2.1
       },
       {
         "move": "db3",
         "startup": 20,
         "block": -13,
         "property": "l",
-        "damage": 17
+        "damage": 17,
+        "range": 2.6
       },
       {
         "move": "d3",
@@ -184,42 +196,48 @@
         "block": -17,
         "property": "l",
         "type": "crouch",
-        "damage": 10
+        "damage": 10,
+        "range": 2.3
       },
       {
         "move": "ws3",
         "startup": 13,
         "block": -13,
         "property": "m",
-        "damage": 25
+        "damage": 25,
+        "range": 2.1
       },
       {
         "move": "df3",
         "startup": 14,
         "block": -11,
         "property": "m",
-        "damage": 13
+        "damage": 13,
+        "range": 2.4
       },
       {
         "move": "f3",
         "startup": 14,
         "block": 3,
         "property": "h,h",
-        "damage": 30
+        "damage": 30,
+        "range": 2.2
       },
       {
         "move": "fF3",
         "startup": 15,
         "block": -14,
         "property": "m",
-        "damage": 24
+        "damage": 24,
+        "range": 3.2
       },
       {
         "move": "ffF3",
         "startup": 20,
         "block": -8,
         "property": "m",
-        "damage": 10
+        "damage": 10,
+        "range": 4.9
       },
 
       {
@@ -227,14 +245,16 @@
         "startup": 11,
         "block": -9,
         "property": "h",
-        "damage": 15
+        "damage": 15,
+        "range": 1.7
       },
       {
         "move": "u4",
         "startup": 23,
         "block": 0,
         "property": "m",
-        "damage": 21
+        "damage": 21,
+        "range": 2.6
       },
       {
         "move": "uf4",

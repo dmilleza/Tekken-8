@@ -1,0 +1,137 @@
+{
+  "6": [
+    { "detune": "arena" },
+    {
+      "artificial ruins": "outside"
+    },
+    {
+      "dist thins out": "general"
+    },
+    {
+      "tunnel disaster": "epic"
+    },
+    {
+      "karma": "arena"
+    },
+
+    {
+      "dust comp": "menu"
+    },
+    {
+      "hacked": "city"
+    },
+    {
+      "blue wall": "epic"
+    },
+    {
+      "side winder": "outside"
+    }
+  ],
+  "5": [
+    {
+      "formless like water": "outside"
+    },
+    {
+      "crimson sunset": "epic"
+    },
+    {
+      "gold rush": "epic, outside"
+    },
+    {
+      "massive stunner": "general"
+    },
+    {
+      "poolside": "outside, epic"
+    },
+    {
+      "driving beats": "city"
+    },
+    {
+      "estrada de estrela": "outside"
+    },
+    {
+      "tiamat": "outside"
+    },
+    {
+      "synthetic pulse": "general"
+    }
+  ],
+  "tag2": [
+    {
+      "aim to win": "arena, city"
+    },
+    {
+      "abyss of time": "outside"
+    },
+    {
+      "its not a tuna": "outside"
+    },
+    {
+      "dawn of the beat": "menu"
+    },
+    {
+      "reflexion": "outside"
+    },
+    {
+      "plucking tulips": "epic"
+    },
+    {
+      "eternal ordeal": "general"
+    },
+    {
+      "invincible": "epic"
+    }
+  ],
+  "revolution": [
+    {
+      "the ends of the eternal snow": "epic"
+    },
+    {
+      "bassamenco": "outside"
+    },
+    {
+      "francoises bassline": "city, outside"
+    },
+    {
+      "fight in the netherlands": "menu, outside"
+    }
+  ],
+  "7": [
+    {
+      "equator line": "epic"
+    },
+    {
+      "the day before the glass matrix": "arena"
+    },
+    {
+      "a grain of sand": "epic"
+    },
+    {
+      "dream chest": "arena, city"
+    },
+    {
+      "metallic experience": "epic"
+    },
+    {
+      "heat haze shadow": "city, epic"
+    },
+    {
+      "atrocity": "epic"
+    },
+    {
+      "moment of impact": "general"
+    },
+    {
+      "glow": "outside"
+    },
+    {
+      "destroyers": "epic"
+    },
+    {
+      "poolside": "outside, epic"
+    },
+    {
+      "kitsch": "epic"
+    }
+  ]
+}
