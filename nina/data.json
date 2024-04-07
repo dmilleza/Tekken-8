@@ -261,28 +261,32 @@
         "startup": 18,
         "block": -9,
         "property": "h",
-        "damage": 23
+        "damage": 23,
+        "range": 1.8
       },
       {
         "move": "f4",
         "startup": 21,
         "block": -5,
         "property": "m",
-        "damage": 15
+        "damage": 15,
+        "range": 3.3
       },
       {
         "move": "df4",
         "startup": 12,
         "block": -4,
         "property": "m",
-        "damage": 15
+        "damage": 15,
+        "range": 2.2
       },
       {
         "move": "d4",
         "startup": 12,
         "block": -15,
         "property": "l",
-        "damage": 6
+        "damage": 6,
+        "range": 2.3
       },
       {
         "move": "db4",
@@ -290,21 +294,24 @@
         "block": -9,
         "property": "l",
         "type": "downed, crouch",
-        "damage": 5
+        "damage": 5,
+        "range": 2.4
       },
       {
         "move": "b4",
         "startup": 14,
         "block": -9,
         "property": "h",
-        "damage": 15
+        "damage": 15,
+        "range": 2.1
       },
       {
         "move": "ws4",
         "startup": 11,
         "block": -4,
         "property": "m",
-        "damage": 15
+        "damage": 15,
+        "range": 2.1
       },
       {
         "move": "fF4",
@@ -312,7 +319,8 @@
         "block": 16,
         "property": "m",
         "damage": 30,
-        "type": "downed"
+        "type": "downed",
+        "range": 4
       },
       {
         "move": "ss4",
@@ -320,7 +328,8 @@
         "block": -14,
         "property": "l",
         "type": "crouch",
-        "damage": 14
+        "damage": 14,
+        "range": 2.3
       },
       {
         "move": "2+3",
@@ -328,7 +337,8 @@
         "block": 1,
         "property": "m",
         "type": "heat, crush",
-        "damage": 12
+        "damage": 12,
+        "range": 3.1
       },
 
       {
@@ -337,14 +347,16 @@
         "block": -3,
         "property": "m",
         "type": "homing",
-        "damage": 19
+        "damage": 19,
+        "range": 2.1
       },
       {
         "move": "b1+2",
         "startup": 16,
         "block": -7,
         "property": "m",
-        "damage": 25
+        "damage": 25,
+        "range": 2.2
       },
       {
         "move": "db1+2",
@@ -352,7 +364,8 @@
         "block": -14,
         "property": "h,m",
         "type": "heat, hdash, true",
-        "damage": 27
+        "damage": 27,
+        "range": 2.1
       },
       {
         "move": "f1+2",
@@ -360,7 +373,8 @@
         "block": -14,
         "property": "m",
         "type": "crush, heat, hdash",
-        "damage": 24
+        "damage": 24,
+        "range": 3
       },
       {
         "move": "fF1+2",
@@ -368,7 +382,8 @@
         "block": -5,
         "property": "m",
         "type": "wall",
-        "damage": 26
+        "damage": 26,
+        "range": 3.9
       },
       {
         "move": "ffF1+2",
@@ -376,21 +391,24 @@
         "block": 4,
         "property": "m",
         "type": "wall, heat",
-        "damage": 30
+        "damage": 30,
+        "range": 4.6
       },
       {
         "move": "uf1+2",
         "startup": 12,
         "block": "n/a",
         "property": "h",
-        "damage": 40
+        "damage": 40,
+        "range": 2.1
       },
       {
         "move": "ss1+2",
         "startup": 19,
         "block": -9,
         "property": "m",
-        "damage": 22
+        "damage": 22,
+        "range": 2.7
       },
       {
         "move": "3+4",
@@ -398,7 +416,8 @@
         "block": -10,
         "property": "m",
         "type": "homing",
-        "damage": 20
+        "damage": 20,
+        "range": 2.6
       },
       {
         "move": "uf3+4",
@@ -406,7 +425,8 @@
         "block": -23,
         "property": "m",
         "type": "downed",
-        "damage": 33
+        "damage": 33,
+        "range": 3.2
       },
       {
         "move": "df3+4",
@@ -414,7 +434,16 @@
         "block": -37,
         "property": "l",
         "type": "crouch",
-        "damage": 20
+        "damage": 20,
+        "range": 3
+      },
+      {
+        "move": "d3+4",
+        "startup": 17,
+        "block": null,
+        "property": "l",
+        "damage": 16,
+        "range": 1.8
       },
       {
         "move": "db3+4",
@@ -422,21 +451,24 @@
         "block": -17,
         "property": "m",
         "type": "tornado",
-        "damage": 21
+        "damage": 21,
+        "range": 3.2
       },
       {
         "move": "b3+4",
         "startup": 14,
         "block": -9,
         "property": "h",
-        "damage": 16
+        "damage": 16,
+        "range": 2.4
       },
       {
         "move": "1+4",
         "startup": 15,
         "block": -5,
         "property": "m,m",
-        "damage": 24
+        "damage": 24,
+        "range": 2.5
       },
       {
         "move": "b1+4",
@@ -444,7 +476,8 @@
         "block": -15,
         "property": "m,m",
         "type": "tornado",
-        "damage": 18
+        "damage": 18,
+        "range": 2.4
       }
     ],
     "sway": [
@@ -454,7 +487,8 @@
         "block": -12,
         "property": "m",
         "type": "tornado",
-        "damage": 20
+        "damage": 20,
+        "range": 2.5
       }
     ],
     "duckstep": [
@@ -463,7 +497,8 @@
         "startup": 14,
         "block": 1,
         "property": "h",
-        "damage": 21
+        "damage": 21,
+        "range": 2.8
       },
       {
         "move": "dstep2",
@@ -471,28 +506,32 @@
         "block": -8,
         "property": "m",
         "type": "heat, hdash",
-        "damage": 25
+        "damage": 25,
+        "range": 3.2
       },
       {
         "move": "dstep3",
         "startup": 19,
         "block": -20,
         "property": "l",
-        "damage": 17
+        "damage": 17,
+        "range": 4.2
       },
       {
         "move": "dstep4",
         "startup": 14,
         "block": -8,
         "property": "m",
-        "damage": 15
+        "damage": 15,
+        "range": 2.9
       },
       {
         "move": "dstep2+3",
         "startup": 24,
         "block": 36,
         "property": "unblockable",
-        "damage": 10
+        "damage": 10,
+        "range": 3.1
       }
     ]
   },
@@ -683,6 +722,12 @@
           "damage": 43,
           "difficulty": 3,
           "inputs": "db2 ->  df3,2,sway -> db2 -> df3,2,dstep2",
+          "distance": 3.5
+        },
+        {
+          "damage": 42,
+          "difficulty": 2,
+          "inputs": "db2 ->  b2,2 -> df3,2,sway -> b3+4,3",
           "distance": 3.5
         },
         {

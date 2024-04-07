@@ -20,43 +20,37 @@
     },
     "fastLow": [{ "12": "d4", "16": "d3 || db4" }]
   },
-  "neutralPokes": {
-    "singleHits": [
-      {
-        "move": "1",
-        "startup": 10,
-        "block": 1,
-        "property": "h",
-        "damage": 5,
-        "range": 1.9
-      },
-      {
-        "move": "b1",
-        "startup": 12,
-        "block": -7,
-        "property": "h",
-        "damage": 10,
-        "range": 2.3
-      },
-      {
-        "move": "d1",
-        "startup": 10,
-        "block": -5,
-        "property": "s.low",
-        "type": "crouch",
-        "damage": 5,
-        "range": 1.6
-      },
-      {
-        "move": "df1",
-        "startup": 13,
-        "block": -1,
-        "property": "m",
-        "damage": 13,
-        "range": 2.1
-      }
-    ]
-  },
+  "neutralPokes": [
+    {
+      "move": "1",
+      "startup": 10,
+      "block": 1,
+      "damage": 5,
+      "range": 1.9
+    },
+    {
+      "move": "b1",
+      "startup": 12,
+      "block": -7,
+      "damage": 10,
+      "range": 2.3
+    },
+    {
+      "move": "d1",
+      "startup": 10,
+      "block": -5,
+      "type": "crouch",
+      "damage": 5,
+      "range": 1.6
+    },
+    {
+      "move": "df1",
+      "startup": 13,
+      "block": -1,
+      "damage": 13,
+      "range": 2.1
+    }
+  ],
   "trueCombos": [
     {
       "inputs": "1,2",
@@ -176,6 +170,56 @@
       "block": -9,
       "type": "true",
       "damage": 34
+    }
+  ],
+  "crouches": [
+    {
+      "move": "d1",
+      "startup": 10,
+      "block": -5,
+      "property": "s.low",
+      "damage": 5,
+      "range": 1.6
+    },
+    {
+      "move": "d2",
+      "startup": 20,
+      "block": -12,
+      "property": "l",
+      "damage": 13,
+      "range": 2.6
+    },
+    {
+      "move": "d3",
+      "startup": 16,
+      "block": -17,
+      "property": "l",
+      "damage": 10,
+      "range": 2.3
+    },
+    {
+      "move": "db4",
+      "startup": 16,
+      "block": -9,
+      "property": "l",
+      "damage": 5,
+      "range": 2.4
+    },
+    {
+      "move": "ss4",
+      "startup": 20,
+      "block": -14,
+      "property": "l",
+      "damage": 14,
+      "range": 2.3
+    },
+    {
+      "move": "df3+4",
+      "startup": 31,
+      "block": -37,
+      "property": "l",
+      "damage": 20,
+      "range": 3
     }
   ]
 }
