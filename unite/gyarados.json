@@ -1,0 +1,433 @@
+{
+  "notes": {
+    "generalNotes": [
+      {
+        "date": "8-26-24",
+        "note": "+19.8 attack from emblems. "
+      }
+    ],
+    "moveNotes": {
+      "flail": "",
+      "aqua tail": "",
+      "waterfall": "",
+      "unite": ""
+    }
+  },
+
+  "tests": [
+    {
+      "title": "definite loadout testing 1 level 11",
+      "items": ["29cc", "30fb", "25wp"],
+      "date": "8-26-24",
+      "results": [
+        "cc increases 1aqt by 26% and 3aqt by 8.7%",
+        "4wp cc increases 3aqt by 16.7%",
+        "avg lap is 6.14s"
+      ],
+      "stats": {
+        "hp": 6612,
+        "def": 296,
+        "spdef": 226
+      },
+      "test": [
+        {
+          "description": "4wp cc 1aqt",
+          "damage": 1837
+        },
+        {
+          "description": "1wp cc 1aqt",
+          "damage": 1738
+        },
+        {
+          "description": "cc 1aqt ",
+          "damage": 1705
+        },
+        {
+          "description": "1aqt",
+          "damage": 1353
+        },
+        {
+          "description": "cc 2aqt",
+          "damage": 3058
+        },
+        {
+          "description": "2aqt",
+          "damage": 2706
+        },
+        {
+          "description": "4wp cc 3aqt",
+          "damage": 4735
+        },
+        {
+          "description": "cc 3aqt",
+          "damage": 4411
+        },
+        {
+          "description": "3aqt",
+          "damage": 4059
+        },
+        {
+          "description": "4wp cc 3aqt max charge boosted aqt",
+          "damage": 8937
+        },
+        {
+          "description": "4wp 3aqt max charge boosted aqt",
+          "damage": 8491
+        },
+        {
+          "description": "cc 3aqt max charge boosted aqt",
+          "damage": 8332
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "damage": 7928
+        },
+        {
+          "description": "cc 3aqt no charge boosted aqt",
+          "damage": 7909
+        },
+        {
+          "description": "3aqt no charge boosted aqt",
+          "damage": 7504
+        },
+        {
+          "description": "cc 1wf",
+          "damage": 1328
+        },
+        {
+          "description": "1wf",
+          "damage": 976
+        },
+        {
+          "description": "cc 2wf",
+          "damage": 2304
+        },
+        {
+          "description": "2wf",
+          "damage": 1952
+        },
+        {
+          "description": "4wp cc 3wf",
+          "damage": 3544
+        },
+        {
+          "description": "cc 3wf",
+          "damage": 3280
+        },
+        {
+          "description": "3wf",
+          "damage": 2928
+        },
+        {
+          "description": "cc max charge unite",
+          "damage": 2677
+        },
+        {
+          "description": "speed test",
+          "times": [630, 615, 6, 610]
+        },
+        {
+          "description": "cc 3wf max charge boosted aqt",
+          "damage": 11700
+        },
+        {
+          "description": "cc 2wf max charge boosted aqt",
+          "damage": 10577
+        },
+        {
+          "description": "2wf max charge boosted aqt",
+          "damage": 10172
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 2 level 11",
+      "items": ["29cc", "30fb", "30fs"],
+      "date": "8-26-24",
+      "results": "",
+      "stats": {
+        "hp": 6422,
+        "def": 296,
+        "spdef": 226
+      },
+      "test": [
+        {
+          "description": "cc 1aqt ",
+          "damage": 1735
+        },
+        {
+          "description": "1aqt",
+          "damage": 1375
+        },
+        {
+          "description": "cc 2aqt",
+          "damage": 3110
+        },
+        {
+          "description": "2aqt",
+          "damage": 2750
+        },
+
+        {
+          "description": "cc 3aqt",
+          "damage": 4485
+        },
+        {
+          "description": "3aqt",
+          "damage": 4125
+        },
+
+        {
+          "description": "cc 3aqt max charge boosted aqt",
+          "damage": 8472
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "damage": 8058
+        },
+        {
+          "description": "cc 3wf",
+          "damage": 3339
+        },
+        {
+          "description": "3wf",
+          "damage": 2979
+        },
+        {
+          "description": "cc max charge unite",
+          "damage": 2723
+        },
+        {
+          "description": "speed test",
+          "times": [503, 496, 495, 488]
+        },
+        {
+          "description": "cc 3wf max charge boosted aqt",
+          "damage": 11897
+        },
+        {
+          "description": "cc 2wf max charge boosted aqt",
+          "damage": 10755
+        },
+        {
+          "description": "2wf max charge boosted aqt",
+          "damage": 10341
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 3 level 11",
+      "items": ["29cc", "30fb", "28aw"],
+      "date": "8-26-24",
+      "results": [],
+      "stats": {
+        "hp": 6422,
+        "def": 296,
+        "spdef": 226
+      },
+      "test": [
+        {
+          "description": "4aw cc 1aqt",
+          "damage": 1840
+        },
+        {
+          "description": "2aw cc 1aqt",
+          "damage": 1779
+        },
+        {
+          "description": "cc 1aqt ",
+          "damage": 1717
+        },
+        {
+          "description": "1aqt",
+          "damage": 1362
+        },
+        {
+          "description": "cc 2aqt",
+          "damage": 3079
+        },
+        {
+          "description": "2aqt",
+          "damage": 2724
+        },
+        {
+          "description": "4aw cc 3aqt",
+          "damage": 4742
+        },
+        {
+          "description": "2aw cc 3aqt",
+          "damage": 4593
+        },
+        {
+          "description": "cc 3aqt",
+          "damage": 4441
+        },
+        {
+          "description": "3aqt",
+          "damage": 4086
+        },
+        {
+          "description": "4aw cc 3aqt max charge boosted aqt",
+          "damage": 8950
+        },
+        {
+          "description": "2aw cc 3aqt max charge boosted aqt",
+          "damage": 8672
+        },
+        {
+          "description": "4aw 3aqt max charge boosted aqt",
+          "damage": 8503
+        },
+        {
+          "description": "2aw 3aqt max charge boosted aqt",
+          "damage": 8244
+        },
+        {
+          "description": "cc 3aqt max charge boosted aqt",
+          "damage": 8390
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "damage": 7982
+        },
+        {
+          "description": "cc 3aqt no charge boosted aqt",
+          "damage": 7963
+        },
+        {
+          "description": "3aqt no charge boosted aqt",
+          "damage": 7555
+        },
+        {
+          "description": "cc 1wf",
+          "damage": 1338
+        },
+        {
+          "description": "1wf",
+          "damage": 983
+        },
+        {
+          "description": "cc 2wf",
+          "damage": 2321
+        },
+        {
+          "description": "2wf",
+          "damage": 1966
+        },
+        {
+          "description": "4aw cc 3wf",
+          "damage": 3548
+        },
+        {
+          "description": "2aw cc 3wf",
+          "damage": 3426
+        },
+        {
+          "description": "cc 3wf",
+          "damage": 3304
+        },
+        {
+          "description": "3wf",
+          "damage": 2949
+        },
+        {
+          "description": "4aw cc max charge unite",
+          "damage": 2885
+        },
+        {
+          "description": "2aw cc max charge unite",
+          "damage": 2791
+        },
+        {
+          "description": "cc max charge unite",
+          "damage": 2696
+        },
+        {
+          "description": "4aw cc 3wf max charge boosted aqt",
+          "damage": 12583
+        },
+        {
+          "description": "2aw cc 3wf max charge boosted aqt",
+          "damage": 12184
+        },
+        {
+          "description": "cc 3wf max charge boosted aqt",
+          "damage": 11781
+        },
+        {
+          "description": "4aw cc 2wf max charge boosted aqt",
+          "damage": 11372
+        },
+        {
+          "description": "2aw cc 2wf max charge boosted aqt",
+          "damage": 11013
+        },
+        {
+          "description": "cc 2wf max charge boosted aqt",
+          "damage": 10651
+        },
+        {
+          "description": "2wf max charge boosted aqt",
+          "damage": 10243
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 4, emblems +25def +20spdef 6blue 4brown 1purp -200hp level 11",
+      "items": ["29cc", "30fs", "28aw"],
+      "date": "8-27-24",
+      "results": ["emblem change biggest difference is added def"],
+      "stats": {
+        "hp": 6316,
+        "def": 306,
+        "spdef": 219
+      },
+      "test": [
+        {
+          "description": "6aw cc 1aqt",
+          "damage": 1896
+        },
+        {
+          "description": "4aw cc 1aqt",
+          "damage": 1834
+        },
+        {
+          "description": "2aw cc 1aqt",
+          "damage": 1774
+        },
+        {
+          "description": "cc 1aqt ",
+          "damage": 1712
+        },
+        {
+          "description": "1aqt",
+          "damage": 1358
+        },
+        {
+          "description": "6aw cc 3aqt",
+          "damage": 4880
+        },
+        {
+          "description": "2aw cc 3aqt",
+          "damage": 4580
+        },
+        {
+          "description": "6aw cc 3aqt max charge boosted aqt",
+          "damage": 9208
+        },
+        {
+          "description": "2aw cc 3aqt max charge boosted aqt",
+          "damage": 8648
+        },
+        {
+          "description": "6aw cc max charge unite",
+          "damage": 2972
+        },
+        {
+          "description": "cc max charge unite",
+          "damage": 2688
+        }
+      ]
+    }
+  ]
+}
