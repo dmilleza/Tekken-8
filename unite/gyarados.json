@@ -385,19 +385,23 @@
       "test": [
         {
           "description": "6aw cc 1aqt",
-          "damage": 1896
+          "cc": 1896,
+          "damage": 0
         },
         {
           "description": "4aw cc 1aqt",
-          "damage": 1834
+          "cc": 1834,
+          "damage": 0
         },
         {
           "description": "2aw cc 1aqt",
-          "damage": 1774
+          "cc": 1774,
+          "damage": 0
         },
         {
           "description": "cc 1aqt ",
-          "damage": 1712
+          "cc": 1712,
+          "damage": 0
         },
         {
           "description": "1aqt",
@@ -426,6 +430,255 @@
         {
           "description": "cc max charge unite",
           "damage": 2688
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 5, emblems +25def +20spdef 6blue 4brown 1purp -200hp level 11",
+      "items": ["29cc", "25wp", "28aw"],
+      "date": "8-29-24",
+      "results": [],
+      "stats": {
+        "hp": 6506,
+        "def": 306,
+        "spdef": 219
+      },
+      "test": [
+        {
+          "description": "1aqt",
+          "4aw 4wp": 1533,
+          "4aw": 1425,
+          "4wp": 1433,
+          "damage": 1336
+        },
+        {
+          "description": "3aqt",
+          "4aw 4wp": 4599,
+          "4wp": 4299,
+          "damage": 4008
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "4aw 4wp": 8992,
+          "4wp": 8396,
+          "damage": 7829
+        },
+        {
+          "description": "max charge boosted aqt only",
+          "4aw": 3435,
+          "4wp": 3452,
+          "damage": 3220
+        },
+        {
+          "description": "2wf",
+          "4aw 4wp": 2234,
+          "4wp": 2076,
+          "damage": 1926
+        },
+        {
+          "description": "3wf",
+          "4aw 4wp": 3351,
+          "4wp": 3114,
+          "damage": 2889
+        },
+        {
+          "description": "max charge unite",
+          "4aw": 2451,
+          "damage": 2295
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 6, emblems -200hp +19.8atk 6brown 4white 2blue level 11",
+      "items": ["20ac", "25wp", "28aw"],
+      "date": "8-30-24",
+      "results": [
+        "4ac is 16.4% more than test 5, 1066 more hp",
+        "6ac is 22.5% more than test 5, 1466 more hp",
+        "damage is pretty much the same as test 5"
+      ],
+      "stats": {
+        "hp": 6772,
+        "6ac": 7972,
+        "4ac": 7572,
+        "def": 266,
+        "spdef": 196
+      },
+      "test": [
+        {
+          "description": "1aqt",
+          "4aw 4wp": 1553,
+          "4wp": 1453,
+          "4wp %increase": 7.2,
+          "damage": 1356
+        },
+        {
+          "description": "3aqt",
+          "4aw 4wp": 4659,
+          "4wp": 4359,
+          "4wp %increase": 7.2,
+          "damage": 4068
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "4aw 4wp": 9101,
+          "damage": 7947
+        },
+        {
+          "description": "max charge boosted aqt only",
+          "4aw 4wp": 0,
+          "4aw": 3483,
+          "4wp": 3501,
+          "4wp %increase": 5.3,
+          "damage": 3326
+        },
+        {
+          "description": "2wf",
+          "4aw 4wp": 2266,
+          "4wp": 2110,
+          "4wp %increase": 7.8,
+          "damage": 1958
+        },
+        {
+          "description": "3wf",
+          "4aw 4wp": 0,
+          "4wp": 3165,
+          "4wp %increase": 7.8,
+          "damage": 2937
+        },
+        {
+          "description": "max charge unite",
+          "4aw": 2487,
+          "damage": 2331
+        },
+        {
+          "description": "speed test",
+          "times": [628, 635, 634, 628]
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 7, emblems -200hp +19.8atk 6brown 4white 2blue level 11",
+      "items": ["20ac", "30fs", "28aw"],
+      "date": "8-31-24",
+      "results": [],
+      "stats": {
+        "hp": 6582,
+        "6ac": 7972,
+        "4ac": 7572,
+        "def": 266,
+        "spdef": 196
+      },
+      "test": [
+        {
+          "description": "1aqt",
+          "4aw 4wp": 1553,
+          "4wp": 1453,
+          "4wp %increase": 7.2,
+          "damage": 1379
+        },
+        {
+          "description": "3aqt",
+          "4aw 4wp": 4659,
+          "4wp": 4359,
+          "4wp %increase": 7.2,
+          "damage": 4068
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "4aw 4wp": 9101,
+          "damage": 7947
+        },
+        {
+          "description": "max charge boosted aqt only",
+          "4aw 4wp": 0,
+          "4aw": 3483,
+          "4wp": 3501,
+          "4wp %increase": 5.3,
+          "damage": 3326
+        },
+        {
+          "description": "2wf",
+          "4aw 4wp": 2266,
+          "4wp": 2110,
+          "4wp %increase": 7.8,
+          "damage": 1958
+        },
+        {
+          "description": "3wf",
+          "4aw 4wp": 0,
+          "4wp": 3165,
+          "4wp %increase": 7.8,
+          "damage": 2937
+        },
+        {
+          "description": "max charge unite",
+          "4aw": 2487,
+          "damage": 2331
+        },
+        {
+          "description": "speed test",
+          "times": [628, 635, 634, 628]
+        }
+      ]
+    }
+  ],
+  "bounceTests": [
+    {
+      "title": "definite loadout testing 8, emblems +25def +20spdef 6blue 4brown 1purp -150hp level 11",
+      "items": ["30fs", "25wp", "28aw"],
+      "date": "9-1-24",
+      "results": [],
+      "stats": {
+        "hp": 6556,
+        "def": 306,
+        "spdef": 219
+      },
+      "test": [
+        {
+          "description": "1aqt",
+          "damage": 1353
+        },
+        {
+          "description": "3aqt",
+          "damage": 4059
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "damage": 7928
+        },
+        {
+          "description": "max charge boosted aqt only",
+          "damage": 3260
+        }
+      ]
+    },
+    {
+      "title": "definite loadout testing 9, emblems -200hp +19.8atk 6brown 4white 2blue level 11",
+      "items": ["30fs", "25wp", "28aw"],
+      "date": "9-1-24",
+      "results": [],
+      "stats": {
+        "hp": 6612,
+        "def": 266,
+        "spdef": 196
+      },
+      "test": [
+        {
+          "description": "1aqt",
+          "damage": 1401
+        },
+        {
+          "description": "3aqt",
+          "damage": 4203
+        },
+        {
+          "description": "3aqt max charge boosted aqt",
+          "damage": 8209
+        },
+        {
+          "description": "max charge boosted aqt only",
+          "damage": 3376
         }
       ]
     }

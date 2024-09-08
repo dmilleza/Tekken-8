@@ -1,0 +1,111 @@
+{
+    "notes": {
+      "generalNotes": [
+        {
+          "date": "8-28-24",
+          "note": "+25 def and +20spdef from 6blue 4brown 2purp emblems",
+          "passive": "granted 1%(61) hp healing at level 11"
+        }
+      ],
+      "moveNotes": {
+        "iron defense": "",
+        "tackle": "",
+        "magnet rise": "levitates for four seconds, press b for farm and a for people",
+        "gyro ball": "use while mr for more AOE, shield caps at two people",
+        "unite": ""
+      }
+    },
+  
+    "tests": [
+      {
+        "title": "definite loadout testing 1 level 11",
+        "items": ["29cc", "25wp", "28aw"],
+        "date": "8-28-24",
+        "results": [],
+        "stats": {
+          "hp": 6422,
+          "def": 296,
+          "spdef": 226
+        },
+        "test": [
+          {
+            "description": "4aw gyro",
+            "4wp": 0,
+            "cc": 0,
+            "damage": 1840
+          },
+          {
+            "description": "2aw gyro",
+            "4wp": 0,
+            "cc": 0,
+            "damage": 1779
+          },
+          {
+            "description": "gyro",
+            "4wp cc": 2148,
+            "4wp": 1793,
+            "cc": 2004,
+            "damage": 1682
+          },
+          {
+            "description": "4aw mr",
+            "4wp": 0,
+            "cc": 0,
+            "damage": 1362
+          },
+          {
+            "description": "2aw mr",
+            "4wp": 0,
+            "cc": 0,
+            "damage": 3079
+          },
+          {
+            "description": "mr",
+            "4wp": 931,
+            "cc": 1187,
+            "damage": 865
+          },
+          {
+            "description": "4aw unite",
+            "4wp": 0,
+            "cc": 0,
+            "damage": 4742
+          },
+          {
+            "description": "2aw unite",
+            "4wp": 0,
+            "cc": 0,
+            "damage": 4593
+          },
+          {
+            "description": "unite",
+            "4wp cc": 2883,
+            "4wp": 2457,
+            "cc": 2692,
+            "damage": 2306
+          },
+          {
+            "description": "gyro mr ",
+            "damage": 2547
+          },
+          {
+            "description": "mr gyro ",
+            "damage": 2547
+          },
+          {
+            "description": "gyro while mr -> mr ",
+            "damage": 2547
+          },
+          {
+            "description": "speed test",
+            "times": [491, 498, 496, 508]
+          },
+          {
+            "description": "levitation duration",
+            "times": [423, 418, 419, 422]
+          }
+        ]
+      }
+    ]
+  }
+  
