@@ -1,4 +1,33 @@
 alternative to dstep4,3,1+2 after a db2 -> hb is ws1 -> 1+4 -> dstep3
 
-Jodd Guide
-- 
+* Jodd Guide * 
+- dstep and sway after ss1 on block is +10, can use dstep1 for counterhit
+launcher 
+- db3 is frame 20 and +4 on hit, can pressure after with df1,2 
+- df1,2 is an excellent poke with not much counterplay to it
+- 1+4 is good in neutral, and hits everytime after db3 on hit
+- df2 is safe launcher with -7 on block and does not launch crouching opponents
+- dstep1 has good range for a high
+- db2 is a great long range mid with a counterhit launcher that is -5 on block, 
+also has some high evasion
+- 3+4 has less range than db2 but is faster with i18 over i24
+- fff1+2 is +4 and has a lot of chip damage
+- f1+2 is -14 on block but becomes safe when absorbing moves
+- df3+4 is a big gamble to use
+- ss4,2 jails because if you get hit by the low, you cannot duck the -7 high 
+- nina's main gameplan is to be annoying, first goal is to use heat engager and
+play with chip damage. 1+2 enders have big heat chip damage
+- df1,2,1,1+2 with heat at the wall does massive damage
+- df1,2,1 jails into 1+2 on block
+- 1,4 is +1 on hit which is not the greatest advantage
+- i10 1,2 is preferred over 1,4 for punishing 
+- i11 db1+2 has great range/damage and is a wallspat/heatdash
+- i12 b1,4 has good range and second hit is counterhit launcher, is -12 on block
+- i12 b2,2,2 is a counterhit launcher, can use last hit if opponent tries to punish
+ss after second hit
+- i13 df1,2 hits crouching opponents
+- i14 b3+4,1+2 has good range
+- i14 df3,3 is -10 
+- i15 b1+4 is an amazing punisher and one of the best in the game
+- i18 uf2,1 and db3+4 is good for punishing long range moves
+- ws1 in heat is the best i13 in the game 
