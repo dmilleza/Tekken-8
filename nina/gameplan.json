@@ -20,37 +20,7 @@
     },
     "fastLow": [{ "12": "d4", "16": "d3 || db4" }]
   },
-  "neutralPokes": [
-    {
-      "move": "1",
-      "startup": 10,
-      "block": 1,
-      "damage": 5,
-      "range": 1.9
-    },
-    {
-      "move": "b1",
-      "startup": 12,
-      "block": -7,
-      "damage": 10,
-      "range": 2.3
-    },
-    {
-      "move": "d1",
-      "startup": 10,
-      "block": -5,
-      "type": "crouch",
-      "damage": 5,
-      "range": 1.6
-    },
-    {
-      "move": "df1",
-      "startup": 13,
-      "block": -1,
-      "damage": 13,
-      "range": 2.1
-    }
-  ],
+  "neutralPokes": [],
   "trueCombos": [
     {
       "inputs": "1,2",
@@ -217,6 +187,13 @@
     }
   ],
   "orderedRange": [
+    {
+      "notes": {
+        "lows": [],
+        "mids": ["fF3 is the fastest and top range mid"],
+        "highs": []
+      }
+    },
     { "move": "ffF3", "startup": 20, "damage": 10, "range": 4.9 },
     { "move": "ffF1+2", "startup": 20, "damage": 30, "range": 4.6 },
     { "move": "dstep3", "startup": 19, "damage": 17, "range": 4.2 },
@@ -296,5 +273,35 @@
     { "move": "2+3", "startup": 16, "damage": 12, "range": 3.1, "block": 1 },
     { "move": "dstep1", "startup": 14, "damage": 21, "range": 2.8, "block": 1 },
     { "move": "u4", "startup": 23, "damage": 21, "range": 2.6, "block": 0 }
+  ],
+  "guaranteed": {
+    "ss1+2": [
+      {
+        "dstep3": "25 or 33 damage with d2,2 combo"
+      }
+    ]
+  },
+  "counterhits": [
+    {
+      "fF4": {
+        "damage": 77,
+        "combo": "roll left -> ws4 -> d2,2 -> ss1 -> dstep4,3,1+2"
+      },
+      "u4": {
+        "damage": 69,
+        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+      },
+      "fF3": [
+        {
+          "damage": 72,
+          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+        },
+        {
+          "damage": 72,
+          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+        }
+
+      ]
+    }
   ]
 }
