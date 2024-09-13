@@ -277,9 +277,10 @@
   "guaranteed": {
     "ss1+2": [
       {
-        "dstep3": "25 or 33 damage with d2,2 combo"
+        "dstep2": 42
       }
-    ]
+    ],
+    "df3+4": [{ "fF3": 39 }, { "f1+2": 39 }, { "db3+4": 36 }]
   },
   "counterhits": [
     {
@@ -291,17 +292,52 @@
         "damage": 69,
         "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
       },
-      "fF3": [
+      "fF3": {
+        "damage": 72,
+        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+      },
+      "dstep1": {
+        "damage": 76,
+        "combo": "f4,ss1,dstep1 -> b3+4,3 -> ss1,db2 -> fF3/f1+2"
+      },
+      "dstep3": {
+        "damage": 64,
+        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+      },
+      "b3": [
         {
-          "damage": 72,
-          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+          "damage": 66,
+          "combo": "b1+4 -> uf4 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
         },
         {
-          "damage": 72,
-          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+          "damage": 64,
+          "combo": "b1+4 -> dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
         }
-
-      ]
+      ],
+      "f3": {
+        "damage": 72,
+        "combo": "d2,2 -> df3,2,dstep4,3,1+2"
+      },
+      "df3+4": {
+        "damage": 67,
+        "combo": "db3+4 -> db2 -> df3,2,dstep4,3,1+2"
+      },
+      "b1,4": {
+        "damage": 64,
+        "combo": "db2 -> df3,2,ss1,dstep4,3,1+2"
+      },
+      "1,4": {
+        "damage": 60,
+        "combo": "d2,2 -> df3,2,dstep4,3,1+2"
+      },
+      "1/df1,2,1+2": {
+        "damage": 70,
+        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+      },
+      "db2": {
+        "damage": 64,
+        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+      }
     }
   ]
 }
