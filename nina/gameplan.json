@@ -143,52 +143,23 @@
     }
   ],
   "crouches": [
+    { "move": "d1", "startup": 10, "block": -5, "damage": 5, "range": 1.6 },
+    { "move": "d2", "startup": 20, "block": -12, "damage": 13, "range": 2.6 },
+    { "move": "d3", "startup": 16, "block": -17, "damage": 10, "range": 2.3 },
+    { "move": "db4", "startup": 16, "block": -9, "damage": 5, "range": 2.4 },
+    { "move": "ss4", "startup": 20, "block": -14, "damage": 14, "range": 2.3 },
+    { "move": "df3+4", "startup": 31, "block": -37, "damage": 20, "range": 3 },
     {
-      "move": "d1",
-      "startup": 10,
-      "block": -5,
-      "damage": 5,
-      "range": 1.6
-    },
-    {
-      "move": "d2",
-      "startup": 20,
-      "block": -12,
-      "damage": 13,
-      "range": 2.6
-    },
-    {
-      "move": "d3",
-      "startup": 16,
-      "block": -17,
+      "move": "dstep2+3",
+      "startup": 24,
+      "block": 36,
       "damage": 10,
-      "range": 2.3
-    },
-    {
-      "move": "db4",
-      "startup": 16,
-      "block": -9,
-      "damage": 5,
-      "range": 2.4
-    },
-    {
-      "move": "ss4",
-      "startup": 20,
-      "block": -14,
-      "damage": 14,
-      "range": 2.3
-    },
-    {
-      "move": "df3+4",
-      "startup": 31,
-      "block": -37,
-      "damage": 20,
-      "range": 3
+      "range": 3.1
     }
   ],
   "orderedRange": [
     {
-      "notes": {
+      "types": {
         "lows": [],
         "mids": ["fF3 is the fastest and top range mid"],
         "highs": []
@@ -205,13 +176,14 @@
     { "move": "uf3+4", "startup": 23, "damage": 33, "range": 3.2 },
     { "move": "db3+4", "startup": 18, "damage": 21, "range": 3.2 },
     { "move": "dstep2", "startup": 17, "damage": 25, "range": 3.2 },
+    { "move": "2+3", "startup": 16, "damage": 12, "range": 3.2 },
     { "move": "db2", "startup": 24, "damage": 20, "range": 3.1 },
-    { "move": "2+3", "startup": 16, "damage": 12, "range": 3.1 },
     { "move": "dstep2+3", "startup": 24, "damage": 10, "range": 3.1 },
     { "move": "fF2", "startup": 14, "damage": 20, "range": 3 },
     { "move": "f1+2", "startup": 17, "damage": 24, "range": 3 },
     { "move": "df3+4", "startup": 31, "damage": 20, "range": 3 },
     { "move": "dstep4", "startup": 14, "damage": 15, "range": 2.9 },
+    { "move": "hsmash", "startup": 16, "damage": 52, "range": 2.9 },
     { "move": "dstep1", "startup": 14, "damage": 21, "range": 2.8 },
     { "move": "ss1+2", "startup": 19, "damage": 22, "range": 2.7 },
     { "move": "d2", "startup": 20, "damage": 13, "range": 2.6 },
@@ -225,9 +197,9 @@
     { "move": "db4", "startup": 16, "damage": 5, "range": 2.4 },
     { "move": "b3+4", "startup": 14, "damage": 16, "range": 2.4 },
     { "move": "b1+4", "startup": 15, "damage": 18, "range": 2.4 },
+    { "move": "d3", "startup": 16, "damage": 10, "range": 2.4 },
     { "move": "b1", "startup": 12, "damage": 10, "range": 2.3 },
     { "move": "ws1", "startup": 13, "damage": 17, "range": 2.3 },
-    { "move": "d3", "startup": 16, "damage": 10, "range": 2.3 },
     { "move": "d4", "startup": 12, "damage": 6, "range": 2.3 },
     { "move": "ss4", "startup": 20, "damage": 14, "range": 2.3 },
     { "move": "ws2", "startup": 15, "damage": 15, "range": 2.2 },
@@ -248,6 +220,7 @@
     { "move": "ss2", "startup": 13, "damage": 15, "range": 2 },
     { "move": "1", "startup": 10, "damage": 5, "range": 1.9 },
     { "move": "fc2", "startup": 11, "damage": 8, "range": 1.9 },
+    { "move": "ss1", "startup": 14, "damage": 15, "range": 1.9 },
     { "move": "uf4", "startup": 18, "damage": 23, "range": 1.8 },
     { "move": "d3+4", "startup": 17, "damage": 16, "range": 1.8 },
     { "move": "2", "startup": 10, "damage": 10, "range": 1.7 },
@@ -255,8 +228,77 @@
     { "move": "d1", "startup": 10, "damage": 5, "range": 1.6 },
     { "move": "3", "startup": 14, "damage": 14, "range": 1.6 },
     { "move": "ub1", "startup": 20, "damage": 15, "range": 1.4 },
-    { "move": "u3", "startup": 14, "damage": 20, "range": 1.4 },
-    { "move": "ss1", "startup": 14, "damage": 1.8, "range": null }
+    { "move": "u3", "startup": 14, "damage": 20, "range": 1.4 }
+  ],
+  "hiOrderedRanged": [
+    { "move": "dstep2+3", "startup": 24, "damage": 10, "range": 3.1 },
+    { "move": "fF2", "startup": 14, "damage": 20, "range": 3 },
+    { "move": "dstep1", "startup": 14, "damage": 21, "range": 2.8 },
+    { "move": "b3+4", "startup": 14, "damage": 16, "range": 2.4 },
+    { "move": "b1", "startup": 12, "damage": 10, "range": 2.3 },
+    { "move": "f2", "startup": 13, "damage": 12, "range": 2.2 },
+    { "move": "f3", "startup": 14, "damage": 30, "range": 2.2 },
+    { "move": "b4", "startup": 14, "damage": 15, "range": 2.1 },
+    { "move": "db1+2", "startup": 11, "damage": 27, "range": 2.1 },
+    { "move": "uf1+2", "startup": 12, "damage": 40, "range": 2.1 },
+    { "move": "b2", "startup": 12, "damage": 12, "range": 2 },
+    { "move": "1", "startup": 10, "damage": 5, "range": 1.9 },
+    { "move": "uf4", "startup": 18, "damage": 23, "range": 1.8 },
+    { "move": "2", "startup": 10, "damage": 10, "range": 1.7 },
+    { "move": "4", "startup": 11, "damage": 15, "range": 1.7 },
+    { "move": "3", "startup": 14, "damage": 14, "range": 1.6 }
+  ],
+  "midOrderedRanged": [
+    { "move": "ffF3", "startup": 20, "damage": 10, "range": 4.9 },
+    { "move": "ffF1+2", "startup": 20, "damage": 30, "range": 4.6 },
+    { "move": "fF4", "startup": 28, "damage": 30, "range": 4 },
+    { "move": "fF1+2", "startup": 22, "damage": 26, "range": 3.9 },
+    { "move": "f4", "startup": 21, "damage": 15, "range": 3.3 },
+    { "move": "u1", "startup": 26, "damage": 20, "range": 3.2 },
+    { "move": "fF3", "startup": 15, "damage": 24, "range": 3.2 },
+    { "move": "uf3+4", "startup": 23, "damage": 33, "range": 3.2 },
+    { "move": "db3+4", "startup": 18, "damage": 21, "range": 3.2 },
+    { "move": "dstep2", "startup": 17, "damage": 25, "range": 3.2 },
+    { "move": "2+3", "startup": 16, "damage": 12, "range": 3.2 },
+    { "move": "db2", "startup": 24, "damage": 20, "range": 3.1 },
+    { "move": "f1+2", "startup": 17, "damage": 24, "range": 3 },
+    { "move": "dstep4", "startup": 14, "damage": 15, "range": 2.9 },
+    { "move": "hsmash", "startup": 16, "damage": 52, "range": 2.9 },
+    { "move": "ss1+2", "startup": 19, "damage": 22, "range": 2.7 },
+    { "move": "u4", "startup": 23, "damage": 21, "range": 2.6 },
+    { "move": "3+4", "startup": 18, "damage": 20, "range": 2.6 },
+    { "move": "1+4", "startup": 15, "damage": 24, "range": 2.5 },
+    { "move": "sway4", "startup": 19, "damage": 20, "range": 2.5 },
+    { "move": "u2", "startup": 18, "damage": 10, "range": 2.4 },
+    { "move": "df3", "startup": 14, "damage": 13, "range": 2.4 },
+    { "move": "b1+4", "startup": 15, "damage": 18, "range": 2.4 },
+    { "move": "ws1", "startup": 13, "damage": 17, "range": 2.3 },
+    { "move": "ws2", "startup": 15, "damage": 15, "range": 2.2 },
+    { "move": "df4", "startup": 12, "damage": 15, "range": 2.2 },
+    { "move": "b1+2", "startup": 16, "damage": 25, "range": 2.2 },
+    { "move": "df1", "startup": 13, "damage": 13, "range": 2.1 },
+    { "move": "b3", "startup": 18, "damage": 10, "range": 2.1 },
+    { "move": "ws3", "startup": 13, "damage": 25, "range": 2.1 },
+    { "move": "ws4", "startup": 11, "damage": 15, "range": 2.1 },
+    { "move": "1+2", "startup": 16, "damage": 19, "range": 2.1 },
+    { "move": "df2", "startup": 15, "damage": 12, "range": 2 },
+    { "move": "ss2", "startup": 13, "damage": 15, "range": 2 },
+    { "move": "ss1", "startup": 14, "damage": 15, "range": 1.9 },
+    { "move": "ub1", "startup": 20, "damage": 15, "range": 1.4 },
+    { "move": "u3", "startup": 14, "damage": 20, "range": 1.4 }
+  ],
+  "lowOrderedRanged": [
+    { "move": "dstep3", "startup": 19, "damage": 17, "range": 4.2 },
+    { "move": "df3+4", "startup": 31, "damage": 20, "range": 3 },
+    { "move": "d2", "startup": 20, "damage": 13, "range": 2.6 },
+    { "move": "db3", "startup": 20, "damage": 17, "range": 2.6 },
+    { "move": "db4", "startup": 16, "damage": 5, "range": 2.4 },
+    { "move": "d3", "startup": 16, "damage": 10, "range": 2.4 },
+    { "move": "d4", "startup": 12, "damage": 6, "range": 2.3 },
+    { "move": "ss4", "startup": 20, "damage": 14, "range": 2.3 },
+    { "move": "fc2", "startup": 11, "damage": 8, "range": 1.9 },
+    { "move": "d3+4", "startup": 17, "damage": 16, "range": 1.8 },
+    { "move": "d1", "startup": 10, "damage": 5, "range": 1.6 }
   ],
   "plusBlock": [
     {
