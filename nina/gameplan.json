@@ -161,7 +161,7 @@
     {
       "types": {
         "lows": [],
-        "mids": ["fF3 is the fastest and top range mid"],
+        "mids": ["dstep2 is the fastest, safe, top range mid"],
         "highs": []
       }
     },
@@ -322,7 +322,7 @@
         "dstep2": 42
       }
     ],
-    "df3+4": [{ "fF3": 39 }, { "f1+2": 39 }, { "db3+4": 36 }]
+    "df3+4": [{ "fF3": 39 }, { "db3+4": 36 }]
   },
   "counterhits": [
     {
@@ -357,16 +357,16 @@
         }
       ],
       "f3": {
-        "damage": 72,
-        "combo": "d2,2 -> df3,2,dstep4,3,1+2"
+        "damage": 82,
+        "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> db2 -> fF3/f1+2"
       },
       "df3+4": {
         "damage": 67,
         "combo": "db3+4 -> db2 -> df3,2,dstep4,3,1+2"
       },
       "b1,4": {
-        "damage": 64,
-        "combo": "db2 -> df3,2,ss1,dstep4,3,1+2"
+        "damage": 67,
+        "combo": "u3 -> df3,2,ss1 -> dstep4,3,1+2"
       },
       "1,4": {
         "damage": 60,
@@ -377,8 +377,8 @@
         "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
       },
       "db2": {
-        "damage": 64,
-        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+        "damage": 74,
+        "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4 -> db2 -> fF3/f1+2"
       }
     }
   ]
