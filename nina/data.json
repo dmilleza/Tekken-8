@@ -470,7 +470,7 @@
       {
         "move": "d3+4",
         "startup": 17,
-        "block": null,
+        "block": -17,
         "property": "l",
         "damage": 16,
         "range": 1.8
@@ -816,30 +816,43 @@
             "notes": "face up oki"
           }
         ],
-        "noHeat": [
-          { "notes": "sway4 is preferred over 3 in df3,2,3" },
-          {
-            "damage": 68,
-            "difficulty": 1,
-            "inputs": "uf4 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
-          },
-          {
-            "damage": 65,
-            "difficulty": 3,
-            "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2",
-            "notes": "staple combo"
-          },
-          {
-            "damage": 62,
-            "difficulty": 5,
-            "inputs": "df3,2,ss1,db2 -> df3,2,sway4 -> db2 -> fF3/f1+2"
-          },
-          {
-            "damage": 58,
-            "difficulty": 1,
-            "inputs": "b2,2 ->  df3,2,db3+4,3 -> db2 -> fF3/f1+2"
-          }
-        ]
+        "noHeat": {
+          "wall5": [
+            {
+              "damage": 68,
+              "difficulty": 1,
+              "inputs": "uf4 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
+            },
+            {
+              "damage": 65,
+              "difficulty": 3,
+              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2",
+              "notes": "staple combo"
+            },
+            {
+              "damage": 62,
+              "difficulty": 5,
+              "inputs": "df3,2,ss1,db2 -> df3,2,sway4 -> db2 -> fF3/f1+2"
+            },
+            {
+              "damage": 58,
+              "difficulty": 1,
+              "inputs": "b2,2 ->  df3,2,db3+4,3 -> db2 -> fF3/f1+2"
+            }
+          ],
+          "wall4": [
+            {
+              "damage": 83,
+              "difficulty": 1,
+              "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+            },
+            {
+              "damage": 80,
+              "difficulty": 1,
+              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+            }
+          ]
+        }
       }
     },
     {
@@ -861,18 +874,32 @@
             "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep4,3,1+2"
           }
         ],
-        "noHeat": [
-          {
-            "damage": 74,
-            "difficulty": 1,
-            "inputs": "uf4 ->  uf3 -> df3,2,sway,b3+4,3 -> ff -> db2 -> fF3/f1+2"
-          },
-          {
-            "damage": 71,
-            "difficulty": 2,
-            "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
-          }
-        ]
+        "noHeat": {
+          "wall5": [
+            {
+              "damage": 74,
+              "difficulty": 1,
+              "inputs": "uf4 ->  uf3 -> df3,2,sway,b3+4,3 -> ff -> db2 -> fF3/f1+2"
+            },
+            {
+              "damage": 71,
+              "difficulty": 2,
+              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
+            }
+          ],
+          "wall4": [
+            {
+              "damage": 89,
+              "difficulty": 1,
+              "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+            },
+            {
+              "damage": 86,
+              "difficulty": 2,
+              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+            }
+          ]
+        }
       }
     },
     {
@@ -897,22 +924,6 @@
             "damage": 94,
             "difficulty": 2,
             "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep2 -> hd -> charge fF1+2"
-          },
-
-          {
-            "damage": 90,
-            "difficulty": 1,
-            "inputs": "uf4 ->  uf3 -> df3,2,3 -> ff -> db2 -> hb -> f1+2 -> hd -> charge fF1+2"
-          },
-          {
-            "damage": 87,
-            "difficulty": 4,
-            "inputs": "dstep1 -> dstep1 -> f2,1,3 -> ff -> db2 -> hb -> f1+2 -> hd -> fF1+2"
-          },
-          {
-            "damage": 87,
-            "difficulty": 2,
-            "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep4,3,1+2"
           }
         ],
         "noHeat": [
@@ -969,11 +980,23 @@
     },
     {
       "sway4": {
-        "wall5": {
-          "damage": 61,
-          "difficulty": 1,
-          "inputs": "u3 -> df3,2,ss1 -> dstep4,3,1+2"
-        },
+        "wall5": [
+          {
+            "damage": 65,
+            "difficulty": 1,
+            "inputs": "dstep1 -> b2,2 -> df3,2,dstep4,3,1+2"
+          },
+          {
+            "damage": 63,
+            "difficulty": 1,
+            "inputs": "uf4-> df1,2,ss1 -> dstep4,3,1+2"
+          },
+          {
+            "damage": 61,
+            "difficulty": 1,
+            "inputs": "u3 -> df3,2,ss1 -> dstep4,3,1+2"
+          }
+        ],
         "wall4": [
           {
             "damage": 79,
@@ -1015,12 +1038,19 @@
       }
     },
     {
-      "u1": {
+      "ub1": {
         "wall5": {
-          "damage": 71,
+          "damage": 54,
           "difficulty": 1,
-          "inputs": "ws1 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
+          "inputs": "d4,1 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
         }
+      }
+    },
+    {
+      "u1": {
+        "damage": 71,
+        "difficulty": 1,
+        "inputs": "ws1 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
       }
     }
   ],
@@ -1788,5 +1818,58 @@
       "type": "downed",
       "damage": 5
     }
-  ]
+  ],
+  "wakeUpOptions": {
+    "wakingCharacter": "Reina",
+    "options": [
+      {
+        "move": "standup",
+        "punish": ["1", "df1", "d4"]
+      },
+      {
+        "move": "wake backwards",
+        "punish": null
+      },
+      {
+        "move": "front roll",
+        "punish": ["d3+4", "db3"]
+      },
+      {
+        "move": "left roll",
+        "punish": ["db3", "3+4"]
+      },
+      {
+        "move": "right roll",
+        "punish": ["db3", "3+4"]
+      },
+      {
+        "move": "mid kick",
+        "damage": 8,
+        "hit": -9,
+        "block": 9,
+        "punish": ["sidewalk left -> b1+4/db1+2", "f4,2", "3+4"]
+      },
+      {
+        "move": "low kick",
+        "damage": 8,
+        "hit": -7,
+        "block": 9,
+        "punish": ["sidewalk left -> b1+4", "f4,2", "3+4", "u1", "lowparry"]
+      },
+      {
+        "move": "recovery kick",
+        "damage": 5,
+        "hit": 3,
+        "block": 18,
+        "punish": ["sidewalk left -> b1+4", "f4,2", "3+4", "u1", "lowparry"]
+      },
+      {
+        "move": "spring attack",
+        "damage": 20,
+        "hit": "-13 to -2",
+        "block": "10 to 21",
+        "punish": ["sidewalk left -> b1+4", "1,4", " b1+4", "u1"]
+      }
+    ]
+  }
 }
