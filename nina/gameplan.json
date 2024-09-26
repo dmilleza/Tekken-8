@@ -319,7 +319,8 @@
   "guaranteed": {
     "ss1+2": { "dstep2": 42 },
     "df3+4": [{ "fF3": 39 }, { "db3+4": 36 }],
-    "ws1,4": { "dstep2": 40 }
+    "ws1,4": [{ "dstep2": 40 }, { "d3+4": 36 }],
+    "4,4,3+4": { "fF3": 45 }
   },
   "counterhits": [
     {
@@ -380,6 +381,14 @@
       "db2": {
         "damage": 74,
         "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4 -> db2 -> fF3/f1+2"
+      },
+      "4,4,4": {
+        "damage": 68,
+        "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+      },
+      "ss4,2": {
+        "damage": 60,
+        "combo": "db2 -> df3,2,dstep4,3,1+2"
       }
     }
   ],

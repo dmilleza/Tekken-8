@@ -1,8 +1,9 @@
 const nina = require('./data.json')
+const matchups = require('./matchups.json')
 
-const added = nina.frameData.dstance
-  .concat(nina.frameData.sway)
-  .concat(nina.frameData.duckstep)
+// const added = nina.frameData.dstance
+//   .concat(nina.frameData.sway)
+//   .concat(nina.frameData.duckstep)
 
 // returns ordered range with less object keys
 // const ranges = added
@@ -22,15 +23,17 @@ const added = nina.frameData.dstance
 //   .filter((item) => item.type.includes('crouch'))
 
 // gets moves that are 0 or plus on block
-const good = added
-  .filter((item) => item.block >= 0 && item.block != null)
-  .sort((a, b) => b.block - a.block)
-  .map((item) => ({
-    move: `${item.move}`,
-    startup: item.startup,
-    damage: item.damage,
-    range: item.range,
-    block: item.block,
-  }))
+// const good = added
+//   .filter((item) => item.block >= 0 && item.block != null)
+//   .sort((a, b) => b.block - a.block)
+//   .map((item) => ({
+//     move: `${item.move}`,
+//     startup: item.startup,
+//     damage: item.damage,
+//     range: item.range,
+//     block: item.block,
+//   }))
 
-console.log(good)
+const alpha = matchups.sort((a, b) => a.character - b.character)
+
+console.log(alpha)
