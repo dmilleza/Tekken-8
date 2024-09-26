@@ -928,9 +928,9 @@
         ],
         "noHeat": [
           {
-            "damage": 78,
+            "damage": 77,
             "difficulty": 1,
-            "inputs": "uf4 ->  uf3 -> df3,2,sway -> b3+4,3 -> ff -> db2 -> fF3"
+            "inputs": "uf4 ->  uf3 -> df3,2,sway,b3+4,3 -> ff -> db2 -> fF3/f1+2"
           },
           {
             "damage": 74,
@@ -952,31 +952,21 @@
       }
     },
     {
-      "ss2": [
-        {
-          "damage": 57,
-          "difficulty": 1,
-          "inputs": "b2,2 -> df3,2,3 -> ff -> db2 -> ff3/dstep2/1+4"
-        },
-        {
-          "damage": 63,
-          "difficulty": 1,
-          "inputs": "b2,2 -> df3,2 -> dstep -> ws1,1,db3+4 -> ff -> db2 -> ff3/dstep2",
-          "notes": "use only for ss2r"
-        },
-        {
-          "damage": 61,
-          "difficulty": 1,
-          "inputs": "b2,2 -> df3,2,sway,b3+4,3 -> ff -> db2 -> ff3/dstep2",
-          "notes": "staple combo"
-        },
-        {
-          "damage": 61,
-          "difficulty": 1,
-          "inputs": "b2,2 -> df3,2,sway -> b3+4,3 -> ff -> ss1, dstep2 -> wallsplat",
-          "notes": "wallsetup, b3+4,3 can be replaced with sway4 if wall is closer"
-        }
-      ]
+      "ss2": {
+        "wall5": [
+          {
+            "damage": 68,
+            "difficulty": 1,
+            "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
+          },
+          {
+            "damage": 61,
+            "difficulty": 1,
+            "inputs": "b2,2 -> df3,2,sway,b3+4,3 -> ff -> db2 -> ff3/dstep2"
+          }
+        ],
+        "wall4": []
+      }
     },
     {
       "sway4": {
@@ -985,23 +975,13 @@
             "damage": 65,
             "difficulty": 1,
             "inputs": "dstep1 -> b2,2 -> df3,2,dstep4,3,1+2"
-          },
-          {
-            "damage": 63,
-            "difficulty": 1,
-            "inputs": "uf4-> df1,2,ss1 -> dstep4,3,1+2"
-          },
-          {
-            "damage": 61,
-            "difficulty": 1,
-            "inputs": "u3 -> df3,2,ss1 -> dstep4,3,1+2"
           }
         ],
         "wall4": [
           {
-            "damage": 79,
+            "damage": 81,
             "difficulty": 1,
-            "inputs": "u3 -> df3,2,ss1,dstep4,3 -> splat -> 2 -> df1,2,1+2"
+            "inputs": "dstep1 -> b2,2 -> df3,2,sway4,b3+4,3 -> splat -> df3,2,dstep2"
           }
         ],
         "wall3": {
