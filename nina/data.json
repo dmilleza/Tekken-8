@@ -51,6 +51,7 @@
       {
         "move": "ws1",
         "startup": 13,
+        "hit": 5,
         "block": -6,
         "property": "m",
         "damage": 17,
@@ -69,6 +70,7 @@
       {
         "move": "ss1",
         "startup": 14,
+        "hit": 3,
         "block": -10,
         "property": "m",
         "damage": 15,
@@ -77,6 +79,7 @@
       {
         "move": "2",
         "startup": 10,
+        "hit": 7,
         "block": -1,
         "property": "h",
         "damage": 10,
@@ -85,6 +88,7 @@
       {
         "move": "u2",
         "startup": 18,
+        "hit": 1,
         "block": -10,
         "property": "m",
         "damage": 10,
@@ -103,7 +107,6 @@
         "move": "db2",
         "startup": 24,
         "hit": 8,
-        "hitdist": 1.5,
         "block": -5,
         "property": "m",
         "type": "homing",
@@ -124,6 +127,7 @@
       {
         "move": "fc2",
         "startup": 11,
+        "hit": 7,
         "block": -4,
         "property": "s.low",
         "damage": 8,
@@ -191,6 +195,7 @@
       {
         "move": "b3",
         "startup": 18,
+        "hit": 6,
         "block": -6,
         "property": "m",
         "damage": 10,
@@ -200,7 +205,6 @@
         "move": "db3",
         "startup": 20,
         "hit": 4,
-        "hitdist": 1.7,
         "block": -13,
         "property": "l",
         "damage": 17,
@@ -209,8 +213,7 @@
       {
         "move": "d3",
         "startup": 16,
-        "hit": 6,
-        "hitdist": 2.1,
+        "hit": -6,
         "block": -17,
         "property": "l",
         "type": "crouch",
@@ -247,7 +250,6 @@
         "move": "fF3",
         "startup": 15,
         "hit": 8,
-        "hitdist": 0,
         "block": -14,
         "property": "m",
         "damage": 24,
@@ -265,6 +267,7 @@
       {
         "move": "4",
         "startup": 11,
+        "hit": 7,
         "block": -9,
         "property": "h",
         "damage": 15,
@@ -273,6 +276,7 @@
       {
         "move": "u4",
         "startup": 23,
+        "hit": 5,
         "block": 0,
         "property": "m",
         "damage": 21,
@@ -289,6 +293,7 @@
       {
         "move": "f4",
         "startup": 21,
+        "hit": 5,
         "block": -5,
         "property": "m",
         "damage": 15,
@@ -297,6 +302,7 @@
       {
         "move": "df4",
         "startup": 12,
+        "hit": 7,
         "block": -4,
         "property": "m",
         "damage": 15,
@@ -305,6 +311,7 @@
       {
         "move": "d4",
         "startup": 12,
+        "hit": -4,
         "block": -15,
         "property": "l",
         "damage": 6,
@@ -322,6 +329,7 @@
       {
         "move": "b4",
         "startup": 14,
+        "hit": 9,
         "block": -9,
         "property": "h",
         "damage": 15,
@@ -330,6 +338,7 @@
       {
         "move": "ws4",
         "startup": 11,
+        "hit": 7,
         "block": -4,
         "property": "m",
         "damage": 15,
@@ -338,6 +347,7 @@
       {
         "move": "fF4",
         "startup": 28,
+        "hit": 2,
         "block": 16,
         "property": "m",
         "damage": 30,
@@ -347,6 +357,7 @@
       {
         "move": "ss4",
         "startup": 20,
+        "hit": 6,
         "block": -14,
         "property": "l",
         "type": "crouch",
@@ -356,6 +367,7 @@
       {
         "move": "2+3",
         "startup": 16,
+        "hit": 2,
         "block": 1,
         "property": "m",
         "type": "heat, crush",
@@ -374,6 +386,7 @@
       {
         "move": "1+2",
         "startup": 16,
+        "hit": 8,
         "block": -3,
         "property": "m",
         "type": "homing",
@@ -383,6 +396,7 @@
       {
         "move": "b1+2",
         "startup": 16,
+        "hit": 5,
         "block": -7,
         "property": "m",
         "damage": 25,
@@ -443,6 +457,7 @@
       {
         "move": "3+4",
         "startup": 18,
+        "hit": 11,
         "block": -10,
         "property": "m",
         "type": "homing",
@@ -487,6 +502,7 @@
       {
         "move": "b3+4",
         "startup": 14,
+        "hit": 6,
         "block": -9,
         "property": "h",
         "damage": 16,
@@ -495,6 +511,7 @@
       {
         "move": "1+4",
         "startup": 15,
+        "hit": 4,
         "block": -5,
         "property": "m,m",
         "damage": 24,
@@ -533,6 +550,7 @@
       {
         "move": "dstep1",
         "startup": 14,
+        "hit": 3,
         "block": 1,
         "property": "h",
         "damage": 21,
@@ -550,6 +568,7 @@
       {
         "move": "dstep3",
         "startup": 19,
+        "hit": 0,
         "block": -20,
         "property": "l",
         "damage": 17,
@@ -558,6 +577,7 @@
       {
         "move": "dstep4",
         "startup": 14,
+        "hit": 6,
         "block": -8,
         "property": "m",
         "damage": 15,
@@ -774,12 +794,12 @@
       "lowParry": {
         "wall5 and 4": [
           {
-            "damage": 45,
+            "damage": 43,
             "difficulty": 1,
             "inputs": "dstep1 -> b2,2 -> df3,2,dstep4,3,1+2"
           },
           {
-            "damage": 42,
+            "damage": 41,
             "difficulty": 1,
             "inputs": "db2 ->  b2,2 -> df3,2,dstep4,3,1+2"
           }
@@ -815,37 +835,47 @@
         "noHeat": {
           "wall5": [
             {
-              "damage": 68,
+              "damage": 65,
               "difficulty": 1,
               "inputs": "uf4 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
             },
             {
-              "damage": 65,
+              "damage": 63,
               "difficulty": 3,
               "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2",
               "notes": "staple combo"
             },
             {
-              "damage": 62,
+              "damage": 63,
+              "difficulty": 5,
+              "inputs": "dstep1 -> dstep1 -> dstep1 -> db3+4 -> ss1,db2 -> fF3/f1+2"
+            },
+            {
+              "damage": 59,
               "difficulty": 5,
               "inputs": "df3,2,ss1,db2 -> df3,2,sway4 -> db2 -> fF3/f1+2"
             },
             {
-              "damage": 58,
+              "damage": 57,
               "difficulty": 1,
-              "inputs": "b2,2 ->  df3,2,db3+4,3 -> db2 -> fF3/f1+2"
+              "inputs": "b2,2 ->  df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
             }
           ],
           "wall4": [
             {
-              "damage": 83,
+              "damage": 81,
               "difficulty": 1,
-              "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+              "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
             },
             {
               "damage": 80,
               "difficulty": 1,
-              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+              "inputs": "dstep1 -> dstep1 -> b3+4,3 -> b2,2,2 -> splat -> 2 -> df1,2,1+2"
+            },
+            {
+              "damage": 79,
+              "difficulty": 1,
+              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
             }
           ]
         }
@@ -873,26 +903,31 @@
         "noHeat": {
           "wall5": [
             {
-              "damage": 74,
+              "damage": 71,
               "difficulty": 1,
               "inputs": "uf4 ->  uf3 -> df3,2,sway,b3+4,3 -> ff -> db2 -> fF3/f1+2"
             },
             {
-              "damage": 71,
+              "damage": 69,
               "difficulty": 2,
               "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
             }
           ],
           "wall4": [
             {
-              "damage": 89,
+              "damage": 87,
               "difficulty": 1,
-              "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+              "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
             },
             {
               "damage": 86,
+              "difficulty": 1,
+              "inputs": "dstep1 -> dstep1 -> b3+4,3 -> b2,2,2 -> splat -> 2 -> df1,2,1+2"
+            },
+            {
+              "damage": 85,
               "difficulty": 2,
-              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+              "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
             }
           ]
         }
@@ -922,53 +957,75 @@
             "inputs": "uf4 ->  uf3 -> df3,2 -> b3+4,3 -> ff -> db2 -> hb -> dstep2 -> hd -> charge fF1+2"
           }
         ],
-        "noHeat": [
-          {
-            "damage": 77,
-            "difficulty": 1,
-            "inputs": "uf4 ->  uf3 -> df3,2,sway,b3+4,3 -> ff -> db2 -> fF3/f1+2"
-          },
-          {
-            "damage": 74,
-            "difficulty": 1,
-            "inputs": "uf4 ->  uf3 -> df3,2,3 -> ff -> db2 -> fF3"
-          },
-          {
-            "damage": 80,
+        "noHeat": {
+          "wall5": [
+            {
+              "damage": 76,
+              "difficulty": 2,
+              "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1 -> 1 -> db3+4 -> ff -> db2 -> fF3"
+            },
+            {
+              "damage": 74,
+              "difficulty": 1,
+              "inputs": "uf4 ->  uf3 -> df3,2,sway,b3+4,3 -> ff -> db2 -> fF3/f1+2"
+            }
+          ],
+          "notes": "b2,2,2 only works after df3,2,3 and df3,2,sway4",
+          "wall4": {
+            "damage": 90,
             "difficulty": 2,
-            "inputs": "uf4 ->  uf3 -> df3,2 -> dstep -> ws1 -> 1 -> db3+4 -> ff -> db2 -> fF3"
-          },
-          { "notes": "b2,2,2 only works after df3,2,3 and df3,2,sway4" },
-          {
-            "damage": 91,
-            "difficulty": 2,
-            "inputs": "uf4 ->  uf3 -> df3,2,3 -> ff -> b2,2,2 -> wall -> charge fF1+2"
+            "inputs": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
           }
-        ]
+        }
+      }
+    },
+    {
+      "ws2": {
+        "wall5": [
+          {
+            "damage": 62,
+            "difficulty": 1,
+            "inputs": "u3 ->  df3,2,sway,b3+4,3 -> ss1,db2 -> fF3/f1+2"
+          },
+          {
+            "damage": 60,
+            "difficulty": 1,
+            "inputs": "b2,2 -> df3,2,sway,b3+4,3 -> db2 -> ff3/dstep2"
+          }
+        ],
+        "wall4": {
+          "damage": 78,
+          "difficulty": 1,
+          "inputs": "u3 ->  df3,2,sway,b3+4,3 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+        }
       }
     },
     {
       "ss2": {
         "wall5": [
           {
-            "damage": 68,
+            "damage": 66,
             "difficulty": 1,
             "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
           },
           {
-            "damage": 61,
+            "damage": 60,
             "difficulty": 1,
             "inputs": "b2,2 -> df3,2,sway,b3+4,3 -> ff -> db2 -> ff3/dstep2"
           }
         ],
-        "wall4": []
+        "wall4": {
+          "damage": 82,
+          "difficulty": 1,
+          "inputs": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+        }
       }
     },
     {
       "sway4": {
         "wall5": [
           {
-            "damage": 65,
+            "damage": 63,
             "difficulty": 1,
             "inputs": "dstep1 -> b2,2 -> df3,2,dstep4,3,1+2"
           }
@@ -991,14 +1048,9 @@
       "u2,1": {
         "wall5": [
           {
-            "damage": 73,
+            "damage": 71,
             "difficulty": 3,
             "inputs": "dstep1 -> dstep1 -> f2,1,3 -> ss1,db2 ->  fF3/f1+2"
-          },
-          {
-            "damage": 72,
-            "difficulty": 2,
-            "inputs": "dstep1 -> dstep1 -> f2 -> f2,1,3 -> db2 ->  fF3/f1+2"
           }
         ],
         "wall4": {
@@ -1016,7 +1068,7 @@
     {
       "ub1": {
         "wall5": {
-          "damage": 54,
+          "damage": 53,
           "difficulty": 1,
           "inputs": "d4,1 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
         },
@@ -1030,7 +1082,7 @@
     {
       "u1": {
         "wall5": {
-          "damage": 71,
+          "damage": 69,
           "difficulty": 1,
           "inputs": "ws1 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
         },
