@@ -338,6 +338,10 @@
         "wall5&4": {
           "damage": 77,
           "combo": "roll left -> ws4 -> d2,2 -> ss1 -> dstep4,3,1+2"
+        },
+        "wall3": {
+          "damage": 92,
+          "combo": "roll left -> ws4 -> d2,2 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
         }
       },
       "u4": {
@@ -348,6 +352,10 @@
         "wall4": {
           "damage": 83,
           "combo": "d2,2 -> df3,2,dstep,ws1 -> 1,4 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {
+          "damage": 80,
+          "combo": "d2,2 -> db2 -> f3 -> splat -> 2 -> df1,2,1+2"
         }
       },
       "fF3": {
@@ -358,6 +366,10 @@
         "wall4": {
           "damage": 86,
           "combo": "d2,2 -> df3,2,dstep,ws1 -> 1,4 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {
+          "damage": 83,
+          "combo": "d2,2 -> db2 -> f3 -> splat -> 2 -> df1,2,1+2"
         }
       },
       "dstep1": {
@@ -368,7 +380,8 @@
         "wall4": {
           "damage": 86,
           "combo": "f4,ss1,dstep1 -> b3+4,3 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": { }
       },
       "dstep3": {
         "wall5": {
@@ -378,7 +391,8 @@
         "wall4": {
           "damage": 77,
           "combo": "d2,2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "b3": {
         "wall5": [
@@ -394,7 +408,8 @@
         "wall4": {
           "damage": 73,
           "combo": "b1+4 -> uf4 -> u3 ->  df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "f3": {
         "wall5": {
@@ -414,7 +429,8 @@
         "wall4": {
           "damage": 87,
           "combo": "db3+4 -> ss1,db2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "b1,4": {
         "wall5": {
@@ -424,7 +440,8 @@
         "wall4": {
           "damage": 87,
           "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "1,4": {
         "wall5": {
@@ -434,7 +451,8 @@
         "wall4": {
           "damage": 87,
           "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "1/df1,2,1+2": {
         "wall5": {
@@ -444,7 +462,8 @@
         "wall4": {
           "damage": 88,
           "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> dstep1 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "1/df1,2,4": {
         "wall5": {
@@ -454,7 +473,8 @@
         "wall4": {
           "damage": 93,
           "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "db2": {
         "wall5": {
@@ -474,7 +494,8 @@
         "wall4": {
           "damage": 89,
           "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       },
       "ss4,2": {
         "wall5": {
@@ -484,7 +505,8 @@
         "wall4": {
           "damage": 77,
           "combo": "db2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
-        }
+        },
+        "wall3": {}
       }
     }
   ],
