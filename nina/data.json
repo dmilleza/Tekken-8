@@ -1055,8 +1055,8 @@
         ],
         "wall4": {
           "damage": 84,
-          "difficulty": 2,
-          "inputs": "dstep1 -> dstep1 -> f2,1,3 -> dstep1 -> splat -> 2 -> df1,2,1+2"
+          "difficulty": 3,
+          "inputs": "dstep1 -> dstep1 -> b3+4,3 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
         },
         "wall3": {
           "damage": 75,
@@ -1073,7 +1073,7 @@
           "inputs": "d4,1 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
         },
         "wall4": {
-          "damage": 67,
+          "damage": null,
           "difficulty": 1,
           "inputs": "d4,1 -> df3,2,sway,db3+4,3 -> ss1,dstep1 -> splat -> df3,2,dstep2"
         }
@@ -1087,9 +1087,9 @@
           "inputs": "ws1 -> u3 -> df3,2,sway,db3+4,3 -> db2 -> fF3/f1+2"
         },
         "wall4": {
-          "damage": 86,
+          "damage": 85,
           "difficulty": 1,
-          "inputs": "ws1 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+          "inputs": "ws1 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
         }
       }
     }
