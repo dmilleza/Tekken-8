@@ -993,6 +993,11 @@
           "inputs": "u3 ->  df3,2,sway,b3+4,3 -> ss1,db2 -> fF3/f1+2"
         },
         {
+          "damage": 58,
+          "difficulty": 1,
+          "inputs": "u3 ->  df3,2,sway,b3+4,3 -> db2 -> fF3/f1+2"
+        },
+        {
           "damage": 60,
           "difficulty": 1,
           "inputs": "b2,2 -> df3,2,sway,b3+4,3 -> db2 -> ff3/dstep2"
