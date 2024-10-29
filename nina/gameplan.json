@@ -381,7 +381,7 @@
           "damage": 86,
           "combo": "f4,ss1,dstep1 -> b3+4,3 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
         },
-        "wall3": { }
+        "wall3": {}
       },
       "dstep3": {
         "wall5": {
@@ -535,40 +535,84 @@
     "best": ["left: f3 and 3+4", "right: mids and low"]
   },
   "rapunishers": {
-    "df2": {
+    "wall5": [
+      {
+        "damage": 46,
+        "inputs": "b1 -> b1 -> df3,2,sway4 -> b1,4"
+      },
+      {
+        "damage": 43,
+        "inputs": "b1+4 -> uf4 -> d3+4"
+      },
+      {
+        "damage": 43,
+        "inputs": "df,DF1"
+      },
+      {
+        "damage": 38,
+        "inputs": "b1 -> b1 -> df3,1,2"
+      },
+      {
+        "damage": 37,
+        "inputs": "b1+4 -> 3,3,3,4"
+      },
+      {
+        "damage": 32,
+        "inputs": "b1+4 -> ff2/3+4"
+      },
+      {
+        "damage": 28,
+        "inputs": "b1+4 -> b4"
+      }
+    ],
+    "wall4": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "wall3": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "wall2": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "wall1": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ]
+  },
+  "hdashcombos": {
+    "db1+2":{
       "wall5": [
         {
-          "damage": 46,
-          "inputs": "b1 -> b1 -> df3,2,sway4 -> b1,4"
+          "damage": 47,
+          "inputs": "fF1+2"
         },
         {
-          "damage": 38,
-          "inputs": "b1 -> b1 -> df3,1,2"
-        }
-      ],
-      "wall4": [
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall3": [
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall2": [
-        {
-          "damage": 0,
-          "inputs": ""
+          "damage": 39,
+          "inputs": "d1+2"
         }
       ],
       "wall1": [
         {
-          "damage": 0,
-          "inputs": ""
+          "damage": "53/56/60",
+          "inputs": "1+4, fdownoki, db3/d3+4/dstep2",
+          "notes": "covers 3/4 ground techniques"
+        },
+        {
+          "damage": 39,
+          "inputs": "d1+2"
         }
+
       ]
     }
   }
