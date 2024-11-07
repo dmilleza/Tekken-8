@@ -20,8 +20,7 @@
     },
     "fastLow": [{ "12": "d4", "16": "d3 || db4", "17": "d3+4" }]
   },
-
-  "neutralPokes": [],
+  "neutralPokes": {},
   "trueCombos": [
     {
       "inputs": "1,2",
@@ -330,7 +329,8 @@
     "df3+4": [{ "fF3": 39 }, { "db3+4": 36 }],
     "ws1,4": [{ "dstep2": 40 }, { "d3+4": 36 }],
     "4,4,3+4": { "fF3": 45 },
-    "d3,4,3": { "dstep2": 66 }
+    "d3,4,3": { "dstep2": 66 },
+    "ffF3,3": { "ff1+2": 50 }
   },
   "counterhits": [
     {
@@ -346,8 +346,8 @@
       },
       "u4": {
         "wall5": {
-          "damage": 68,
-          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+          "damage": 74,
+          "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
         },
         "wall4": {
           "damage": 83,
@@ -360,8 +360,8 @@
       },
       "fF3": {
         "wall5": {
-          "damage": 71,
-          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+          "damage": 77,
+          "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
         },
         "wall4": {
           "damage": 86,
@@ -385,7 +385,7 @@
       },
       "dstep3": {
         "wall5": {
-          "damage": 63,
+          "damage": 69,
           "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
         },
         "wall4": {
@@ -507,6 +507,12 @@
           "combo": "db2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
         },
         "wall3": {}
+      },
+      "f2,1,4": {
+        "wall5": {
+          "damage": 53,
+          "combo": "f1+2"
+        }
       }
     }
   ],
@@ -591,7 +597,7 @@
     ]
   },
   "hdashcombos": {
-    "db1+2":{
+    "db1+2": {
       "wall5": [
         {
           "damage": 47,
@@ -612,7 +618,6 @@
           "damage": 39,
           "inputs": "d1+2"
         }
-
       ]
     }
   }

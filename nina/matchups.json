@@ -1,35 +1,291 @@
 [
-  { "character": "alisa", "heatproperties": "mx4,8" },
-  { "character": "asuka", "heatproperties": "m,m,m,10" },
-  { "character": "azucena", "heatproperties": "m,h,m,6" },
-  { "character": "bryan", "heatproperties": "m,m,15" },
-  { "character": "claudio", "heatproperties": "l,h,-14" },
-  { "character": "devil jin", "heatproperties": "m,h,11" },
-  { "character": "dragunov", "heatproperties": "m,m,m,6" },
-  { "character": "eddy", "heatproperties": "" },
-  { "character": "feng", "heatproperties": "m,m,12" },
-  { "character": "hwoarang", "heatproperties": "m,m,h,11" },
-  { "character": "jack", "heatproperties": "h,m,m,-9" },
-  { "character": "jin", "heatproperties": "m,h,m,3" },
-  { "character": "jun", "heatproperties": "m,m,-6" },
-  { "character": "kazuya", "heatproperties": "l,m,m,m,-14" },
-  { "character": "king", "heatproperties": "m,m,12" },
-  { "character": "kuma", "heatproperties": "m,m,10" },
-  { "character": "lars", "heatproperties": "m,m,8" },
-  { "character": "law", "heatproperties": "m,h,m,h,m,h,11" },
-  { "character": "leo", "heatproperties": "m,m,h,8" },
-  { "character": "leroy", "heatproperties": "mx5,6" },
-  { "character": "lili", "heatproperties": "h,h,m,m,9" },
-  { "character": "paul", "heatproperties": "l,m,m,-12" },
-  { "character": "raven", "heatproperties": "m,m,m,14" },
-  { "character": "reina", "heatproperties": "m,m,8" },
-  { "character": "shaheen", "heatproperties": "m,m,6" },
-  { "character": "panda", "heatproperties": "m,m,7" },
-  { "character": "lee", "heatproperties": "l,m,m,-15" },
-  { "character": "steve", "heatproperties": "mx7,8" },
-  { "character": "lidia", "heatproperties": "" },
-  { "character": "victor", "heatproperties": "l,m,-15" },
-  { "character": "xiaoyu", "heatproperties": "mx4,9" },
-  { "character": "yoshimitsu", "heatproperties": "mx4,4" },
-  { "character": "zafina", "heatproperties": "h,m,m,m,3" }
+  {
+    "character": "alisa",
+    "heatproperties": "mx4,8",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "asuka",
+    "heatproperties": "m,m,m,10",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "azucena",
+    "heatproperties": "m,h,m,6",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "bryan",
+    "heatproperties": "m,m,15",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "claudio",
+    "heatproperties": "l,h,-14",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "devil jin",
+    "heatproperties": "m,h,11",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "dragunov",
+    "heatproperties": "m,m,m,6",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "eddy",
+    "heatproperties": "",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "feng",
+    "heatproperties": "m,m,12",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "hwoarang",
+    "heatproperties": "m,m,h,11",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "jack",
+    "heatproperties": "h,m,m,-9",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "jin",
+    "heatproperties": "m,h,m,3",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "jun",
+    "heatproperties": "m,m,-6",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "kazuya",
+    "heatproperties": "l,m,m,m,-14",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "king",
+    "heatproperties": "m,m,12",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {
+      "df2,1": "duck first hit",
+      "b3": "1,4",
+      "db4": "db3+4",
+      "d1+2": "db3+4",
+      "1,2,1": "ssr2",
+      "qcf1": "1",
+      "db,f1+2": "2",
+      "uf1+2": "1+2"
+    }
+  },
+  {
+    "character": "kuma",
+    "heatproperties": "m,m,10",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "lars",
+    "heatproperties": "m,m,8",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {
+      "1,4": "low parry second hit",
+      "1,1,1": "b1,4",
+      "uf3": "float",
+      "d1+2": "launch",
+      "f2,4": "duck",
+      "f2,1,4": "interrupt third hit"
+    }
+  },
+  {
+    "character": "law",
+    "heatproperties": "m,h,m,h,m,h,11",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "leo",
+    "heatproperties": "m,m,h,8",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "leroy",
+    "heatproperties": "mx5,6",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "lili",
+    "heatproperties": "h,h,m,m,9",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {
+      "d3+4": "db3+4",
+      "df4,4": "ws1/ws3",
+      "2,4": "duck",
+      "3,1": "parry first hit",
+      "db4": "db3+4",
+      "1,1,3": "df2",
+      "df2": "1,4",
+      "": ""
+    }
+  },
+  {
+    "character": "paul",
+    "heatproperties": "l,m,m,-12",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "raven",
+    "heatproperties": "m,m,m,14",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "reina",
+    "heatproperties": "m,m,8",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "shaheen",
+    "heatproperties": "m,m,6",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "panda",
+    "heatproperties": "m,m,7",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "lee",
+    "heatproperties": "l,m,m,-15",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "steve",
+    "heatproperties": "mx7,8",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "lidia",
+    "heatproperties": "",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "victor",
+    "heatproperties": "l,m,-15",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "xiaoyu",
+    "heatproperties": "mx4,9",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "yoshimitsu",
+    "heatproperties": "mx4,4",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "zafina",
+    "heatproperties": "h,m,m,m,3",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  }
 ]
