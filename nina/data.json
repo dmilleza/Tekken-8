@@ -397,7 +397,41 @@
         "property": "h,m",
         "type": "heat, hdash, true",
         "damage": 27,
-        "range": 2.1
+        "range": 2.1,
+        "combos": {
+          "wall5/4/3/2": [
+            {
+              "damage": 56,
+              "inputs": "hdash -> 3+4,dstep3"
+            },
+            {
+              "damage": 47,
+              "inputs": "hdash -> fF1+2"
+            },
+            {
+              "damage": 43,
+              "inputs": "hdash -> dstep2"
+            },
+            {
+              "damage": 39,
+              "inputs": "hdash -> d3+4/3+4"
+            }
+          ],
+          "wall1": [
+            {
+              "damage": 70,
+              "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2"
+            },
+            {
+              "damage": 69,
+              "inputs": "b3+4,3 -> f4+2,hdash -> 1,2,1+2"
+            },
+            {
+              "damage": 66,
+              "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2"
+            }
+          ]
+        }
       },
       {
         "move": "f1+2",
@@ -406,7 +440,53 @@
         "property": "m",
         "type": "crush, heat, hdash",
         "damage": 24,
-        "range": 3
+        "range": 3,
+        "combos": {
+          "wall5/4/3": [
+            {
+              "damage": 53,
+              "inputs": "hdash -> 3+4,dstep3"
+            },
+            {
+              "damage": 44,
+              "inputs": "hdash -> fF1+2"
+            },
+            {
+              "damage": 40,
+              "inputs": "hdash -> dstep2"
+            },
+            {
+              "damage": 36,
+              "inputs": "hdash -> d3+4/3+4"
+            }
+          ],
+          "wall2/1": {
+            "damage": 56,
+            "inputs": "hdash -> ss1,dstep,ws4,3,1+2"
+          },
+          "wall1": [
+            {
+              "damage": 68,
+              "inputs": "b3+4,3 -> ffF1+2,hdash -> ss1,sway -> 1,2,1+2"
+            },
+            {
+              "damage": 67,
+              "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2"
+            },
+            {
+              "damage": 66,
+              "inputs": "b3+4,3 -> f4+2,hdash -> 1,2,1+2"
+            },
+            {
+              "damage": 63,
+              "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2"
+            },
+            {
+              "damage": 58,
+              "inputs": "b3+4,3 -> 1,2,1+2"
+            }
+          ]
+        }
       },
       {
         "move": "fF1+2",
@@ -424,7 +504,24 @@
         "property": "m",
         "type": "wall, heat",
         "damage": 30,
-        "range": 4.6
+        "range": 4.6,
+        "combos": {
+          "wall5": [
+            {
+              "damage": 0,
+              "inputs": null
+            }
+          ],
+          "wall4": [
+            {
+              "damage": 73,
+              "inputs": "hdash -> (x3)dstep1 -> b3+4,3 -> wall ->  ss1,sway -> 1,2,1+2"
+            }
+          ],
+          "wall3": [],
+          "wall2": [],
+          "wall1": []
+        }
       },
       {
         "move": "uf1+2",
@@ -452,7 +549,23 @@
         "property": "m",
         "type": "homing",
         "damage": 20,
-        "range": 2.6
+        "range": 2.6,
+        "wall1": [
+          {
+            "damage": 63,
+            "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2",
+            "followups": [
+              {
+                "damage": 59,
+                "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2"
+              }
+            ]
+          },
+          {
+            "damage": 59,
+            "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2"
+          }
+        ]
       },
       {
         "move": "uf3+4",
@@ -576,7 +689,14 @@
       "property": "m",
       "type": "heat, hdash",
       "damage": 25,
-      "range": 3.2
+      "range": 3.2,
+      "combos": {
+        "wall5": [],
+        "wall4": [],
+        "wall3": [],
+        "wall2": [],
+        "wall1": []
+      }
     },
     {
       "move": "dstep3",
@@ -767,7 +887,19 @@
       "property": "m,h",
       "block": -9,
       "type": "heat, hdash, true",
-      "damage": 37
+      "damage": 37,
+      "combos": {
+        "wall5": [],
+        "wall4": [
+          {
+            "damage": 78,
+            "inputs": "hdash -> (x3)dstep1 -> b3+4,3 -> wall ->  ss1,sway -> 1,2,1+2"
+          }
+        ],
+        "wall3": [],
+        "wall2": [],
+        "wall1": []
+      }
     },
     { "inputs": "d4,1", "property": "l,h", "block": 0 },
     { "inputs": "db4,3", "property": "l,m", "block": -12, "type": "tornado" },
