@@ -337,7 +337,7 @@
       "fF4": {
         "wall5&4": {
           "damage": 77,
-          "combo": "roll left -> ws4 -> d2,2 -> ss1 -> dstep4,3,1+2"
+          "combo": "roll left -> ws4 -> d2,2 -> ss1,dstep4,3,1+2"
         },
         "wall3": {
           "damage": 92,
@@ -350,12 +350,12 @@
           "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
         },
         "wall4": {
-          "damage": 83,
-          "combo": "d2,2 -> df3,2,dstep,ws1 -> 1,4 -> splat -> 2 -> df1,2,1+2"
+          "damage": 88,
+          "combo": "d2 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
         },
         "wall3": {
-          "damage": 80,
-          "combo": "d2,2 -> db2 -> f3 -> splat -> 2 -> df1,2,1+2"
+          "damage": 81,
+          "combo": "d2 -> u3 -> df3,2,sway,b3+4,3 -> splat -> ss1,sway -> 1,2,1+2"
         }
       },
       "fF3": {
@@ -364,12 +364,12 @@
           "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
         },
         "wall4": {
-          "damage": 86,
-          "combo": "d2,2 -> df3,2,dstep,ws1 -> 1,4 -> splat -> 2 -> df1,2,1+2"
+          "damage": 91,
+          "combo": "d2 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
         },
         "wall3": {
           "damage": 83,
-          "combo": "d2,2 -> db2 -> f3 -> splat -> 2 -> df1,2,1+2"
+          "combo": "d2 -> u3 -> df3,2,sway,b3+4,3 -> splat -> ss1,sway -> 1,2,1+2"
         }
       },
       "dstep1": {
@@ -378,15 +378,17 @@
           "combo": "uf4 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> fF3/f1+2"
         },
         "wall4": {
-          "damage": 86,
-          "combo": "f4,ss1,dstep1 -> b3+4,3 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+          "damage": 89,
+          "combo": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
         },
-        "wall3": {}
+        "wall3": {
+          "combo": "uf4 -> u3 -> df3,2,sway,b3+4,3 -> splat -> ss1,sway -> 1,2,1+2"
+        }
       },
       "dstep3": {
         "wall5": {
           "damage": 69,
-          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+          "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
         },
         "wall4": {
           "damage": 77,
@@ -605,7 +607,7 @@
         },
         {
           "damage": 39,
-          "inputs": "d1+2"
+          "inputs": "d1+4"
         }
       ],
       "wall1": [
@@ -620,5 +622,66 @@
         }
       ]
     }
+  },
+  "wallsplats": {
+    "initialcombo": "wall4: df2 -> uf4 -> u3 -> df3,2,sway4",
+    "icdamage": 49,
+    "beforesplat": [
+      {
+        "damage": 12,
+        "inputs": "ss1,dstep2"
+      },
+     {
+        "damage": 11,
+        "inputs": "3,4"
+      },
+      {
+        "damage": 10,
+        "inputs": "ss1,dstep1",
+        "notes": "staple, more wall carry than dstep2"
+      },
+      {
+        "damage": 9,
+        "inputs": "ss1,2"
+      },
+      {
+        "damage": 8,
+        "inputs": "b2,2"
+      },
+      {
+        "damage": 8,
+        "inputs": "db1+2"
+      },
+      {
+        "damage": 7,
+        "inputs": "1,4"
+      },
+      {
+        "damage": 6,
+        "inputs": "df3,2"
+      },
+      {
+        "damage": 5,
+        "inputs": "d1,4"
+      }
+    ],
+    "aftersplat": [
+      {
+        "damage": 39,
+        "inputs": "ss1,dstep2 -> splat -> df3,2 -> 1+4"
+      },
+      {
+        "damage": 37,
+        "inputs": "ffF3,4 -> splat -> df3,2 -> db3"
+      },
+      {
+        "damage": 36,
+        "inputs": "ss1,dstep2 -> splat -> df3,2 -> db3"
+      },
+      {
+        "damage": 32,
+        "inputs": "ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+      }
+    ]
   }
 }

@@ -399,14 +399,15 @@
         "damage": 27,
         "range": 2.1,
         "combos": {
-          "wall5/4/3/2": [
+          "wall5/4/3/2,1": [
             {
               "damage": 56,
               "inputs": "hdash -> 3+4,dstep3"
             },
             {
               "damage": 47,
-              "inputs": "hdash -> fF1+2"
+              "inputs": "hdash -> fF1+2",
+              "priority": 1
             },
             {
               "damage": 43,
@@ -414,21 +415,50 @@
             },
             {
               "damage": 39,
-              "inputs": "hdash -> d3+4/3+4"
+              "inputs": "hdash -> d3+4/3+4",
+              "priority": 2
             }
           ],
-          "wall1": [
+          "wall2/wall1": [
+            {
+              "damage": 68,
+              "inputs": "hdash -> ss1,2 -> 1+4 -> d3+4"
+            },
+            {
+              "damage": 65,
+              "inputs": "hdash -> ss1,2 -> 1+4 -> db3",
+              "priority": 2
+            },
+            {
+              "damage": 59,
+              "inputs": "hdash -> ss1,dstep,ws4,3,1+2",
+              "priority": 1
+            },
+            {
+              "damage": 52,
+              "inputs": "hdash -> ss1,2 -> 1+4"
+            }
+          ],
+          "wall1wallsplat": [
             {
               "damage": 70,
-              "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2"
+              "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2",
+              "priority": 1
             },
             {
               "damage": 69,
-              "inputs": "b3+4,3 -> f4+2,hdash -> 1,2,1+2"
+              "inputs": "b3+4,3 -> f4+2,hdash -> 1,2,1+2",
+              "priority": 2
             },
             {
               "damage": 66,
-              "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2"
+              "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2",
+              "priority": 1
+            },
+            {
+              "damage": 61,
+              "inputs": "b3+4,3 -> 1,2,1+2",
+              "priority": 2
             }
           ]
         }

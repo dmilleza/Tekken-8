@@ -2,25 +2,38 @@
   {
     "character": "alisa",
     "heatproperties": "mx4,8",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
+    "lows": {
+      "d3": -10,
+      "d3+4": -37,
+      "db3": -13,
+      "db4": -17,
+      "wc1+2": -11
+    },
     "drills": {}
   },
   {
     "character": "asuka",
     "heatproperties": "m,m,m,10",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
+    "lows": {
+      "df3+4": -26,
+      "d1+2": -18,
+      "d3+4": -25,
+      "db3": -12,
+      "db4": -11,
+      "b1": -10,
+      "wcdf2": -11
+    },
     "drills": {}
   },
   {
     "character": "azucena",
     "heatproperties": "m,h,m,6",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
+    "lows": {
+      "db4": -14,
+      "wc3": null,
+      "bf3(83)": -25,
+      "94": -12
+    },
     "drills": {}
   },
   {
