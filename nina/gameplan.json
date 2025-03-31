@@ -330,6 +330,7 @@
     "ws1,4": [{ "dstep2": 40 }, { "d3+4": 36 }],
     "4,4,3+4": { "fF3": 45 },
     "d3,4,3": { "dstep2": 66 },
+    "fF2": { "fF3": 39 },
     "ffF3,3": { "ff1+2": 50 }
   },
   "counterhits": [
@@ -341,62 +342,102 @@
         },
         "wall3": {
           "damage": 92,
-          "combo": "roll left -> ws4 -> d2,2 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+          "combo": "roll left -> ws4 -> d2,2 -> ss1,dstep4,3-> splat -> df3,2,dstep2"
         }
       },
       "u4": {
         "wall5": {
-          "damage": 74,
-          "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
+          "damage": 68,
+          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
         },
-        "wall4": {
-          "damage": 88,
-          "combo": "d2 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
-        },
-        "wall3": {
-          "damage": 81,
-          "combo": "d2 -> u3 -> df3,2,sway,b3+4,3 -> splat -> ss1,sway -> 1,2,1+2"
-        }
+        "wall4": [
+          {
+            "damage": 83,
+            "combo": "d2,2 -> db2 -> df3,2,sway,b3+4,3 -> splat -> df3,2,dstep2"
+          }
+        ],
+        "wall3": [
+          {
+            "damage": 80,
+            "combo": "d2,2 -> db2 -> f3 -> splat -> 2 -> df1,2,1+2",
+            "priority": 1
+          },
+          {
+            "damage": 77,
+            "combo": "d2,2 -> db2 -> f3 -> splat -> df3,2,dstep2",
+            "priority": 2
+          }
+        ]
       },
       "fF3": {
-        "wall5": {
-          "damage": 77,
-          "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
-        },
-        "wall4": {
-          "damage": 91,
-          "combo": "d2 -> u3 -> df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
-        },
+        "wall5": [
+          {
+            "damage": 80,
+            "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4,3 -> db2 -> fF3/f1+2",
+            "priority": 1
+          },
+          {
+            "damage": 71,
+            "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2",
+            "priority": 2
+          },
+          {
+            "damage": 66,
+            "combo": "d4,1 -> df3,2,sway,b3+4,3 -> db2 -> fF3/f1+2"
+          }
+        ],
+        "wall4": [
+          {
+            "damage": 90,
+            "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> dstep1 -> splat -> 2 -> df1,2,1+2",
+            "priority": 1
+          },
+          {
+            "damage": 87,
+            "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> dstep1 -> splat ->  df3,2,dstep2",
+            "priority": 2
+          }
+        ],
         "wall3": {
-          "damage": 83,
-          "combo": "d2 -> u3 -> df3,2,sway,b3+4,3 -> splat -> ss1,sway -> 1,2,1+2"
+          "damage": 87,
+          "combo": "dstep1 -> b3+4,3 -> f3 -> splat -> 2 -> df1,2,1+2"
         }
       },
       "dstep1": {
-        "wall5": {
-          "damage": 77,
-          "combo": "uf4 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> fF3/f1+2"
-        },
+        "wall5": [
+          {
+            "damage": 77,
+            "combo": "uf4 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> fF3/f1+2"
+          },
+          {
+            "damage": 72,
+            "combo": "f4,ss1,dstep1 -> b3+4,3 -> ss1,db2 -> fF3/f1+2"
+          }
+        ],
         "wall4": {
-          "damage": 89,
-          "combo": "uf4 -> u3 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+          "damage": 86,
+          "combo": "f4,ss1,dstep1 -> b3+4,3 -> f3 -> splat -> 2 -> df1,2,1+2"
         },
         "wall3": {
-          "combo": "uf4 -> u3 -> df3,2,sway,b3+4,3 -> splat -> ss1,sway -> 1,2,1+2"
+          "damage": 76,
+          "combo": "f4,ss1,dstep1 -> b3+4,3 -> splat -> 2 -> df1,2,1+2"
         }
       },
       "dstep3": {
         "wall5": {
-          "damage": 69,
-          "combo": "d2 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> f1+2/fF3"
+          "damage": 71,
+          "combo": "d2 -> ws1 -> uf3 -> df3,2,sway,b3+4,3 -> db2 -> f1+2/fF3"
         },
         "wall4": {
-          "damage": 77,
-          "combo": "d2,2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
+          "damage": 76,
+          "combo": "d2 -> ws1 -> uf3 -> df3,2,sway4 -> 2 -> df1,2,1+2"
         },
-        "wall3": {}
+        "wall3": {
+          "damage": 70,
+          "combo": "d2,2 -> f3 -> splat -> 2 -> df1,2,1+2"
+        }
       },
-      "b3": {
+      "b4": {
         "wall5": [
           {
             "damage": 63,
@@ -408,8 +449,8 @@
           }
         ],
         "wall4": {
-          "damage": 73,
-          "combo": "b1+4 -> uf4 -> u3 ->  df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+          "damage": 75,
+          "combo": "b1+4 -> uf4 -> u3 ->  df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
         },
         "wall3": {}
       },
@@ -598,31 +639,6 @@
       }
     ]
   },
-  "hdashcombos": {
-    "db1+2": {
-      "wall5": [
-        {
-          "damage": 47,
-          "inputs": "fF1+2"
-        },
-        {
-          "damage": 39,
-          "inputs": "d1+4"
-        }
-      ],
-      "wall1": [
-        {
-          "damage": "53/56/60",
-          "inputs": "1+4, fdownoki, db3/d3+4/dstep2",
-          "notes": "covers 3/4 ground techniques"
-        },
-        {
-          "damage": 39,
-          "inputs": "d1+2"
-        }
-      ]
-    }
-  },
   "wallsplats": {
     "initialcombo": "wall4: df2 -> uf4 -> u3 -> df3,2,sway4",
     "icdamage": 49,
@@ -631,7 +647,7 @@
         "damage": 12,
         "inputs": "ss1,dstep2"
       },
-     {
+      {
         "damage": 11,
         "inputs": "3,4"
       },
@@ -683,5 +699,30 @@
         "inputs": "ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
       }
     ]
-  }
+  },
+  "wallbreak": [
+    {
+      "initialmove": "3+4",
+      "wallbreaker": {
+        "fF1+2": 38,
+        "ffF1+2": 37,
+        "f1+2/fF3": 33,
+        "3+4/db1+2/fF2/b1+2": 32
+      },
+      "afterwallbreak": [
+        {
+          "wallbreaker": "fF1+2",
+          "df3,2,dstep4,3,1+2 -> balbreak": 54,
+          "df3,2,dstep4,3 -> fF2 -> balbreak": 52
+        }
+      ],
+      "afterbalbreak": [
+        {
+          "heat": true,
+          "balbreaker": "df3,2,dstep4,3,1+2",
+          "db3+4 -> db2 -> hb -> anything": 59
+        }
+      ]
+    }
+  ]
 }
