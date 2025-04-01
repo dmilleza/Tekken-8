@@ -1,0 +1,769 @@
+{
+  "best": {
+    "fastHigh": {
+      "10": "1 || 2",
+      "11": "4 || db1+2",
+      "12": "b1 || b2 || uf1+2",
+      "13": "f2",
+      "14": "fF2 || 3 || f3 || b4 || b3+4 || dstep1 || dstep4",
+      "18": "uf4"
+    },
+    "fastMid": {
+      "11": "ws4",
+      "12": "df4",
+      "13": "ws1 || df1 || ss2 || ws3",
+      "14": "ss1 || u3 || df3",
+      "15": "ws2 || df2 || fF3 || 1+4",
+      "16": "2+3 || 1+2 || b1+2",
+      "17": "f1+2 || dstep2",
+      "18": "u2 || b3 || 3+4 || db3+4"
+    },
+    "fastLow": [{ "12": "d4", "16": "d3 || db4", "17": "d3+4" }]
+  },
+  "neutralPokes": {},
+  "trueCombos": [
+    {
+      "inputs": "1,1",
+      "property": "h,h",
+      "hit": 5,
+      "block": -3,
+      "damage": 23
+    },
+    {
+      "inputs": "1,2",
+      "property": "h,h",
+      "hit": 8,
+      "block": -3,
+      "damage": 15
+    },
+    {
+      "inputs": "ws1,2",
+      "property": "m,h",
+      "hit": 6,
+      "block": -5,
+      "damage": 24,
+      "hitoptions": ["df3", "df4", "f3", "b4"]
+    },
+    {
+      "inputs": "2,2",
+      "property": "h,h",
+      "hit": 15,
+      "block": -13,
+      "damage": 32
+    },
+    {
+      "inputs": "f2,1",
+      "property": "m,m",
+      "hit": 14,
+      "block": -12,
+      "damage": 32
+    },
+    {
+      "inputs": "ff2,3",
+      "property": "m,m",
+      "hit": 5,
+      "block": -13,
+      "damage": 35
+    },
+    {
+      "inputs": "d2,4",
+      "property": "m,m",
+      "hit": 28,
+      "block": -9,
+      "damage": 38
+    },
+    {
+      "inputs": "db2,2",
+      "property": "m,m",
+      "hit": 5,
+      "block": -9,
+      "damage": 20
+    },
+    {
+      "inputs": "b2,1",
+      "property": "m,m",
+      "hit": 3,
+      "block": -13,
+      "damage": 29
+    },
+    {
+      "inputs": "b2,3",
+      "property": "m,m",
+      "hit": 9,
+      "block": -15,
+      "damage": 34
+    },
+    {
+      "inputs": "b2,4",
+      "property": "m,h",
+      "hit": 12,
+      "block": -7,
+      "damage": 32
+    },
+    {
+      "inputs": "3,2",
+      "property": "m,h",
+      "hit": 20,
+      "block": -2,
+      "damage": 30
+    },
+    {
+      "inputs": "f3,2",
+      "property": "h,h",
+      "hit": 39,
+      "block": -4,
+      "damage": 30
+    },
+    {
+      "inputs": "ff3,4",
+      "property": "m,h",
+      "hit": 20,
+      "block": -10,
+      "damage": 27
+    },
+    {
+      "inputs": "ff3,4,4",
+      "property": "m,h,m",
+      "hit": 21,
+      "block": -10,
+      "damage": 44
+    },
+    {
+      "inputs": "ffF3,4",
+      "property": "m,m",
+      "hit": 31,
+      "block": -7,
+      "damage": 35
+    },
+    {
+      "inputs": "df3,3",
+      "property": "m,l",
+      "hit": 1,
+      "block": -12,
+      "damage": 31
+    },
+    {
+      "inputs": "d3,bkup1",
+      "property": "l,h",
+      "hit": 27,
+      "block": 5,
+      "damage": 48
+    },
+    {
+      "inputs": "u3,2",
+      "property": "m,m",
+      "hit": 7,
+      "block": -14,
+      "damage": 45
+    },
+    {
+      "inputs": "ws3,3",
+      "property": "m,m",
+      "hit": 12,
+      "block": -9,
+      "damage": 38
+    },
+    {
+      "inputs": "f4,1",
+      "property": "m,h",
+      "hit": 15,
+      "block": -9,
+      "damage": 28
+    },
+    {
+      "inputs": "f4,1,4",
+      "property": "m,h,m",
+      "hit": -1,
+      "block": -12,
+      "damage": 47
+    },
+    {
+      "inputs": "ff4,1",
+      "property": "m,m",
+      "hit": 9,
+      "block": -9,
+      "damage": 41
+    },
+    {
+      "inputs": "b4,3",
+      "property": "m,m",
+      "hit": 6,
+      "block": -11,
+      "damage": 37
+    },
+    {
+      "inputs": "b4,4",
+      "property": "m,m",
+      "hit": 9,
+      "block": -37,
+      "damage": 34
+    },
+    {
+      "inputs": "b4,4 -> boot -> 1,2,1,3+4",
+      "hit": 26,
+      "block": -18,
+      "damage": 59
+    },
+    {
+      "inputs": "u4,4",
+      "property": "m,m",
+      "hit": 45,
+      "block": -13,
+      "damage": 16
+    }
+  ],
+  "crouches": [
+    { "move": "d1", "startup": 10, "block": -5, "damage": 5, "range": 1.6 },
+    { "move": "db3", "startup": 16, "block": -13, "damage": 11, "range": 2.3 },
+    { "move": "db4", "startup": 20, "block": -14, "damage": 17, "range": 2.5 },
+    { "move": "ss4", "startup": 24, "block": -12, "damage": 15, "range": 2.7 }
+  ],
+  "orderedRange": [
+    {
+      "types": {
+        "lows": [],
+        "mids": ["dstep2 is the fastest, safe, top range mid"],
+        "highs": []
+      }
+    },
+    { "move": "ffF3", "startup": 20, "damage": 10, "range": 4.9 },
+    { "move": "ffF1+2", "startup": 20, "damage": 30, "range": 4.6 },
+    { "move": "dstep3", "startup": 19, "damage": 17, "range": 4.2 },
+    { "move": "fF4", "startup": 28, "damage": 30, "range": 4 },
+    { "move": "fF1+2", "startup": 22, "damage": 26, "range": 3.9 },
+    { "move": "f4", "startup": 21, "damage": 15, "range": 3.3 },
+    { "move": "u1", "startup": 26, "damage": 20, "range": 3.2 },
+    { "move": "fF3", "startup": 15, "damage": 24, "range": 3.2 },
+    { "move": "uf3+4", "startup": 23, "damage": 33, "range": 3.2 },
+    { "move": "db3+4", "startup": 18, "damage": 21, "range": 3.2 },
+    { "move": "dstep2", "startup": 17, "damage": 25, "range": 3.2 },
+    { "move": "2+3", "startup": 16, "damage": 12, "range": 3.2 },
+    { "move": "db2", "startup": 24, "damage": 20, "range": 3.1 },
+    { "move": "dstep2+3", "startup": 24, "damage": 10, "range": 3.1 },
+    { "move": "fF2", "startup": 14, "damage": 20, "range": 3 },
+    { "move": "f1+2", "startup": 17, "damage": 24, "range": 3 },
+    { "move": "df3+4", "startup": 31, "damage": 20, "range": 3 },
+    { "move": "dstep4", "startup": 14, "damage": 15, "range": 2.9 },
+    { "move": "hsmash", "startup": 16, "damage": 52, "range": 2.9 },
+    { "move": "dstep1", "startup": 14, "damage": 21, "range": 2.8 },
+    { "move": "ss1+2", "startup": 19, "damage": 22, "range": 2.7 },
+    { "move": "d2", "startup": 20, "damage": 13, "range": 2.6 },
+    { "move": "db3", "startup": 20, "damage": 17, "range": 2.6 },
+    { "move": "u4", "startup": 23, "damage": 21, "range": 2.6 },
+    { "move": "3+4", "startup": 18, "damage": 20, "range": 2.6 },
+    { "move": "1+4", "startup": 15, "damage": 24, "range": 2.5 },
+    { "move": "sway4", "startup": 19, "damage": 20, "range": 2.5 },
+    { "move": "u2", "startup": 18, "damage": 10, "range": 2.4 },
+    { "move": "df3", "startup": 14, "damage": 13, "range": 2.4 },
+    { "move": "db4", "startup": 16, "damage": 5, "range": 2.4 },
+    { "move": "b3+4", "startup": 14, "damage": 16, "range": 2.4 },
+    { "move": "b1+4", "startup": 15, "damage": 18, "range": 2.4 },
+    { "move": "d3", "startup": 16, "damage": 10, "range": 2.4 },
+    { "move": "b1", "startup": 12, "damage": 10, "range": 2.3 },
+    { "move": "ws1", "startup": 13, "damage": 17, "range": 2.3 },
+    { "move": "d4", "startup": 12, "damage": 6, "range": 2.3 },
+    { "move": "ss4", "startup": 20, "damage": 14, "range": 2.3 },
+    { "move": "ws2", "startup": 15, "damage": 15, "range": 2.2 },
+    { "move": "f2", "startup": 13, "damage": 12, "range": 2.2 },
+    { "move": "f3", "startup": 14, "damage": 30, "range": 2.2 },
+    { "move": "df4", "startup": 12, "damage": 15, "range": 2.2 },
+    { "move": "b1+2", "startup": 16, "damage": 25, "range": 2.2 },
+    { "move": "df1", "startup": 13, "damage": 13, "range": 2.1 },
+    { "move": "b3", "startup": 18, "damage": 10, "range": 2.1 },
+    { "move": "ws3", "startup": 13, "damage": 25, "range": 2.1 },
+    { "move": "b4", "startup": 14, "damage": 15, "range": 2.1 },
+    { "move": "ws4", "startup": 11, "damage": 15, "range": 2.1 },
+    { "move": "1+2", "startup": 16, "damage": 19, "range": 2.1 },
+    { "move": "db1+2", "startup": 11, "damage": 27, "range": 2.1 },
+    { "move": "uf1+2", "startup": 12, "damage": 40, "range": 2.1 },
+    { "move": "b2", "startup": 12, "damage": 12, "range": 2 },
+    { "move": "df2", "startup": 15, "damage": 12, "range": 2 },
+    { "move": "ss2", "startup": 13, "damage": 15, "range": 2 },
+    { "move": "1", "startup": 10, "damage": 5, "range": 1.9 },
+    { "move": "fc2", "startup": 11, "damage": 8, "range": 1.9 },
+    { "move": "ss1", "startup": 14, "damage": 15, "range": 1.9 },
+    { "move": "uf4", "startup": 18, "damage": 23, "range": 1.8 },
+    { "move": "d3+4", "startup": 17, "damage": 16, "range": 1.8 },
+    { "move": "2", "startup": 10, "damage": 10, "range": 1.7 },
+    { "move": "4", "startup": 11, "damage": 15, "range": 1.7 },
+    { "move": "d1", "startup": 10, "damage": 5, "range": 1.6 },
+    { "move": "3", "startup": 14, "damage": 14, "range": 1.6 },
+    { "move": "ub1", "startup": 20, "damage": 15, "range": 1.4 },
+    { "move": "u3", "startup": 14, "damage": 20, "range": 1.4 }
+  ],
+  "hiOrderedRanged": [
+    { "move": "dstep2+3", "startup": 24, "damage": 10, "range": 3.1 },
+    { "move": "fF2", "startup": 14, "damage": 20, "range": 3 },
+    { "move": "dstep1", "startup": 14, "damage": 21, "range": 2.8 },
+    { "move": "b3+4", "startup": 14, "damage": 16, "range": 2.4 },
+    { "move": "b1", "startup": 12, "damage": 10, "range": 2.3 },
+    { "move": "f2", "startup": 13, "damage": 12, "range": 2.2 },
+    { "move": "f3", "startup": 14, "damage": 30, "range": 2.2 },
+    { "move": "b4", "startup": 14, "damage": 15, "range": 2.1 },
+    { "move": "db1+2", "startup": 11, "damage": 27, "range": 2.1 },
+    { "move": "uf1+2", "startup": 12, "damage": 40, "range": 2.1 },
+    { "move": "b2", "startup": 12, "damage": 12, "range": 2 },
+    { "move": "1", "startup": 10, "damage": 5, "range": 1.9 },
+    { "move": "uf4", "startup": 18, "damage": 23, "range": 1.8 },
+    { "move": "2", "startup": 10, "damage": 10, "range": 1.7 },
+    { "move": "4", "startup": 11, "damage": 15, "range": 1.7 },
+    { "move": "3", "startup": 14, "damage": 14, "range": 1.6 }
+  ],
+  "midOrderedRanged": [
+    { "move": "ffF3", "startup": 20, "damage": 10, "range": 4.9 },
+    { "move": "ffF1+2", "startup": 20, "damage": 30, "range": 4.6 },
+    { "move": "fF4", "startup": 28, "damage": 30, "range": 4 },
+    { "move": "fF1+2", "startup": 22, "damage": 26, "range": 3.9 },
+    { "move": "f4", "startup": 21, "damage": 15, "range": 3.3 },
+    { "move": "u1", "startup": 26, "damage": 20, "range": 3.2 },
+    { "move": "fF3", "startup": 15, "damage": 24, "range": 3.2 },
+    { "move": "uf3+4", "startup": 23, "damage": 33, "range": 3.2 },
+    { "move": "db3+4", "startup": 18, "damage": 21, "range": 3.2 },
+    { "move": "dstep2", "startup": 17, "damage": 25, "range": 3.2 },
+    { "move": "2+3", "startup": 16, "damage": 12, "range": 3.2 },
+    { "move": "db2", "startup": 24, "damage": 20, "range": 3.1 },
+    { "move": "f1+2", "startup": 17, "damage": 24, "range": 3 },
+    { "move": "dstep4", "startup": 14, "damage": 15, "range": 2.9 },
+    { "move": "hsmash", "startup": 16, "damage": 52, "range": 2.9 },
+    { "move": "ss1+2", "startup": 19, "damage": 22, "range": 2.7 },
+    { "move": "u4", "startup": 23, "damage": 21, "range": 2.6 },
+    { "move": "3+4", "startup": 18, "damage": 20, "range": 2.6 },
+    { "move": "1+4", "startup": 15, "damage": 24, "range": 2.5 },
+    { "move": "sway4", "startup": 19, "damage": 20, "range": 2.5 },
+    { "move": "u2", "startup": 18, "damage": 10, "range": 2.4 },
+    { "move": "df3", "startup": 14, "damage": 13, "range": 2.4 },
+    { "move": "b1+4", "startup": 15, "damage": 18, "range": 2.4 },
+    { "move": "ws1", "startup": 13, "damage": 17, "range": 2.3 },
+    { "move": "ws2", "startup": 15, "damage": 15, "range": 2.2 },
+    { "move": "df4", "startup": 12, "damage": 15, "range": 2.2 },
+    { "move": "b1+2", "startup": 16, "damage": 25, "range": 2.2 },
+    { "move": "df1", "startup": 13, "damage": 13, "range": 2.1 },
+    { "move": "b3", "startup": 18, "damage": 10, "range": 2.1 },
+    { "move": "ws3", "startup": 13, "damage": 25, "range": 2.1 },
+    { "move": "ws4", "startup": 11, "damage": 15, "range": 2.1 },
+    { "move": "1+2", "startup": 16, "damage": 19, "range": 2.1 },
+    { "move": "df2", "startup": 15, "damage": 12, "range": 2 },
+    { "move": "ss2", "startup": 13, "damage": 15, "range": 2 },
+    { "move": "ss1", "startup": 14, "damage": 15, "range": 1.9 },
+    { "move": "ub1", "startup": 20, "damage": 15, "range": 1.4 },
+    { "move": "u3", "startup": 14, "damage": 20, "range": 1.4 }
+  ],
+  "lowOrderedRanged": [
+    { "move": "dstep3", "startup": 19, "damage": 17, "range": 4.2 },
+    { "move": "df3+4", "startup": 31, "damage": 20, "range": 3 },
+    { "move": "d2", "startup": 20, "damage": 13, "range": 2.6 },
+    { "move": "db3", "startup": 20, "damage": 17, "range": 2.6 },
+    { "move": "db4", "startup": 16, "damage": 5, "range": 2.4 },
+    { "move": "d3", "startup": 16, "damage": 10, "range": 2.4 },
+    { "move": "d4", "startup": 12, "damage": 6, "range": 2.3 },
+    { "move": "ss4", "startup": 20, "damage": 14, "range": 2.3 },
+    { "move": "fc2", "startup": 11, "damage": 8, "range": 1.9 },
+    { "move": "d3+4", "startup": 17, "damage": 16, "range": 1.8 },
+    { "move": "d1", "startup": 10, "damage": 5, "range": 1.6 }
+  ],
+  "plusBlock": [
+    {
+      "move": "dstep2+3",
+      "startup": 24,
+      "damage": 10,
+      "range": 3.1,
+      "block": 36
+    },
+    { "move": "fF4", "startup": 28, "damage": 30, "range": 4, "block": 16 },
+    { "move": "ffF1+2", "startup": 20, "damage": 30, "range": 4.6, "block": 4 },
+    { "move": "f3", "startup": 14, "damage": 30, "range": 2.2, "block": 3 },
+    { "move": "1", "startup": 10, "damage": 5, "range": 1.9, "block": 1 },
+    { "move": "2+3", "startup": 16, "damage": 12, "range": 3.1, "block": 1 },
+    { "move": "dstep1", "startup": 14, "damage": 21, "range": 2.8, "block": 1 },
+    { "move": "u4", "startup": 23, "damage": 21, "range": 2.6, "block": 0 }
+  ],
+  "guaranteed": {
+    "ss1+2": { "dstep2": 42 },
+    "df3+4": [{ "fF3": 39 }, { "db3+4": 36 }],
+    "ws1,4": [{ "dstep2": 40 }, { "d3+4": 36 }],
+    "4,4,3+4": { "fF3": 45 },
+    "d3,4,3": { "dstep2": 66 },
+    "fF2": { "fF3": 39 },
+    "ffF3,3": { "ff1+2": 50 }
+  },
+  "counterhits": [
+    {
+      "fF4": {
+        "wall5&4": {
+          "damage": 77,
+          "combo": "roll left -> ws4 -> d2,2 -> ss1,dstep4,3,1+2"
+        },
+        "wall3": {
+          "damage": 92,
+          "combo": "roll left -> ws4 -> d2,2 -> ss1,dstep4,3-> splat -> df3,2,dstep2"
+        }
+      },
+      "u4": {
+        "wall5": {
+          "damage": 68,
+          "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2"
+        },
+        "wall4": [
+          {
+            "damage": 83,
+            "combo": "d2,2 -> db2 -> df3,2,sway,b3+4,3 -> splat -> df3,2,dstep2"
+          }
+        ],
+        "wall3": [
+          {
+            "damage": 80,
+            "combo": "d2,2 -> db2 -> f3 -> splat -> 2 -> df1,2,1+2",
+            "priority": 1
+          },
+          {
+            "damage": 77,
+            "combo": "d2,2 -> db2 -> f3 -> splat -> df3,2,dstep2",
+            "priority": 2
+          }
+        ]
+      },
+      "fF3": {
+        "wall5": [
+          {
+            "damage": 80,
+            "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4,3 -> db2 -> fF3/f1+2",
+            "priority": 1
+          },
+          {
+            "damage": 71,
+            "combo": "d2,2 -> db2 -> df3,2,dstep4,3,1+2",
+            "priority": 2
+          },
+          {
+            "damage": 66,
+            "combo": "d4,1 -> df3,2,sway,b3+4,3 -> db2 -> fF3/f1+2"
+          }
+        ],
+        "wall4": [
+          {
+            "damage": 90,
+            "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> dstep1 -> splat -> 2 -> df1,2,1+2",
+            "priority": 1
+          },
+          {
+            "damage": 87,
+            "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> dstep1 -> splat ->  df3,2,dstep2",
+            "priority": 2
+          }
+        ],
+        "wall3": {
+          "damage": 87,
+          "combo": "dstep1 -> b3+4,3 -> f3 -> splat -> 2 -> df1,2,1+2"
+        }
+      },
+      "dstep1": {
+        "wall5": [
+          {
+            "damage": 77,
+            "combo": "uf4 -> u3 -> df3,2,dstep,ws1,1 -> db3+4 -> db2 -> fF3/f1+2"
+          },
+          {
+            "damage": 72,
+            "combo": "f4,ss1,dstep1 -> b3+4,3 -> ss1,db2 -> fF3/f1+2"
+          }
+        ],
+        "wall4": {
+          "damage": 86,
+          "combo": "f4,ss1,dstep1 -> b3+4,3 -> f3 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {
+          "damage": 76,
+          "combo": "f4,ss1,dstep1 -> b3+4,3 -> splat -> 2 -> df1,2,1+2"
+        }
+      },
+      "dstep3": {
+        "wall5": {
+          "damage": 71,
+          "combo": "d2 -> ws1 -> uf3 -> df3,2,sway,b3+4,3 -> db2 -> f1+2/fF3"
+        },
+        "wall4": {
+          "damage": 76,
+          "combo": "d2 -> ws1 -> uf3 -> df3,2,sway4 -> 2 -> df1,2,1+2"
+        },
+        "wall3": {
+          "damage": 70,
+          "combo": "d2,2 -> f3 -> splat -> 2 -> df1,2,1+2"
+        }
+      },
+      "b4": {
+        "wall5": [
+          {
+            "damage": 63,
+            "combo": "b1+4 -> uf4 -> u3 -> df3,2,sway,b3+4,3 -> db2 -> fF3/f1+2"
+          },
+          {
+            "damage": 63,
+            "combo": "b1+4 -> dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
+          }
+        ],
+        "wall4": {
+          "damage": 75,
+          "combo": "b1+4 -> uf4 -> u3 ->  df3,2,sway4 -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "f3": {
+        "wall5": {
+          "damage": 83,
+          "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
+        },
+        "wall4": {
+          "damage": 97,
+          "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+        }
+      },
+      "df3+4": {
+        "wall5": {
+          "damage": 69,
+          "combo": "db3+4 -> ss1,db2 -> df3,2,dstep4,3,1+2"
+        },
+        "wall4": {
+          "damage": 87,
+          "combo": "db3+4 -> ss1,db2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "b1,4": {
+        "wall5": {
+          "damage": 69,
+          "combo": "dstep1 -> b2,2 -> df3,2,dstep4,3,1+2"
+        },
+        "wall4": {
+          "damage": 87,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "1,4": {
+        "wall5": {
+          "damage": 68,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> db2 -> fF3/f1+2"
+        },
+        "wall4": {
+          "damage": 87,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "1/df1,2,1+2": {
+        "wall5": {
+          "damage": 78,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4 -> db2 -> fF3/f1+2"
+        },
+        "wall4": {
+          "damage": 88,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> dstep1 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "1/df1,2,4": {
+        "wall5": {
+          "damage": 77,
+          "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
+        },
+        "wall4": {
+          "damage": 93,
+          "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "db2": {
+        "wall5": {
+          "damage": 72,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway,b3+4 -> db2 -> fF3/f1+2"
+        },
+        "wall4": {
+          "damage": 93,
+          "combo": "dstep1 -> b2,2 -> df3,2,sway4 -> ss1,dstep1 -> splat -> 2 -> df1,2,1+2"
+        }
+      },
+      "4,4,4": {
+        "wall5": {
+          "damage": 75,
+          "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,db2 -> fF3/f1+2"
+        },
+        "wall4": {
+          "damage": 89,
+          "combo": "dstep1 -> dstep1 -> f2,1,3, -> ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "ss4,2": {
+        "wall5": {
+          "damage": 59,
+          "combo": "db2 -> df3,2,dstep4,3,1+2"
+        },
+        "wall4": {
+          "damage": 77,
+          "combo": "db2 -> df3,2,sway,b3+4,3 -> splat -> 2 -> df1,2,1+2"
+        },
+        "wall3": {}
+      },
+      "f2,1,4": {
+        "wall5": {
+          "damage": 53,
+          "combo": "f1+2"
+        }
+      }
+    }
+  ],
+  "photofinishers": {
+    "left": {
+      "high": ["f3"],
+      "mid": ["b3"]
+    },
+    "right": {
+      "high": ["4", "b3+4"],
+      "mid": ["df4", "b4", "u4"],
+      "low": "d4"
+    },
+    "best": ["left: f3 and 3+4", "right: mids and low"]
+  },
+  "rapunishers": {
+    "wall5": [
+      {
+        "damage": 46,
+        "inputs": "b1 -> b1 -> df3,2,sway4 -> b1,4"
+      },
+      {
+        "damage": 43,
+        "inputs": "b1+4 -> uf4 -> d3+4"
+      },
+      {
+        "damage": 43,
+        "inputs": "df,DF1"
+      },
+      {
+        "damage": 38,
+        "inputs": "b1 -> b1 -> df3,1,2"
+      },
+      {
+        "damage": 37,
+        "inputs": "b1+4 -> 3,3,3,4"
+      },
+      {
+        "damage": 32,
+        "inputs": "b1+4 -> ff2/3+4"
+      },
+      {
+        "damage": 28,
+        "inputs": "b1+4 -> b4"
+      }
+    ],
+    "wall4": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "wall3": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "wall2": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "wall1": [
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ]
+  },
+  "wallsplats": {
+    "initialcombo": "wall4: df2 -> uf4 -> u3 -> df3,2,sway4",
+    "icdamage": 49,
+    "beforesplat": [
+      {
+        "damage": 12,
+        "inputs": "ss1,dstep2"
+      },
+      {
+        "damage": 11,
+        "inputs": "3,4"
+      },
+      {
+        "damage": 10,
+        "inputs": "ss1,dstep1",
+        "notes": "staple, more wall carry than dstep2"
+      },
+      {
+        "damage": 9,
+        "inputs": "ss1,2"
+      },
+      {
+        "damage": 8,
+        "inputs": "b2,2"
+      },
+      {
+        "damage": 8,
+        "inputs": "db1+2"
+      },
+      {
+        "damage": 7,
+        "inputs": "1,4"
+      },
+      {
+        "damage": 6,
+        "inputs": "df3,2"
+      },
+      {
+        "damage": 5,
+        "inputs": "d1,4"
+      }
+    ],
+    "aftersplat": [
+      {
+        "damage": 39,
+        "inputs": "ss1,dstep2 -> splat -> df3,2 -> 1+4"
+      },
+      {
+        "damage": 37,
+        "inputs": "ffF3,4 -> splat -> df3,2 -> db3"
+      },
+      {
+        "damage": 36,
+        "inputs": "ss1,dstep2 -> splat -> df3,2 -> db3"
+      },
+      {
+        "damage": 32,
+        "inputs": "ss1,dstep2 -> splat -> 2 -> df1,2,1+2"
+      }
+    ]
+  },
+  "wallbreak": [
+    {
+      "initialmove": "3+4",
+      "wallbreaker": {
+        "fF1+2": 38,
+        "ffF1+2": 37,
+        "f1+2/fF3": 33,
+        "3+4/db1+2/fF2/b1+2": 32
+      },
+      "afterwallbreak": [
+        {
+          "wallbreaker": "fF1+2",
+          "df3,2,dstep4,3,1+2 -> balbreak": 54,
+          "df3,2,dstep4,3 -> fF2 -> balbreak": 52
+        }
+      ],
+      "afterbalbreak": [
+        {
+          "heat": true,
+          "balbreaker": "df3,2,dstep4,3,1+2",
+          "db3+4 -> db2 -> hb -> anything": 59
+        }
+      ]
+    }
+  ]
+}
