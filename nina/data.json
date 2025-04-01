@@ -479,7 +479,8 @@
             },
             {
               "damage": 44,
-              "inputs": "hdash -> fF1+2"
+              "inputs": "hdash -> fF1+2",
+              "priority": 1
             },
             {
               "damage": 40,
@@ -487,33 +488,50 @@
             },
             {
               "damage": 36,
-              "inputs": "hdash -> d3+4/3+4"
+              "inputs": "hdash -> d3+4/3+4",
+              "priority": 2
             }
           ],
-          "wall2/1": {
-            "damage": 56,
-            "inputs": "hdash -> ss1,dstep,ws4,3,1+2"
-          },
-          "wall1": [
+          "wall2/wall1": [
             {
-              "damage": 68,
-              "inputs": "b3+4,3 -> ffF1+2,hdash -> ss1,sway -> 1,2,1+2"
+              "damage": 65,
+              "inputs": "hdash -> ss1,2 -> 1+4 -> d3+4"
             },
             {
+              "damage": 62,
+              "inputs": "hdash -> ss1,2 -> 1+4 -> db3",
+              "priority": 2
+            },
+            {
+              "damage": 56,
+              "inputs": "hdash -> ss1,dstep,ws4,3,1+2",
+              "priority": 1
+            },
+            {
+              "damage": 49,
+              "inputs": "hdash -> ss1,2 -> 1+4"
+            }
+          ],
+          "wall1wallsplat": [
+            {
               "damage": 67,
-              "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2"
+              "inputs": "b3+4,3 -> ss1,dstep2,hdash -> 1,2,1+2",
+              "priority": 1
             },
             {
               "damage": 66,
-              "inputs": "b3+4,3 -> f4+2,hdash -> 1,2,1+2"
+              "inputs": "b3+4,3 -> f4+2,hdash -> 1,2,1+2",
+              "priority": 2
             },
             {
               "damage": 63,
-              "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2"
+              "inputs": "b3+4,3 -> ss1,sway -> 1,2,1+2",
+              "priority": 1
             },
             {
               "damage": 58,
-              "inputs": "b3+4,3 -> 1,2,1+2"
+              "inputs": "b3+4,3 -> 1,2,1+2",
+              "priority": 2
             }
           ]
         }
@@ -524,7 +542,7 @@
         "block": -5,
         "property": "m",
         "type": "wall",
-        "damage": 26,
+        "damage": "26/32",
         "range": 3.9
       },
       {
@@ -1194,15 +1212,41 @@
       "wall5": [
         {
           "damage": 63,
-          "difficulty": 1,
+          "priority": 1,
           "inputs": "dstep1 -> b2,2 -> df3,2,dstep4,3,1+2"
+        },
+        {
+          "damage": 71,
+          "priority": 1,
+          "inputs": "dstep1 -> b2,2 -> df3,2,db2 -> hb -> dstep4,3,1+2"
+        },
+        {
+          "damage": 65,
+          "priority": 1,
+          "inputs": "dstep1 -> b2,2 -> df3,2,db2 -> hb -> db2 -> fF3/f1+2"
+        },
+        {
+          "damage": 79,
+          "priority": 1,
+          "inputs": "dstep1 -> b2,2 -> df3,2,db2 -> hb -> db2 -> 1+4 -> ff -> db3"
+        },
+        {
+          "damage": 78,
+          "priority": 1,
+          "inputs": "dstep1 -> b2,2 -> df3,2,db2 -> hb -> u1 -> df3+4",
+          "notes": "covers all wake up except stand up,recovkick, and spring attack"
         }
       ],
       "wall4": [
         {
-          "damage": 81,
+          "damage": 78,
           "difficulty": 1,
           "inputs": "dstep1 -> b2,2 -> df3,2,sway4,b3+4,3 -> splat -> df3,2,dstep2"
+        },
+        {
+          "damage": 74,
+          "difficulty": 1,
+          "inputs": "dstep1 -> b2,2 -> df3,2,sway4,b3+4,3 -> splat -> df3,2,1,4"
         }
       ],
       "wall3": {
