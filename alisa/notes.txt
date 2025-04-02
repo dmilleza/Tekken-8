@@ -1,5 +1,43 @@
-* Jodd Guide * 
+* General *
+- formula to win interactions 
+    (frame state + move to beat) - 1 = any move equal or below this number
+- Alisa has some of the best movement in the game; strong sidestep
 
 
-* Pokes *
-- 
+** Pokes **
+
+* b1 *
+- i15 -5ob 8oh ; used to poke then see how they react while crouched
+- can sidestep, ws4, ws1+2, fc1+2, or fcdb1+2
+- if they respect and hold block, keep offense going with wr2, b3, ws3, wr3,4
+- frame traps into b1: 
+    1. ws4 6oh
+    2. wr2 5ob
+    3. df1 5oh
+    4. 1,1 5oh
+
+* df1 *
+- i13 -6ob 5oh ; condition with single hit or df1,1 then use df1,4 for 13ch
+- df1,1 is 1ob can be interrupted with jabs
+
+* df2 *
+- good for keep-out, risk of getting sidestepped
+
+* 4 *
+- i13 -5ob 14oh ; can follow up with b3
+- if they respect after hit, can run up and use many moves
+- creates a lot of space on block, can use keep out moves if they run in 
+- on hit, can be used after wc1+2, df1, f2
+- on block, can be used after wr2
+
+* f2 *
+- i17 -4ob 7oh ; can follow up with df1, df2, 4 
+- mainly used to initiate pressure instead of using after for frametraps
+
+* b3 *
+- i20 -8ob 5oh ; has a lot of pushback on block, can wallsplat
+- use instead of 4 for ducking
+- do not whiff
+
+* df4 *
+- i12 -7ob 4oh ; use then backdash to be in favorable range
