@@ -2,6 +2,7 @@
 - formula to win interactions 
     (frame state + move to beat) - 1 = any move equal or below this number
 - Alisa has some of the best movement in the game; strong sidestep
+- flight cancel has 14 frame window for backup options
 
 
 ** Pokes **
