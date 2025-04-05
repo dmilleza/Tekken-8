@@ -3,6 +3,8 @@
     (frame state + move to beat) - 1 = any move equal or below this number
 - Alisa has some of the best movement in the game; strong sidestep
 - flight cancel has 14 frame window for backup options
+- recommended to sidestep at -5ob
+- ideal distance is 2-2.5
 
 
 ** Pokes **
@@ -41,4 +43,28 @@
 - do not whiff
 
 * df4 *
-- i12 -7ob 4oh ; use then backdash to be in favorable range
+- i12 -7ob 4oh ; use then backdash to be in favorable range for wr2, flight,
+d3, and wr3,4
+- use when back is at wall or to counter aggressive gameplay
+- if they don't press on block or hit, re-engage with wr2
+- can look for whiff punishes after using df4
+
+* ws1+2 *
+- i28 -4ob guaranteed d3 on hit 
+- fully charged is 0ob
+
+* fc1+2 *
+- -21 -12ob 5oh ; one of her best lows and used as mixup with ws1+2
+- use after b1, db3, or flight cancel 
+
+* wr2 *
+- i13 5ob guaranteed f1+2 on hit
+- duckable, easy to predict and can be floated by jabs
+
+* wr3,4 *
+- i20 -7ob 31oh ; use as mixup with wr2
+- can also be floated by jabs
+
+* ff4 *
+- i22 -9ob ; use to not get sidestepped or floated with wr moves
+- less minus frames on block when spaced correctly
