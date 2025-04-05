@@ -266,7 +266,6 @@
           "combo": ""
         }
       }
-      
     }
   ],
   "photofinishers": {
@@ -471,6 +470,82 @@
         "inputs": "df2",
         "damage": 16
       }
-    ]
+    ],
+    "b3+4": {
+      "wall5": [
+        {
+          "damage": 76,
+          "inputs": "f2 > u1 > d3,bkup1,3 > 1,2,1"
+        },
+        {
+          "damage": 73,
+          "inputs": "f2 > u1 > d3,bkup1,3 > 3"
+        },
+        {
+          "damage": 71,
+          "inputs": "f2 > u1,3 > bkup1,3 > 1,2,1",
+          "notes": "staple combo"
+        },
+        {
+          "damage": 69,
+          "inputs": "f2 > df1,1 > b2,3 > bkup1,3 > 1,2,1,3+4"
+        },
+        {
+          "damage": 67,
+          "inputs": "f2 > df1,1 > b2,3 > bkup1,3 > 4"
+        },
+        {
+          "damage": 66,
+          "inputs": "f2 > df1,1 > b2,3 > bkup1,3 > 3"
+        },
+        {
+          "damage": 65,
+          "inputs": "f2 > df1,1 > b2,3 > u3,2"
+        },
+        {
+          "damage": 64,
+          "inputs": "f2 > df1,1 > b2,3 > ff2,3"
+        },
+        {
+          "damage": 63,
+          "inputs": "f2 > df1,1 > b2,3 > f2,3,3"
+        },
+        {
+          "damage": 62,
+          "inputs": "f2 > df1,1 > b2,3 > bkup2 || wr3,4 || 1,2,2 || b4,4"
+        },
+        {
+          "damage": 61,
+          "inputs": "f2 > df1,1 > b2,3 > fouropt || 2,2 || wr2 || bkup3"
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 85,
+          "inputs": "f2 > u1 > d3,bkup1,3 > 1,2,1,3+4"
+        },
+        {
+          "damage": 78,
+          "inputs": "f2 > df1,1 > b2,3 > bkup1 || b2,4 > f2,3,3"
+        }
+      ]
+    },
+    "df2": {
+      "wall5": [
+        {
+          "damage": 65,
+          "inputs": "f2 > u1,3 > bkup1,3 > 1,2,1",
+          "notes": "staple combo"
+        },
+        {
+          "damage": 63,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
+    }
   }
 }
