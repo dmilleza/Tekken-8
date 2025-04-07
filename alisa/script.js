@@ -1,6 +1,7 @@
-const nina = require('./data.json')
-const matchups = require('./matchups.json')
+const alisa = require('./gameplan.json')
+const singlehitlows = alisa.singleHitDamage.low
 
+console.log(singlehitlows.sort((a, b) => b.damage - a.damage))
 // const added = nina.frameData.dstance
 //   .concat(nina.frameData.sway)
 //   .concat(nina.frameData.duckstep)
@@ -33,7 +34,3 @@ const matchups = require('./matchups.json')
 //     range: item.range,
 //     block: item.block,
 //   }))
-
-const alpha = matchups.sort((a, b) => a.character - b.character)
-
-console.log(alpha)
