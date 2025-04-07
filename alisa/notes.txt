@@ -60,6 +60,7 @@ d3, and wr3,4
 * wr2 *
 - i13 5ob guaranteed f1+2 on hit
 - duckable, easy to predict and can be floated by jabs
+- use more at point blank range rather than at a distance
 
 * wr3,4 *
 - i20 -7ob 31oh ; use as mixup with wr2
@@ -68,3 +69,22 @@ d3, and wr3,4
 * ff4 *
 - i22 -9ob ; use to not get sidestepped or floated with wr moves
 - less minus frames on block when spaced correctly
+
+* flight *
+- flight2 i16 -8ob ; less minus frames on block when spaced correctly
+- flight3 i16 -14ob ; -9ob when spaced correctly
+- this stance is all about spacing 
+- can also use for okizeme or when they hold block after hit
+
+* db3 *
+- i16 -13ob -2oh ; low version of df4, creates space 
+- can full crouch mixup after
+
+* d4 *
+- i17 -12ob -1oh : d4,1+2 is 0ob and jails 
+- good alternative to db3
+
+* d3 *
+- i23 -19ob 8oh ; one of the best lows in the game but very risky
+- at max range it is safe on block and 15oh
+- transitions into backup then crouch stance
