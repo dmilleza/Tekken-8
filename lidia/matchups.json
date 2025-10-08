@@ -39,17 +39,40 @@
   {
     "character": "bryan",
     "heatproperties": "m,m,-9",
-    "launchers": {},
+    "launchthat": {
+      "qcb2,4": 0,
+      "qcf4,1,2": 0,
+      "df1,2": 15,
+      "u2,2,2,3": 15
+    },
     "lows": {
-      "df3": 26,
       "d3,2": 0,
+      "d3+4,1+2": 0,
+      "3,2,1,4": 11,
+      "d4": 11,
       "1,2,3": 12,
       "db3": 12,
-      "d4": 11,
-      "d3+4,1+2": 0
+      "qcb3": 13,
+      "df3": 26
     },
     "plus": {},
-    "drills": {}
+    "drills": {
+      "2,3": 10,
+      "d2,3": 10,
+      "b2,1,4": 10,
+      "ub2": 10,
+      "ws3,4": 10,
+      "b4": 10,
+      "qcf2,1": 11,
+      "4,3,4": 12,
+      "qcb4": 12,
+      "ub1": 13,
+      "f2,1,4": 13,
+      "df2,3": 13,
+      "f4,1": 13,
+      "ws1": 14,
+      "1+2,2": 14
+    }
   },
   {
     "character": "claudio",
@@ -97,17 +120,37 @@
   },
   {
     "character": "feng",
-    "heatproperties": "m,m,12",
-    "launchers": {},
-    "lows": {},
+    "heatproperties": "m,m,7",
+    "launchthat": {
+      "ub1": 15,
+      "b1+2": 19
+    },
+    "lows": {
+      "d2": 12,
+      "db2,2,2": 8,
+      "3,3,4": 12,
+      "d3": 17,
+      "db3": 15,
+      "d4": 11,
+      "db4": 26,
+      "ss4": 31
+    },
     "plus": {},
     "drills": {}
   },
   {
     "character": "hwoarang",
-    "heatproperties": "m,m,h,11",
-    "launchers": {},
-    "lows": {},
+    "heatproperties": "m,m,h,11 || ends in stance",
+    "launchthat": {
+      "b3": 19
+    },
+    "lows": {
+      "d3,4": 0,
+      "db3": 13,
+      "d4,4": 13,
+      "db4,4": 0,
+      "d3+4": 14
+    },
     "plus": {},
     "drills": {}
   },
@@ -122,7 +165,12 @@
   {
     "character": "jin",
     "heatproperties": "m,h,m,3",
-    "launchers": {},
+    "launchthat": {
+      "b1,2": "",
+      "zanu1": 16,
+      "d3+4": 19,
+      "rage": 18
+    },
     "lows": {
       "d2": 14,
       "d3": 14,
@@ -133,10 +181,8 @@
     "plus": {},
     "drills": {
       "d1": 13,
-      "df3+4": 19,
       "u4": 13,
-      "ws2": 12,
-      "rage": 18
+      "ws2": 12
     }
   },
   {
@@ -175,27 +221,20 @@
   {
     "character": "king",
     "heatproperties": "m,m,12",
-    "launchers": {},
+    "launchthat": {},
     "lows": {
       "d3": 12,
       "db3": 14,
       "df4": 14,
       "d4": 15,
       "db4": 17,
-      "d3+4": 25,
       "wcdf1": 12,
       "wcdf4": 12,
-      "jsprint4": 21
+      "jsprint4": 21,
+      "d3+4": 25
     },
     "plus": {},
-    "drills": "db4, d3+4, 121, b3, ws22, df21, fcdf1, fcdf2",
-    "drills2": {
-      "1,2,1": "ss",
-      "b3": 10,
-      "ws2,2": 12,
-      "df2,1": "duck",
-      "fcdf2": 11
-    }
+    "drills": {}
   },
   {
     "character": "kuma",
@@ -223,6 +262,57 @@
   {
     "character": "law",
     "heatproperties": "m,h,m,h,m,h,11",
+    "launchthat": {
+      "df1,2": 0,
+      "d1,3": 0,
+      "ws1,2": 0,
+      "2,2,2": 0,
+      "db2,4": 0,
+      "b2,2": 0,
+      "b2,3,4": 0,
+      "d3,3": 0,
+      "d4,3": 0,
+      "b4,3": 0,
+      "3+4,4": 0,
+      "b2,1": 15,
+      "U4": 17,
+      "ws2": 18,
+      "b3+4": 18
+    },
+    "lows": {
+      "u1,3": 13,
+      "db3": 13,
+      "ss3": 13,
+      "df3+4": 15,
+      "df1,3": 16,
+      "slide": 23,
+      "uf3+4": 24,
+      "b2,3,d4": 37,
+      "db4": 37
+    },
+    "plus": {},
+    "drills": {
+      "ff2,f1+2": -4,
+      "1,1,1": 12,
+      "b1,2": 12,
+      "u3+4,4": 12,
+      "ss3+4": 12,
+      "df3": 13,
+      "1+2": 13,
+      "3+4": 13,
+      "b1,2,2": 14,
+      "ub1,1+2,2": 14,
+      "ff2,3": 14,
+      "3,3": 14,
+      "df4,3": 14,
+      "u4,3": 14,
+      "ws4,3": 14,
+      "b1+2": 14
+    }
+  },
+  {
+    "character": "lee",
+    "heatproperties": "l,m,m,-15",
     "launchers": {},
     "lows": {},
     "plus": {},
@@ -245,29 +335,75 @@
     "drills": {}
   },
   {
-    "character": "lili",
-    "heatproperties": "h,h,m,m,9",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
-    "drills": {
-      "d3+4": "db3+4",
-      "df4,4": "ws1/ws3",
-      "2,4": "duck",
-      "3,1": "parry first hit",
-      "db4": "db3+4",
-      "1,1,3": "df2",
-      "df2": "1,4",
-      "": ""
-    }
-  },
-  {
-    "character": "paul",
-    "heatproperties": "l,m,m,-12",
+    "character": "lidia",
+    "heatproperties": "",
     "launchers": {},
     "lows": {},
     "plus": {},
     "drills": {}
+  },
+  {
+    "character": "lili",
+    "heatproperties": "m,m,m,7",
+    "launchthat": {
+      "d3+4": 21,
+      "1,1,3": 15
+    },
+    "lows": {
+      "d1,2": 0,
+      "d3": 12,
+      "fcdf3": 18,
+      "df4,4": 13,
+      "db4": 24,
+      "db3+4": 18,
+      "rabbit3": 13
+    },
+    "plus": {},
+    "drills": {
+      "df4,4": "ws1/ws3",
+      "2,4": "duck",
+      "3,1": "parry first hit",
+      "db4": "db3+4",
+      "df2": "1,4"
+    }
+  },
+  {
+    "character": "panda",
+    "heatproperties": "m,m,7",
+    "launchers": {},
+    "lows": {},
+    "plus": {},
+    "drills": {}
+  },
+  {
+    "character": "paul",
+    "heatproperties": "l,m,m,-14",
+    "launchthat": {
+      "3,2": 0,
+      "ws3,2": 0,
+      "d1,2": 17,
+      "d1+2": 18,
+      "1,2,3": 25
+    },
+    "lows": {
+      "ss3": 12,
+      "b4": 12,
+      "d3": 17,
+      "d4": 31,
+      "d1,4": 31
+    },
+    "plus": {},
+    "drills": {
+      "df3,4": 10,
+      "db2": 11,
+      "b2,1": 12,
+      "u3,4": 13,
+      "u4": 13,
+      "b1,2": 14,
+      "ws2": 14,
+      "db1+2": 14,
+      "u1+2": 14
+    }
   },
   {
     "character": "raven",
@@ -308,22 +444,6 @@
     "drills": {}
   },
   {
-    "character": "panda",
-    "heatproperties": "m,m,7",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
-    "drills": {}
-  },
-  {
-    "character": "lee",
-    "heatproperties": "l,m,m,-15",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
-    "drills": {}
-  },
-  {
     "character": "steve",
     "heatproperties": "mx7,8 || ends in stance",
     "launchers": {},
@@ -338,14 +458,7 @@
       "db2": 12
     }
   },
-  {
-    "character": "lidia",
-    "heatproperties": "",
-    "launchers": {},
-    "lows": {},
-    "plus": {},
-    "drills": {}
-  },
+
   {
     "character": "victor",
     "heatproperties": "l,m,-14",
@@ -369,25 +482,68 @@
   },
   {
     "character": "xiaoyu",
-    "heatproperties": "mx4,9",
-    "launchers": {},
+    "heatproperties": "mx4,9 || ends in stance",
+    "launchthat": {
+      "f2,1": 0,
+      "df2,3": 0,
+      "d3,4": 0,
+      "f1+2": 16,
+      "backt4": 18
+    },
     "lows": {
-      "db2": 8,
+      "u1": 7,
       "b2,2": 7,
-      "df3": 23,
-      "d3": 12,
-      "db4": 12
+      "db2": 8,
+      "db4": 12,
+      "ss4": 13,
+      "phen3": 16,
+      "df3": 23
     },
     "plus": {},
-    "drills": {}
+    "drills": {
+      "b1": 10,
+      "3": 11,
+      "phen2": 11,
+      "ub3": 13,
+      "u3": 13,
+      "ub4": 13,
+      "b1+2": 13,
+      "b4,1": 14
+    }
   },
   {
     "character": "yoshimitsu",
     "heatproperties": "mx4,4",
-    "launchers": {},
-    "lows": {},
+    "launchthat": {
+      "3,1": 0,
+      "kin2,1+2": 15,
+      "b2,1": 17
+    },
+    "lows": {
+      "db3": 0,
+      "db2": 12,
+      "drag3": 13,
+      "flea2": 15,
+      "u2": 16,
+      "kin3": 16,
+      "d3": 17,
+      "ind4": 26
+    },
     "plus": {},
-    "drills": {}
+    "drills": {
+      "df1,4": 12,
+      "df1,2,1": 12,
+      "d2,2": 12,
+      "3,2": 12,
+      "db1,2": 13,
+      "d2,2,2": 13,
+      "ss2": 13,
+      "u3": 13,
+      "f4": 13,
+      "f3+4": 13,
+      "flea3+4": 13,
+      "3,2,1+2": 14
+    }
   },
   {
     "character": "zafina",
