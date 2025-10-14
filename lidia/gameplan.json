@@ -586,11 +586,11 @@
       ],
       "wall4": [
         {
-          "damage": 88,
+          "damage": 86,
           "inputs": "b3,4 > db2 > ff3 > b3,4,1+2 > splat > hb > f1+2,3,1+2"
         },
         {
-          "damage": 86,
+          "damage": 84,
           "inputs": "b3,4 > db2 > ff3 > b3,4,1+2 > splat > f1+2,3,1+2"
         }
       ]
