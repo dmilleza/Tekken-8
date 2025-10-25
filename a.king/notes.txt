@@ -1,0 +1,25 @@
+* Pokes *
+- ff2(6oh -6ob) and ff4(-8ob) have great pushback on block
+
+* Misc *
+- db1 is better than d1 because it tracks
+
+* Punishment *
+= 2,1(7oh): d2 tracks both sidesteps
+- df4(7oh): d2ch trade with jab leaves you +17 
+- b1,2(8oh): most bad jaguar options are uninterruptible
+- df1(7oh): d2ch can lead into dark upper
+- 3,4(9oh): hit confirmable
+- f1+4: wall splats
+- db2,4(7oh): -5ob and has some pushback
+= db2,3: wall splats
+- db2,1(3ob): wall splats
+- f2,1: go-to heat engager
+- b4,1+2: leads into knd oki
+- u2,1: go-to i15 launcher
+
+* Neutral *
+- 
+
+* Wall 1 *
+- db2,3 does more damage than u2,1 
