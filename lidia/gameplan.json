@@ -118,7 +118,7 @@
     },
     "combos": {
       "high": [
-        { "block": -3, "inputs": "1,2 || d3,2" },
+        { "block": -3, "inputs": "1,2 || d3,1" },
         { "block": -4, "inputs": "df1,2 || 3,2" },
         { "block": -6, "inputs": "1,2,3 || d3,1,2" },
         { "block": -8, "inputs": "1,4 || df4,2" },

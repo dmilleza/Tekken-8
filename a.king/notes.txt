@@ -14,9 +14,11 @@
 - db2,4(7oh): -5ob and has some pushback
 = db2,3: wall splats
 - db2,1(3ob): wall splats
-- f2,1: go-to heat engager
+- f2,1(-9ob): go-to heat engager
 - b4,1+2: leads into knd oki
 - u2,1: go-to i15 launcher
+- u4(-13ob): weakest range launcher, works at wall since no pushback
+- b3(-12ob): easy long range launcher
 
 * Neutral *
 - 
