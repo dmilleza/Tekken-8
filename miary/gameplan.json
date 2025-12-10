@@ -1,36 +1,82 @@
 {
   "best": {
     "fastHigh": {
-      "8": "",
-      "10": "",
-      "11": "",
-      "12": "",
-      "13": "4",
-      "15": "",
-      "16": "",
-      "17": ""
+      "10": "1",
+      "11": "2",
+      "12": "b1 || 4",
+      "13": "b2 || bm1",
+      "14": "wr2",
+      "17": "u2",
+      "18": "uf3 || db1+2"
     },
     "fastMid": {
-      "11": "3",
-      "12": "",
-      "13": "",
-      "14": "",
-      "15": "",
-      "16": "",
-      "17": "",
-      "18": "",
-      "19": ""
+      "11": "ws4",
+      "12": "wj4",
+      "13": "df1 || ws1 || 3 || mm1",
+      "14": "f1+2",
+      "15": "df2 || db2 || ws2 || ff2 || uf4 || 1+2 || mm2",
+      "16": "b3 || df4 || u4 || mmu1+2",
+      "17": "u1 || qcf1 || u3 || mm3",
+      "18": "f4 || b1+2 || f3+4",
+      "19": "b4 || d1+2 || bm3",
+      "20": "f2 || ss2 || df3 || ws3 || ff3",
+      "22": "u1+2",
+      "23": "wr3 || bm2",
+      "25": "uf3+4",
+      "26": "d2 || mm1+2"
     },
     "fastLow": {
-      "14": "",
-      "17": "",
-      "19": ""
+      "10": "d1",
+      "12": "d4",
+      "17": "mm4",
+      "18": "db4 || bm4",
+      "20": "d3",
+      "21": "df3+4",
+      "22": "db3"
     }
   },
   "singleHitDamage": {
-    "high": [],
-    "mid": [],
-    "low": []
+    "high": [
+      { "damage": 18, "inputs": "db1+2" },
+      { "damage": 14, "inputs": "u2" },
+      { "damage": 12, "inputs": "wr2 || bm1" },
+      { "damage": 10, "inputs": "b1 || 2 || b2" },
+      { "damage": 5, "inputs": "1" },
+      { "damage": 0, "inputs": "" },
+      { "damage": 0, "inputs": "" }
+    ],
+    "mid": [
+      { "damage": 50, "inputs": "u1" },
+      { "damage": 40, "inputs": "wj4 || bm3" },
+      { "damage": 30, "inputs": "wr3" },
+      { "damage": 25, "inputs": "qcf1 || b1+2" },
+      { "damage": 24, "inputs": "1+2 || bm2" },
+      { "damage": 23, "inputs": "f2 || d1+2 || mm1+2" },
+      { "damage": 22, "inputs": "ss2" },
+      { "damage": 20, "inputs": "d2 || ws3 || u1+2 || mm2/3" },
+      { "damage": 19, "inputs": "ff3 || b4" },
+      { "damage": 18, "inputs": "uf3+4" },
+      { "damage": 17, "inputs": "u3 || df4 || u4" },
+      { "damage": 16, "inputs": "mmu1+2" },
+      { "damage": 15, "inputs": "ws2 || df3 || ws4" },
+      { "damage": 14, "inputs": "mm1" },
+      { "damage": 12, "inputs": "ws1 || df2 || 3 || f4" },
+      { "damage": 10, "inputs": "df1 || db2 || uf4 || f3+4" },
+      { "damage": 9, "inputs": "b3" },
+      { "damage": 6, "inputs": "f1+2" },
+      { "damage": 0, "inputs": "" }
+    ],
+    "low": [
+      { "damage": 38, "inputs": "bm4" },
+      { "damage": 21, "inputs": "db3" },
+      { "damage": 17, "inputs": "df3+4" },
+      { "damage": 14, "inputs": "d3" },
+      { "damage": 13, "inputs": "db4" },
+      { "damage": 10, "inputs": "mm4" },
+      { "damage": 6, "inputs": "d4" },
+      { "damage": 5, "inputs": "d1" },
+      { "damage": 0, "inputs": "" }
+    ]
   },
   "range": {
     "4.5": "",
@@ -51,70 +97,67 @@
   "onBlock": {
     "singleHits": {
       "high": [
-        { "block": 5, "inputs": "" },
-        { "block": 2, "inputs": "" },
-        { "block": 1, "inputs": "" },
-        { "block": -3, "inputs": "" },
-        { "block": -4, "inputs": "" },
-        { "block": -5, "inputs": "" },
-        { "block": -7, "inputs": "" },
-        { "block": -10, "inputs": "" },
-        { "block": -12, "inputs": "" }
+        { "block": 4, "inputs": "bm1" },
+        { "block": 3, "inputs": "db1+2" },
+        { "block": 1, "inputs": "1" },
+        { "block": -2, "inputs": "2 || u2" },
+        { "block": -9, "inputs": "b1 || wr2" },
+        { "block": -12, "inputs": "b2" }
       ],
       "mid": [
-        { "block": 6, "inputs": "" },
-        { "block": 5, "inputs": "" },
-        { "block": 4, "inputs": "" },
-        { "block": 3, "inputs": "" },
-        { "block": 2, "inputs": "" },
-        { "block": 1, "inputs": "" },
-        { "block": -3, "inputs": "" },
-        { "block": -4, "inputs": "" },
-        { "block": -5, "inputs": "" },
-        { "block": -6, "inputs": "" },
-        { "block": -7, "inputs": "" },
-        { "block": -8, "inputs": "" },
-        { "block": -9, "inputs": "" },
-        { "block": -10, "inputs": "1+2 || bt4" },
-        { "block": -11, "inputs": "b2 || f2 || db2" },
-        { "block": -12, "inputs": "ws1 || u2 || df2 || f1+2" },
-        { "block": -13, "inputs": "u4 || bj3" },
-        { "block": -19, "inputs": "f1+4" },
-        { "block": -14, "inputs": "ub1+2 || bt3" },
-        { "block": -18, "inputs": "bjdb1+2" }
+        { "block": 6, "inputs": "wr3 || mm1+2" },
+        { "block": 4, "inputs": "ws3 || u1+2" },
+        { "block": 2, "inputs": "wj4" },
+        { "block": 1, "inputs": "ss2" },
+        { "block": -2, "inputs": "df1 || b4 || mmu1+2" },
+        { "block": -4, "inputs": "d2 || df4 || ws4 || mm1" },
+        { "block": -5, "inputs": "uf3+4" },
+        { "block": -6, "inputs": "f4 || mm2" },
+        { "block": -7, "inputs": "df2" },
+        { "block": -8, "inputs": "ws1" },
+        {
+          "block": -9,
+          "inputs": "qcf1 || 3 || df3 || u3 || ff3|| 1+2 || f3+4 || bm3"
+        },
+        { "block": -10, "inputs": "f1+2" },
+        { "block": -11, "inputs": "db2" },
+        { "block": -13, "inputs": "f2 || ws2 || b3 || u4 || b1+2 || mm3" },
+        { "block": -15, "inputs": "u1 || uf4" },
+        { "block": -17, "inputs": "d1+2" },
+        { "block": -18, "inputs": "bm2" }
       ],
       "low": [
-        { "block": -12, "inputs": "d3 || ss2" },
-        { "block": -13, "inputs": "ffn2 || bj4" },
-        { "block": -15, "inputs": "df4" },
-        { "block": -16, "inputs": "d3+4" },
-        { "block": -17, "inputs": "db4" },
+        { "block": -5, "inputs": "d1" },
+        { "block": -12, "inputs": "db4 || mm4" },
+        { "block": -14, "inputs": "d3" },
+        { "block": -15, "inputs": "d4 || df3+4" },
+        { "block": -24, "inputs": "bm4" },
         { "block": -26, "inputs": "db3" }
       ]
     },
     "combos": {
       "high": [
-        { "block": 0, "inputs": "df2,1 || 4,3" },
-        { "block": -3, "inputs": "1,2 || 1+2,2" },
-        { "block": -5, "inputs": "db2,4" },
-        { "block": -6, "inputs": "df1,2" },
-        { "block": -7, "inputs": "b2,1,2" },
-        { "block": -8, "inputs": "3+4,1" },
-        { "block": -9, "inputs": "f2,1" }
+        { "block": 0, "inputs": "" },
+        { "block": -3, "inputs": "" },
+        { "block": -5, "inputs": "" },
+        { "block": -6, "inputs": "" },
+        { "block": -7, "inputs": "" },
+        { "block": -8, "inputs": "" },
+        { "block": -9, "inputs": "" }
       ],
       "mid": [
-        { "block": 0, "inputs": "3+4,1+2" },
-        { "block": -3, "inputs": "2,1" },
-        { "block": -5, "inputs": "1,2,1" },
-        { "block": -9, "inputs": "3,4" },
-        { "block": -10, "inputs": "d1,4" },
-        { "block": -11, "inputs": "d2,4,3 || f3,2" },
-        { "block": -12, "inputs": "db2,3 || db2,4,2 || b2,1" },
-        { "block": -13, "inputs": "u2,1 || 3,4,1 || f3,2,1 || ws3,1 || 1+2,4" },
-        { "block": -14, "inputs": "d2,4" },
-        { "block": -18, "inputs": "3+4,2" }
+        { "block": 0, "inputs": "" },
+        { "block": -3, "inputs": "" },
+        { "block": -5, "inputs": "" },
+        { "block": -9, "inputs": "" },
+        { "block": -10, "inputs": "" },
+        { "block": -11, "inputs": "" },
+        { "block": -12, "inputs": "" },
+        { "block": -13, "inputs": "" },
+        { "block": -14, "inputs": "" },
+        { "block": -18, "inputs": "" }
       ],
-      "low": [{ "block": 21, "inputs": "df2,1,3" }]
+      "low": [{ "block": 21, "inputs": "" }]
     }
   },
   "trueCombos": [
@@ -150,10 +193,8 @@
     }
   ],
   "crouches": "",
-  "airborne": "",
-  "blueSparks": "",
   "guaranteed": {
-    "9": { "": 0 }
+    "": { "": 0 }
   },
   "counterhits": {
     "singlehits": {
@@ -327,67 +368,44 @@
       "bt3": {}
     }
   },
-  "favemoves": {
-    "singlehits": "d2+3 || db4 || u1 || u3+4 || ff3+4 || ffF3+4 || bs1",
-    "comboenders": "3+4,2 || 3+4,1+2 || d2,4,3 || db2,3",
-    "throws": "hold3+4 || df3+4 || df2+3 || uf1+2"
-  },
   "photofinishers": {
     "left": {
-      "high": [""],
-      "mid": [""]
+      "high": ["b1,4"],
+      "mid": ["b3 || ff3 || uf4,4 || uf3+4"],
+      "low": ["fcdf4"]
     },
     "right": {
-      "high": [""],
-      "mid": [""]
+      "high": ["b3,4"],
+      "mid": ["f3+4 || uf3+4"]
     }
   },
   "rapunishers": [
     {
-      "damage": 41,
-      "inputs": "u2,1 > d4,4,3+4"
+      "damage": 0,
+      "inputs": ""
     },
     {
-      "damage": 40,
-      "inputs": "df2+3"
+      "damage": 0,
+      "inputs": ""
     },
     {
-      "damage": 38,
-      "inputs": "u2,1 > 3+4,2/1+2",
-      "notes": "staple combo"
+      "damage": 0,
+      "inputs": ""
     }
   ],
   "wallonestuff": {
-    "ss4": [
+    "b4": [
       {
-        "damage": 61,
-        "inputs": "d3+4,3 > 3,4,1"
+        "damage": 57,
+        "inputs": "df1,1,1+2 > splat > 3,2,1"
       },
       {
-        "damage": 60,
-        "inputs": "df1,2 > 3,4,1"
+        "damage": 55,
+        "inputs": "df1,1,1+2 > splat > f1+2,f1+2,3+4"
       },
       {
-        "damage": 58,
-        "inputs": "d3+4,3 > wallgrab"
-      },
-      {
-        "damage": 56,
-        "inputs": "f3,2,1 > wallgrab"
-      }
-    ],
-    "db2,3": [
-      {
-        "damage": 73,
-        "inputs": "d3+4,3 > 3,4,1"
-      },
-      {
-        "damage": 73,
-        "inputs": "d3+4,3 > hb > 3,4,1"
-      },
-      {
-        "damage": 70,
-        "inputs": "d3+4,3 > wallgrab"
+        "damage": 53,
+        "inputs": "f3+4,2 > splat > 1 > 3,1,2"
       }
     ],
     "qcb1+2": [
@@ -452,23 +470,27 @@
   },
   "launchers": {
     "damageData": {
-      "initialmove": "bs2",
+      "initialmove": "df2",
       "orderedDamage": [
         {
-          "inputs": "f3,2,1",
-          "damage": 42
+          "inputs": "",
+          "damage": 0
         },
         {
-          "inputs": "d3+4,3",
-          "damage": 38
+          "inputs": "",
+          "damage": 0
         },
         {
-          "inputs": "df1,2",
-          "damage": 37
+          "inputs": "",
+          "damage": 0
         },
         {
-          "inputs": "b3",
-          "damage": 31
+          "inputs": "",
+          "damage": 0
+        },
+        {
+          "inputs": "",
+          "damage": 0
         }
       ]
     },
