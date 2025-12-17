@@ -1,6 +1,6 @@
 {
-  "best": {
-    "fastHigh": {
+  "fast": {
+    "high": {
       "10": "1",
       "11": "2",
       "12": "b1 || 4",
@@ -9,7 +9,7 @@
       "17": "u2",
       "18": "uf3 || db1+2"
     },
-    "fastMid": {
+    "mid": {
       "11": "ws4",
       "12": "wj4",
       "13": "df1 || ws1 || 3 || mm1",
@@ -25,7 +25,7 @@
       "25": "uf3+4",
       "26": "d2 || mm1+2"
     },
-    "fastLow": {
+    "low": {
       "10": "d1",
       "12": "d4",
       "17": "mm4",
@@ -162,24 +162,113 @@
   },
   "trueCombos": [
     {
-      "inputs": "",
-      "hit": 0,
-      "damage": 0
+      "inputs": "1,1,2",
+      "hit": 2,
+      "damage": 22
     },
     {
-      "inputs": "",
-      "hit": 0,
-      "damage": 0
+      "inputs": "1,2",
+      "hit": 8,
+      "damage": 11
     },
     {
-      "inputs": "",
+      "inputs": "1,3",
       "hit": 0,
-      "damage": 0
+      "damage": 15
     },
     {
-      "inputs": "",
-      "hit": 0,
-      "damage": 0
+      "inputs": "df1,1",
+      "hit": 5,
+      "damage": 27
+    },
+    {
+      "inputs": "df1,4",
+      "hit": 6,
+      "damage": 27
+    },
+    {
+      "inputs": "b1,4",
+      "damage": 31
+    },
+    {
+      "inputs": "ws1,4",
+      "damage": 32
+    },
+    {
+      "inputs": "2,2",
+      "damage": 30
+    },
+    {
+      "inputs": "db2,3",
+      "hit": 2,
+      "damage": 20
+    },
+    {
+      "inputs": "db2,4",
+      "hit": 6,
+      "damage": 27
+    },
+    {
+      "inputs": "b2,3",
+      "hit": 2,
+      "damage": 26
+    },
+    {
+      "inputs": "u2,3",
+      "hit": 2,
+      "damage": 28
+    },
+    {
+      "inputs": "ff2,2",
+      "damage": 32
+    },
+    {
+      "inputs": "wr2,1",
+      "damage": 26
+    },
+    {
+      "inputs": "3,1",
+      "hit": 1,
+      "damage": 22
+    },
+    {
+      "inputs": "3,2",
+      "damage": 32
+    },
+    {
+      "inputs": "df3,3",
+      "damage": 35
+    },
+    {
+      "inputs": "b3,4",
+      "hit": -5,
+      "damage": 22
+    },
+    {
+      "inputs": "4,4",
+      "hit": 6,
+      "damage": 32
+    },
+    {
+      "inputs": "f4,2",
+      "damage": 32
+    },
+    {
+      "inputs": "f4,4",
+      "hit": 9,
+      "damage": 27
+    },
+    {
+      "inputs": "uf4,4",
+      "damage": 26
+    },
+    {
+      "inputs": "f1+2,1+2,3+4",
+      "damage": 30
+    },
+    {
+      "inputs": "f3+4,2",
+      "damage": 30
     },
     {
       "inputs": "",
@@ -192,9 +281,12 @@
       "damage": 0
     }
   ],
-  "crouches": "",
+  "crouches": "d1 || d3 || db3 || d4 || d1+2 || df3+4",
   "guaranteed": {
-    "": { "": 0 }
+    "db1+2": { "3,2": 40 },
+    "u1+2": { "ws1,4": 0 },
+    "wcdf4": { "d1+2": 38 },
+    "wr2,1": { "qcf1": 46 }
   },
   "counterhits": {
     "singlehits": {
@@ -371,11 +463,9 @@
   "photofinishers": {
     "left": {
       "high": ["b1,4"],
-      "mid": ["b3 || ff3 || uf4,4 || uf3+4"],
-      "low": ["fcdf4"]
+      "mid": ["b3 || ff3 || uf4,4 || uf3+4"]
     },
     "right": {
-      "high": ["b3,4"],
       "mid": ["f3+4 || uf3+4"]
     }
   },
@@ -473,128 +563,101 @@
       "initialmove": "df2",
       "orderedDamage": [
         {
-          "inputs": "",
-          "damage": 0
+          "inputs": "df1,1,1+2",
+          "damage": 36
         },
         {
-          "inputs": "",
-          "damage": 0
+          "inputs": "uf4,4",
+          "damage": 30
         },
         {
-          "inputs": "",
-          "damage": 0
+          "inputs": "b1,4",
+          "damage": 29
         },
         {
-          "inputs": "",
-          "damage": 0
+          "inputs": "f3+4,2",
+          "damage": 29
         },
         {
-          "inputs": "",
-          "damage": 0
+          "inputs": "2,2",
+          "damage": 29
+        },
+        {
+          "inputs": "d1+2",
+          "damage": 28
+        },
+        {
+          "inputs": "1,2,2",
+          "damage": 26
         }
       ]
     },
     "lowparry": {
       "wall5": [
         {
-          "damage": 52,
-          "inputs": "bs1 > f3,2,bs1 > f3,2,bs1 > db2,3"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 49,
-          "inputs": "4 > f3,2,bs1 > f3,2,bs1 > db2,3"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 48,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,bs,ws3,1"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 46,
-          "inputs": "1+2,2 > f3,2,bs1 > f3,2,bs,ws3,1"
+          "damage": 0,
+          "inputs": ""
         }
       ],
       "wall1": []
     },
-    "u4": {
+    "uf4,4": {
       "wall5": [
         {
-          "damage": 89,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > f1+2,bj > hb > ws3,1,hdash > d4,4,3+4"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 87,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > f1+2,bj > hb > ff4,hdash > d4,4,3+4"
-        },
-        {
-          "damage": 84,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,1 > f1+2,bj > hb > ws3,1,hdash > f1+4"
-        },
-        {
-          "damage": 78,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,1 > f1+2,bj > hb > d4,4,3+4",
-          "notes": "staple combo"
-        },
-        {
-          "damage": 76,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,1 > f1+2,bj3+4"
-        },
-        {
-          "damage": 73,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > ffF2+4"
-        },
-        {
-          "damage": 72,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,1 > ffF2+4"
+          "damage": 0,
+          "inputs": ""
         }
       ],
       "wall4": [
         {
-          "damage": 72,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,1 > splat > grab"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 74,
-          "inputs": "df2,1 > bj2,3 > f3,2,1 > splat > 1 > df1 > f1+4"
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 76,
-          "inputs": "u3 > df2,1 > bj2,3 > db2,4 > splat > 1 > df2 > f1+4"
-        },
-        {
-          "damage": 77,
-          "inputs": "u3 > df2,1 > bj2,3 > db2,4 > splat > 1 > df2 > f1+4"
+          "damage": 0,
+          "inputs": ""
         }
       ]
     },
     "ws1": {
       "wall5": [
         {
-          "damage": 80,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > f1+2 > bj2+4"
-        },
-        {
-          "damage": 79,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > f1+2 > bj1+3"
-        },
-        {
-          "damage": 77,
-          "inputs": "1+2,2 > f3,2,bs1 > f3,2,1 > f1+2 > bj2+4"
-        },
-        {
-          "damage": 76,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > ffF2+4"
-        },
-        {
-          "damage": 73,
-          "inputs": "1+2,2 > f3,2,bs1 > f3,2,1 > ffF2+4"
+          "damage": 0,
+          "inputs": "0"
         },
         {
           "damage": 0,
-          "inputs": ""
+          "inputs": "0"
         },
         {
           "damage": 0,
-          "inputs": ""
+          "inputs": "0"
         }
       ],
       "wall4": [
@@ -719,7 +782,17 @@
       ]
     }
   },
-  "canDelay": ["f3,2,1", "b2,1,2"],
+  "canDelay": ["3,1,2"],
+  "changesCamAngle": [
+    "u1",
+    "qcf1",
+    "2,2",
+    "4,2",
+    "f4,4,4",
+    "uf4,4",
+    "f1+2,1+2,3+4",
+    "f3+4,2"
+  ],
   "placeholder": {
     "wall5": [
       {
