@@ -79,20 +79,11 @@
     ]
   },
   "range": {
-    "4.5": "",
-    "3.9": "",
+    "4.0": "ff2,2 || ff3",
     "3.5": "",
-    "3.4": "",
-    "3.2": "",
-    "3.1": "",
-    "2.8": "",
-    "2.7": "",
-    "2.6": "",
+    "3.0": "f2 || df3",
     "2.5": "",
-    "2.4": "",
-    "2.3": "",
-    "2.2": "",
-    "2": ""
+    "2.0": ""
   },
   "onBlock": {
     "singleHits": {
@@ -162,19 +153,50 @@
   },
   "trueCombos": [
     {
-      "inputs": "1,1,2",
+      "inputs": "df3,3",
+      "damage": 35
+    },
+    {
+      "inputs": "ws1,4",
+      "damage": 32
+    },
+    {
+      "inputs": "ff2,2",
+      "damage": 32
+    },
+    {
+      "inputs": "3,2",
+      "damage": 32
+    },
+    {
+      "inputs": "4,4",
+      "hit": 6,
+      "damage": 32
+    },
+    {
+      "inputs": "f4,2",
+      "damage": 32
+    },
+    {
+      "inputs": "b1,4",
+      "damage": 31
+    },
+    {
+      "inputs": "2,2",
+      "damage": 30
+    },
+    {
+      "inputs": "f1+2,1+2,3+4",
+      "damage": 30
+    },
+    {
+      "inputs": "f3+4,2",
+      "damage": 30
+    },
+    {
+      "inputs": "u2,3",
       "hit": 2,
-      "damage": 22
-    },
-    {
-      "inputs": "1,2",
-      "hit": 8,
-      "damage": 11
-    },
-    {
-      "inputs": "1,3",
-      "hit": 0,
-      "damage": 15
+      "damage": 28
     },
     {
       "inputs": "df1,1",
@@ -187,25 +209,13 @@
       "damage": 27
     },
     {
-      "inputs": "b1,4",
-      "damage": 31
-    },
-    {
-      "inputs": "ws1,4",
-      "damage": 32
-    },
-    {
-      "inputs": "2,2",
-      "damage": 30
-    },
-    {
-      "inputs": "db2,3",
-      "hit": 2,
-      "damage": 20
-    },
-    {
       "inputs": "db2,4",
       "hit": 6,
+      "damage": 27
+    },
+    {
+      "inputs": "f4,4",
+      "hit": 9,
       "damage": 27
     },
     {
@@ -214,17 +224,17 @@
       "damage": 26
     },
     {
-      "inputs": "u2,3",
-      "hit": 2,
-      "damage": 28
-    },
-    {
-      "inputs": "ff2,2",
-      "damage": 32
-    },
-    {
       "inputs": "wr2,1",
       "damage": 26
+    },
+    {
+      "inputs": "uf4,4",
+      "damage": 26
+    },
+    {
+      "inputs": "1,1,2",
+      "hit": 2,
+      "damage": 22
     },
     {
       "inputs": "3,1",
@@ -232,43 +242,24 @@
       "damage": 22
     },
     {
-      "inputs": "3,2",
-      "damage": 32
-    },
-    {
-      "inputs": "df3,3",
-      "damage": 35
-    },
-    {
       "inputs": "b3,4",
       "hit": -5,
       "damage": 22
     },
     {
-      "inputs": "4,4",
-      "hit": 6,
-      "damage": 32
+      "inputs": "db2,3",
+      "hit": 2,
+      "damage": 20
     },
     {
-      "inputs": "f4,2",
-      "damage": 32
+      "inputs": "1,3",
+      "hit": 0,
+      "damage": 15
     },
     {
-      "inputs": "f4,4",
-      "hit": 9,
-      "damage": 27
-    },
-    {
-      "inputs": "uf4,4",
-      "damage": 26
-    },
-    {
-      "inputs": "f1+2,1+2,3+4",
-      "damage": 30
-    },
-    {
-      "inputs": "f3+4,2",
-      "damage": 30
+      "inputs": "1,2",
+      "hit": 8,
+      "damage": 11
     },
     {
       "inputs": "",
@@ -284,7 +275,7 @@
   "crouches": "d1 || d3 || db3 || d4 || d1+2 || df3+4",
   "guaranteed": {
     "db1+2": { "3,2": 40 },
-    "u1+2": { "ws1,4": 0 },
+    "u1+2": { "ws1,4": 42 },
     "wcdf4": { "d1+2": 38 },
     "wr2,1": { "qcf1": 46 }
   },
@@ -595,13 +586,31 @@
     "lowparry": {
       "wall5": [
         {
-          "damage": 0,
-          "inputs": ""
+          "damage": 45,
+          "inputs": "ff3 > db2,3 > b3,4,2 > u1"
+        },
+        {
+          "damage": 43,
+          "inputs": "ff3 > df4,mm1+2 > 4,4,bm2"
+        },
+        {
+          "damage": 42,
+          "inputs": "ff3 > db2,3 > b3,4,2 > mm1,2"
+        },
+        {
+          "damage": 41,
+          "inputs": "ff3 > db2,3 > b3,4,2 > 3,2"
+        },
+        {
+          "damage": 40,
+          "inputs": "ff3 > b3,4,2 > u1"
         },
         {
           "damage": 0,
           "inputs": ""
-        },
+        }
+      ],
+      "wall4": [
         {
           "damage": 0,
           "inputs": ""
@@ -611,9 +620,62 @@
           "inputs": ""
         }
       ],
-      "wall1": []
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
     },
     "uf4,4": {
+      "wall5": [
+        {
+          "damage": 59,
+          "inputs": "ff3 > b3,4,2 > u1"
+        },
+        {
+          "damage": 57,
+          "inputs": "ff3 > df4,mm1,4 > bm2"
+        },
+        {
+          "damage": 56,
+          "inputs": "ff3 > b3,4,2 > mm1,2"
+        },
+        {
+          "damage": 55,
+          "inputs": "ff3 > b3,4,2 > 3,2"
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 71,
+          "inputs": "ff3 > df4, > mm1,2 > splat > 1,df1,scratchcombo"
+        },
+        {
+          "damage": 68,
+          "inputs": "ff3 > b3,4,2 > mm1 > splat > 3,1,2"
+        },
+        {
+          "damage": 66,
+          "inputs": "ff3 > b3,4,2 > mm1 > splat > scratchcombo"
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
+    },
+    "ws2": {
       "wall5": [
         {
           "damage": 0,
@@ -645,55 +707,128 @@
         }
       ]
     },
-    "ws1": {
+    "df2": {
       "wall5": [
         {
-          "damage": 0,
-          "inputs": "0"
+          "damage": 74,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > u1"
+        },
+        {
+          "damage": 72,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > u1"
+        },
+        {
+          "damage": 71,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > mm1,2"
+        },
+        {
+          "damage": 69,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > f4,4,4"
+        },
+        {
+          "damage": 67,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > ff3 > 3,2 || ff2,2",
+          "notes": "staple combo"
         },
         {
           "damage": 0,
-          "inputs": "0"
+          "inputs": ""
         },
         {
           "damage": 0,
-          "inputs": "0"
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 78,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > u3 > splat > 1,df1,scratchcombo"
+        },
+        {
+          "damage": 78,
+          "inputs": "u3 > df4,mm1,4 > "
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
+    },
+    "f3+4,2": {
+      "wall5": [
+        {
+          "damage": 75,
+          "inputs": "ff3 > db2,3 > b3,4,2 > u1"
+        },
+        {
+          "damage": 73,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
         }
       ],
       "wall4": [
         {
           "damage": 82,
-          "inputs": "1+2,2 > f3,2,bs1 > db2,4 > splat > f3,2,1 > splat > wallgrab"
-        },
-        {
-          "damage": 81,
-          "inputs": "1+2,2 > f3,2,bs1 > db2,4 > splat > d3+4,3 > splat > d2,4,3"
+          "inputs": "ff3 > df4, > mm1,2 > splat > 1,df1,scratchcombo"
         },
         {
           "damage": 79,
-          "inputs": "1+2,2 > f3,2,bs1 > f3,2,1 > "
+          "inputs": "b3,4,2 > mm1,2 > splat > 1,df1,scratchcombo"
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
         }
       ]
     },
-    "u2,1": {
+    "d1+2": {
       "wall5": [
         {
-          "damage": 77,
-          "inputs": "df1 > df3 > f3,2,bs1 > f3,2,1 > f1+2,bj3+4"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 74,
-          "inputs": "3+4,1 > f3,2,bs1 > f3,2,1 > ffF2+4",
-          "notes": "staple combo, same damage as 1+2,2 but more reliable"
-        },
-        {
-          "damage": 73,
-          "inputs": "f1+2 > bj1+3 > f1+4",
-          "notes": "staple fast combo that floor breaks, covers most options"
-        },
-        {
-          "damage": 73,
-          "inputs": "df1 > df3 > f3,2,bs1 > f3,2,1 > ffF2+4"
+          "damage": 0,
+          "inputs": ""
         }
       ],
       "wall4": [
@@ -705,53 +840,37 @@
           "damage": 0,
           "inputs": ""
         }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
       ]
     },
-    "bs2": {
+    "uf3+4": {
       "wall5": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 82,
+          "inputs": "db2,3 > b3,4,2 > mm1,2 > splat > df1,1,1+2 > 3,1,2"
+        },
         {
           "damage": 80,
-          "inputs": "4,3 > f3,2,bs1 > f3,2,1 > ffF2+4"
-        },
-        {
-          "damage": 79,
-          "inputs": "u3 > df3 > f3,2,bs1 > f3,2,1 > ffF2+4"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall4": [
-        {
-          "damage": 94,
-          "inputs": "4,3 > f3,2,bs1 > db2,4 > splat > d3+4,3 > splat > 3,4,1"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ]
-    },
-    "b3": {
-      "wall5": [
-        {
-          "damage": 69,
-          "inputs": "bs1 > f3,2,bs1 > f3,2,bs1 > db2,3"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall4": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
+          "inputs": "db2,3 > b3,4,2 > mm1,2 > splat > df1,1,1+2 > scratchcombo"
         }
       ],
       "wall1": [
