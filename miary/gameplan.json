@@ -612,12 +612,12 @@
       ],
       "wall4": [
         {
-          "damage": 0,
-          "inputs": ""
+          "damage": 57,
+          "inputs": "ff3 > db2,3 > df4,mm1,2 > splat > 1,df1,scratchcombo"
         },
         {
-          "damage": 0,
-          "inputs": ""
+          "damage": 57,
+          "inputs": "ff3 > b3,4,2 > mm1,2, splat > 1,df1,scratchcombo"
         }
       ],
       "wall1": [
@@ -633,6 +633,14 @@
     },
     "uf4,4": {
       "wall5": [
+        {
+          "damage": 70,
+          "inputs": "ff3 > b3,4,2 > hb > df4,mm1,2 > hdash > wr3"
+        },
+        {
+          "damage": 68,
+          "inputs": "ff3 > b3,4,2 > hb > df4,mm1,2 > hdash > qcf1"
+        },
         {
           "damage": 59,
           "inputs": "ff3 > b3,4,2 > u1"
@@ -678,6 +686,34 @@
     "ws2": {
       "wall5": [
         {
+          "damage": 85,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > 3,2,hdash > wr3"
+        },
+        {
+          "damage": 83,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > 3,2,hdash > qcf1"
+        },
+        {
+          "damage": 77,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > u1"
+        },
+        {
+          "damage": 74,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2,bm1,2"
+        },
+        {
+          "damage": 73,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb "
+        },
+        {
+          "damage": 70,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > ff3 > 3,2 || ff2,2"
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
           "damage": 0,
           "inputs": ""
         },
@@ -709,6 +745,14 @@
     },
     "df2": {
       "wall5": [
+        {
+          "damage": 82,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > 3,2,hdash > wr3"
+        },
+        {
+          "damage": 80,
+          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > 3,2,hdash > qcf1"
+        },
         {
           "damage": 74,
           "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > u1"
@@ -784,7 +828,7 @@
         },
         {
           "damage": 73,
-          "inputs": ""
+          "inputs": "ff3 > db2,3 > df4,mm1,4 > bm2"
         },
         {
           "damage": 0,
@@ -886,14 +930,32 @@
     }
   },
   "heatDash": {
-    "b1": {
+    "3,2": {
       "wall5": [
+        {
+          "damage": 51,
+          "inputs": "wr3"
+        },
+        {
+          "damage": 48,
+          "inputs": "qcf1 || b1+2"
+        }
+      ],
+      "wall2": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
         {
           "damage": 0,
           "inputs": ""
         }
       ],
       "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
         {
           "damage": 0,
           "inputs": ""
