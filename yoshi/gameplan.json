@@ -518,23 +518,23 @@
     }
   ],
   "floorbreak": {
-    "f3+4,2": {
+    "b3": {
       "wall5>": [
         {
-          "damage": 94,
-          "inputs": "u1 > break > ff3 > b3,4,2 > hb > df4,mm1,2,hdash > wr3"
+          "damage": 78,
+          "inputs": "ffF2+4 > break > bs1 > f3,2,bs1 > f3,2,bs,ws3,1"
         },
         {
-          "damage": 84,
-          "inputs": "u1 > break > ff3 > b3,4,2,mm1,2"
+          "damage": 73,
+          "inputs": "bs1 > f3,2,bs1 > f3,2,bs1, d2 > break > f1+2 > bj4"
+        },
+        {
+          "damage": 69,
+          "inputs": "f1+2 > bj1+3 > break > bs1 > f3,2,bs1 > f3,2,bs1 > db2,3"
         }
       ]
     },
     "wallonestuff": [
-      {
-        "damage": 86,
-        "inputs": "db2,3 > splat > ffF2+4 > break > bs1 > f3,2,bs1 > f3,2,1 > ffF2+4"
-      },
       {
         "damage": 86,
         "inputs": "db2,3 > splat > ffF2+4 > break > bs1 > f3,2,bs1 > f3,2,1 > ffF2+4"
@@ -640,10 +640,6 @@
         {
           "damage": 68,
           "inputs": "ff3 > b3,4,2 > hb > df4,mm1,2 > hdash > qcf1"
-        },
-        {
-          "damage": 63,
-          "inputs": "ssr > df4,mmu1+2 > b3,4,2 > u1"
         },
         {
           "damage": 59,
@@ -871,39 +867,6 @@
     "d1+2": {
       "wall5": [
         {
-          "damage": 93,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > 3,2,hdash > wr3"
-        },
-        {
-          "damage": 91,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > 3,2,hdash > qcf1"
-        },
-        {
-          "damage": 85,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > u1",
-          "notes": "staple combo"
-        },
-        {
-          "damage": 83,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > hb > u1"
-        },
-        {
-          "damage": 82,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > b3,4,2 > mm1,2"
-        },
-        {
-          "damage": 80,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > f4,4,4"
-        },
-        {
-          "damage": 78,
-          "inputs": "u3 > df4,mm1+2 > 4,4,bm2 > ff3 > 3,2 || ff2,2"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
           "damage": 0,
           "inputs": ""
         },
@@ -914,16 +877,12 @@
       ],
       "wall4": [
         {
-          "damage": 94,
-          "inputs": "u3 > df4 > b3,4,2,mm1,2 > splat > df1,1,1+2 > splat > pancakecombo"
+          "damage": 0,
+          "inputs": ""
         },
         {
-          "damage": 89,
-          "inputs": "u3 > u3 > df4,mm1,2 > splat > df1,1,1+2 > splat > pancakecombo"
-        },
-        {
-          "damage": 84,
-          "inputs": "u3 > u3 > df4,mm1,2 > splat > f3+4,2 > splat > pancakecombo"
+          "damage": 0,
+          "inputs": ""
         }
       ],
       "wall1": [
@@ -940,8 +899,8 @@
     "uf3+4": {
       "wall5": [
         {
-          "damage": 73,
-          "inputs": "db2,4 > df4,mm1,4 > bm2 > b3,4,2 > u1"
+          "damage": 0,
+          "inputs": ""
         },
         {
           "damage": 0,
@@ -991,28 +950,6 @@
           "damage": 0,
           "inputs": ""
         }
-      ]
-    },
-    "1+2": {
-      "wall5": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall4": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
       ],
       "wall1": [
         {
@@ -1024,31 +961,9 @@
           "inputs": ""
         }
       ]
-    },
-    "ws1,4": {
-      "wall5": [
-        {
-          "damage": 51,
-          "inputs": "wr3"
-        },
-        {
-          "damage": 48,
-          "inputs": "qcf1 || b1+2"
-        }
-      ],
-      "wall2": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ]
     }
   },
-  "canDelay": ["ws1,4 || 3,1,2 "],
+  "canDelay": ["3,1,2"],
   "changesCamAngle": [
     "u1",
     "qcf1",
