@@ -1,0 +1,14 @@
+* Fave moves *
+- 2,1 ; can cancel second hit
+- d1 
+- ub1+3 ; can mixup with second hit 1+2
+- u1 ; ch launching -4ob 20dmg mid
+- u2 ; can cancel 
+- uf3+4,d3+4 ; transitions to indian stance
+- uf3+4,1,3+4 ; 0ob mid 
+- uf3+4,3 ; -4ob mid
+- ff3 ; long range
+- ws1,1,1,1 ; 0ob mid
+- wcdf4, d3+4 ; transitions to indian stance
+- both side grabs
+- qcf2 ; 1+2break 22dmg
