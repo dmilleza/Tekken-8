@@ -634,6 +634,10 @@
     "uf4,4": {
       "wall5": [
         {
+          "damage": 74,
+          "inputs": "ssr > df4,mmu1+2 > b3,4,2 > hb > df4,mm1,2 > hdash > wr3"
+        },
+        {
           "damage": 70,
           "inputs": "ff3 > b3,4,2 > hb > df4,mm1,2 > hdash > wr3"
         },
@@ -643,7 +647,8 @@
         },
         {
           "damage": 63,
-          "inputs": "ssr > df4,mmu1+2 > b3,4,2 > u1"
+          "inputs": "ssr > df4,mmu1+2 > b3,4,2 > u1",
+          "notes": "staple combo"
         },
         {
           "damage": 59,
