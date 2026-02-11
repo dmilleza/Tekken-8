@@ -39,7 +39,7 @@
   {
     "character": "bryan",
     "heatproperties": "m,m,-9",
-    "muknowledge": [],
+    "muknowledge": ["looks for counterhits", "ssl evades hatchet"],
     "launchthat": {
       "qcb2,4": 0,
       "qcf4,1,2": 0,
