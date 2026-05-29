@@ -12,6 +12,15 @@
     "drills": {}
   },
   {
+    "character": "anna",
+    "heatproperties": "",
+    "lows": {
+      "": 0
+    },
+    "drills": {},
+    "notes": ["SSL crouch stance", "learn hammer chance options"]
+  },
+  {
     "character": "asuka",
     "heatproperties": "m,m,m,10",
     "lows": {
@@ -73,7 +82,18 @@
       "f4,1": 13,
       "ws1": 14,
       "1+2,2": 14
-    }
+    },
+    "notes": [
+      "baits you looking for counterhits",
+      "eat hatchets, dont get hit by launching mids",
+      "ssl hatchet",
+      "ssr mid range, mainly canon and requiem",
+      "always block snake edge on reaction",
+      "f3 is 0ob but 2ob distal",
+      "1,2,1 and 1,2,3 is reactable and not a mixup",
+      "qcb2,4 is m,h",
+      "deny taunt oki, be unpredictabe getting up"
+    ]
   },
   {
     "character": "claudio",
@@ -94,7 +114,8 @@
     "launchers": {},
     "lows": {},
     "plus": {},
-    "drills": {}
+    "drills": {},
+    "notes": ["stepable neutral like heihachi, ssr"]
   },
   {
     "character": "dragunov",
@@ -117,7 +138,12 @@
     "launchers": {},
     "lows": {},
     "plus": {},
-    "drills": {}
+    "drills": {},
+    "notes": [
+      "strong backdash",
+      "df3 is great wpunisher, -18ob",
+      "ss3+4 is h,h safe launcher"
+    ]
   },
   {
     "character": "feng",
@@ -153,7 +179,10 @@
       "d3+4": 14
     },
     "plus": {},
-    "drills": {}
+    "drills": {},
+    "notes": [
+      "keep out moves are df2 and orbital"
+    ]
   },
   {
     "character": "jack",
@@ -204,7 +233,8 @@
     "drills": {
       "d1": 13,
       "u4": 13,
-      "ws2": 12
+      "ws2": 12,
+      "2,1,4": 10
     }
   },
   {
@@ -531,7 +561,8 @@
       "ub4": 13,
       "b1+2": 13,
       "b4,1": 14
-    }
+    },
+    "hitsbutterfly": "u1 || *db2* || b3 || f1+2 || *d1+2*"
   },
   {
     "character": "yoshimitsu",
