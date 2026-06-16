@@ -17,7 +17,7 @@
       "12": "df4 || ws1 || setsu2",
       "13": "df1 || ws2 || qcf2",
       "14": "hs || dp2 || bt1+2 ",
-      "15": "qcf1 || df2 || u3 || ws3 || f4 || b1+2 || f3+4 || setsu1+2",
+      "15": "qcf1 || df2 || u3 || ws3 || f3+4 || f4 || b1+2 || setsu1+2",
       "16": "d2 || db2 || btf1+2 || hb || heatu1+2",
       "17": "f1+2 || b2 || uf2 || ss2 || df3 || df3+4",
       "18": "b4 || kat3 || setsu4 || heatdb1+2",
@@ -81,7 +81,7 @@
       { "damage": 30, "inputs": "heatkatd1+2" },
       { "damage": 28, "inputs": "btd4" },
       { "damage": 25, "inputs": "u2 || uf3+4,2" },
-      { "damage": 20, "inputs": "ss4" },
+      { "damage": 20, "inputs": "ss4 || btd2" },
       { "damage": 17, "inputs": "d1+2 || set3" },
       { "damage": 16, "inputs": "kat4" },
       { "damage": 13, "inputs": "db4" },
@@ -93,26 +93,23 @@
     ]
   },
   "range": {
-    "infinite": "qcf1",
-    "4.0": "",
+    "infinite": " * qcf1 * ",
     "3.6": "uf3+4,2",
     "3.5": "qcf1+2 || kat4",
     "3.3": "ff2",
-    "3.0": "f1+2 || d1+2 || kat3",
-    "2.9": "ub3+4 || qcf2 || ss4 || 3+4 || f3+4 || uf3+4,4 || u4 || df3+4",
+    "3.0": " * f1+2 * || d1+2 || kat3",
+    "2.9": " * ub3+4 * || qcf2 || ss4 || 3+4 || f3+4 || uf3+4,4 || u4 || df3+4",
     "2.8": "uf2 || d2 || kat2 || ss2",
-    "2.7": "dp2 || df3",
+    "2.7": " * dp2 * || df3",
     "2.6": "ws2 || b4 || b1+2",
-    "2.5": "u3 || f2 || b3",
-    "2.4": "d1 || df2 || b2 || db4 || db3 || ws3 || d4 || f4 || db2 || u2 || kat1",
+    "2.5": " ** u3 || f2 ** || b3",
+    "2.4": " ** d1 || df2 || b2 || db4 || db3 || ws3 || db2 || d4 ** || f4 || u2 || kat1",
     "2.3": "d3 || wcd3/4",
-    "2.2": "df4 || 3 || 4 || u3+4 || ws1",
-    "2.1": "df1 || ws4",
-    "2.0": "2",
+    "2.2": " ** df4 || 3 || ws1 ** || 4 || u3+4 ",
+    "2.1": " ** df1 || ws4 ** ",
+    "2.0": " * 2 *",
     "1.9": "ub2",
-    "1.8": "1 || b1 || db1 || kat1+2",
-    "1.7": "",
-    "1.5": "",
+    "1.8": " * 1 * || b1 || db1 || kat1+2",
     "1.0": ""
   },
   "onBlock": {
@@ -127,34 +124,35 @@
         { "block": -9, "inputs": "f2 || 4" }
       ],
       "mid": [
-        { "block": 6, "inputs": "" },
-        { "block": 4, "inputs": "" },
-        { "block": 2, "inputs": "" },
-        { "block": 1, "inputs": "" },
-        { "block": -2, "inputs": "" },
-        { "block": -4, "inputs": "" },
-        { "block": -5, "inputs": "" },
-        { "block": -6, "inputs": "" },
-        { "block": -7, "inputs": "" },
-        { "block": -8, "inputs": "" },
+        { "block": 5, "inputs": "kat2 || heatu1+2" },
+        { "block": 3, "inputs": "d1 || wr3 || hs" },
+        { "block": 1, "inputs": "u3+4" },
+        { "block": -2, "inputs": "df1 || df3+4 || bt1+2" },
+        { "block": -3, "inputs": "bt3" },
+        { "block": -5, "inputs": "kat3 || f3+4 || f4 || ss2" },
+        { "block": -6, "inputs": "db2 || ws4 || f1+2 || df3" },
+        { "block": -7, "inputs": "ws1" },
+        { "block": -8, "inputs": "u4 || b4 || set4" },
         {
           "block": -9,
-          "inputs": ""
+          "inputs": "df4 || b2 || ws2 || qcf1+2 || d2 || heatdb1+2 || set2"
         },
-        { "block": -10, "inputs": "" },
-        { "block": -11, "inputs": "" },
-        { "block": -13, "inputs": "" },
-        { "block": -15, "inputs": "" },
-        { "block": -17, "inputs": "" },
-        { "block": -18, "inputs": "" }
+        { "block": -10, "inputs": "b3" },
+        { "block": -12, "inputs": "ff2 || qcf2" },
+        { "block": -13, "inputs": "u3 || ws3 || qcf1 || d3+4 || btf1+2" },
+        { "block": -14, "inputs": "df2 || uf2 || setuf4 || uf3+4,4" },
+        { "block": -17, "inputs": "ub3+4 || dp2 || ff4" }
       ],
       "low": [
-        { "block": -5, "inputs": "" },
-        { "block": -12, "inputs": "" },
-        { "block": -14, "inputs": "" },
-        { "block": -15, "inputs": "" },
-        { "block": -24, "inputs": "" },
-        { "block": -26, "inputs": "" }
+        { "block": -5, "inputs": "db1" },
+        { "block": -12, "inputs": "db4" },
+        { "block": -13, "inputs": "btd2" },
+        { "block": -14, "inputs": "d3 || d1+2 || btd4 || heatkatd1+2" },
+        { "block": -15, "inputs": "d4" },
+        { "block": -16, "inputs": "u2 || set3 || kat4" },
+        { "block": -18, "inputs": "uf3+4,2" },
+        { "block": -19, "inputs": "db3,3" },
+        { "block": -37, "inputs": "ss4" }
       ]
     },
     "combos": {
@@ -184,32 +182,29 @@
   },
   "coverage": {
     "heatengager9": {
-      "bothswl&r": "",
-      "i18pc": ""
+      "bothl&r": "d1 || f1+2 || qcf1+2 || b2 || df1 || db4 || db3 || df4 || db2  ",
+      "i18pc": "u3"
     },
     "1,2": {
       "swr": "",
       "bothl&r": ""
     },
     "1,2,2": {
-      "swr": "",
-      "bothl&r": ""
+      "bothl&r": "qcf1+2 || df1 || db4 || db3 || df4 || db2"
     },
     "df1": {
       "swr": "",
-      "bothl&r": ""
+      "bothl&r": "qcf1+2 || b2 || db4 || db3 || df4 || db2  "
     },
     "2,2": {
-      "swr": "",
-      "bothl&r": ""
+      "bothl&r": "qcf1+2 || df1 || db4 || db3 || df4 || db2"
     },
-    "b1,1ob": {
-      "swr": "",
-      "bothl&r": ""
+    "4,2": {
+      "bothl&r": "bt1+2 || btd4 || btd2 || bt1 || bt4",
+      "i18pc": "bt1 || btd4 || btd2 || btgrab"
     },
     "ws1,1": {
-      "swr": "",
-      "bothl&r": ""
+      "bothl&r": "d1 || f1+2 || qcf1+2 || b2 || df1 || db4 || db3 || df4 || db2  "
     },
     "d1ob": {
       "bothl&r": "ws2"
@@ -219,8 +214,7 @@
       "bothl&r": ""
     },
     "ws4": {
-      "swr": "",
-      "bothl&r": ""
+      "bothl&r": "qcf1+2 || db3"
     },
     "df4": {
       "swr": "",
@@ -230,15 +224,7 @@
       "swr": "",
       "bothl&r": ""
     },
-    "ws3ob": {
-      "swr": "",
-      "bothl&r": ""
-    },
-    "ws3oh": {
-      "swr": "",
-      "bothl&r": ""
-    },
-    "uf3": {
+    "": {
       "swr": "",
       "bothl&r": ""
     }
@@ -532,11 +518,11 @@
   "photofinishers": {
     "left": {
       "high": ["df1,3 || f3+4 || kat1+2"],
-      "mid": ["d3+4 || b4 || wr3 || f4 || b3 || ub3+4 || setsuuf4"]
+      "mid": ["d3+4 || setuf4 || ub3+4 || b4 || wr3 || f4 || b3"]
     },
     "right": {
       "high": ["3,4"],
-      "mid": ["d3+4 || ws4 || df4 || dp2 || b3"]
+      "mid": ["d3+4 || setuf4 || set4,3 || ub3+4 || df4 || ws4 || dp2 || b3"]
     }
   },
   "rapunishers": [
@@ -556,12 +542,16 @@
   "wallsplats": {
     "ws2,1": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 79,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 75,
+        "inputs": "b4,3 > splat > df1,wallcombo"
+      },
+      {
+        "damage": 67,
+        "inputs": "b4,3 > splat > df1,heatu1+2"
       },
       {
         "damage": 0,
@@ -570,12 +560,12 @@
     ],
     "ff4,2": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 79,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 75,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
@@ -584,26 +574,12 @@
     ],
     "f2,3": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 77,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
-      },
-      {
-        "damage": 0,
-        "inputs": ""
-      }
-    ],
-    "ff2": [
-      {
-        "damage": 0,
-        "inputs": ""
-      },
-      {
-        "damage": 0,
-        "inputs": ""
+        "damage": 73,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
@@ -612,26 +588,12 @@
     ],
     "wr3": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 75,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
-      },
-      {
-        "damage": 0,
-        "inputs": ""
-      }
-    ],
-    "f1+2": [
-      {
-        "damage": 0,
-        "inputs": ""
-      },
-      {
-        "damage": 0,
-        "inputs": ""
+        "damage": 71,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
@@ -640,12 +602,12 @@
     ],
     "qcf1+2": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 70,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 66,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
@@ -654,26 +616,26 @@
     ],
     "qcf2": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 69,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 65,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
         "inputs": ""
       }
     ],
-    "3+4": [
+    "f1+2": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 68,
+        "inputs": "u1 > b1,df1,wallcombo"
       },
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 64,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
@@ -682,12 +644,40 @@
     ],
     "f3+4": [
       {
-        "damage": 0,
-        "inputs": ""
+        "damage": 68,
+        "inputs": "u1 > b1,df1,wallcombo"
+      },
+      {
+        "damage": 60,
+        "inputs": "btf1+2 > splat > 1,df1,wallcombo"
       },
       {
         "damage": 0,
         "inputs": ""
+      }
+    ],
+    "ff2": [
+      {
+        "damage": 63,
+        "inputs": "u1 > b1,df1,wallcombo"
+      },
+      {
+        "damage": 59,
+        "inputs": "b4,3 > splat > df1,wallcombo"
+      },
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "3+4": [
+      {
+        "damage": 63,
+        "inputs": "u1 > b1,df1,wallcombo"
+      },
+      {
+        "damage": 59,
+        "inputs": "b4,3 > splat > df1,wallcombo"
       },
       {
         "damage": 0,
@@ -698,16 +688,28 @@
   "wallbreak": [
     {
       "stage": "dojo",
-      "b4": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ]
+      "df2": {
+        "wall4": [
+          {
+            "damage": 70,
+            "inputs": "u3 > f3+4,bt4 > set1,2 > splat > df1,3 > splat > qcf1+2 > break > 3+4,qcf1"
+          },
+          {
+            "damage": 0,
+            "inputs": ""
+          }
+        ],
+        "wall1": [
+          {
+            "damage": 0,
+            "inputs": ""
+          },
+          {
+            "damage": 0,
+            "inputs": ""
+          }
+        ]
+      }
     }
   ],
   "floorbreak": {
@@ -1047,7 +1049,7 @@
     }
   },
   "heatDash": {
-    "3,2": {
+    "f1+2": {
       "wall5": [
         {
           "damage": 51,
@@ -1124,6 +1126,7 @@
       ]
     }
   },
+  "mixups": "ws1,1..d1 || ",
   "canDelay": ["df1,3 || ws1,1 || ws2,1 || kat1,2"],
   "placeholder": {
     "wall5": [
