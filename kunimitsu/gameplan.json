@@ -98,13 +98,13 @@
     "3.5": "qcf1+2 || kat4",
     "3.3": "ff2",
     "3.0": " * f1+2 * || d1+2 || kat3",
-    "2.9": " * ub3+4 * || qcf2 || ss4 || 3+4 || f3+4 || uf3+4,4 || u4 || df3+4",
+    "2.9": " ** ub3+4  || qcf2(i13mid) ** || ss4 || 3+4 || f3+4 || uf3+4,4 || u4 || df3+4",
     "2.8": "uf2 || d2 || kat2 || ss2",
     "2.7": " * dp2 * || df3",
     "2.6": "ws2 || b4 || b1+2",
     "2.5": " ** u3 || f2 ** || b3",
     "2.4": " ** d1 || df2 || b2 || db4 || db3 || ws3 || db2 || d4 ** || f4 || u2 || kat1",
-    "2.3": "d3 || wcd3/4",
+    "2.3": " * d3(50dmg) * || wcd3/4",
     "2.2": " ** df4 || 3 || ws1 ** || 4 || u3+4 ",
     "2.1": " ** df1 || ws4 ** ",
     "2.0": " * 2 *",
@@ -182,29 +182,49 @@
   },
   "coverage": {
     "heatengager9": {
-      "bothl&r": "d1 || f1+2 || qcf1+2 || b2 || df1 || db4 || db3 || df4 || db2  ",
+      "bothl&r": "d1 || f1+2 || qcf1+2 || b2 || db4 || db3 || df4 || db2",
+      "i10high": "d1(trades into +20)",
       "i18pc": "u3"
+    },
+    "1,1": {
+      "bothl&r": "db2 || qcf1+2 || d3 || db4 || db3 || df4"
     },
     "1,2": {
       "swr": "",
       "bothl&r": ""
     },
+    "2,2,katob": {
+      "ssr": "beats all options",
+      "i10high": "kat2/3/4",
+      "i10sp.low": "kat2/3/4",
+      "i18pc": "kat2"
+    },
+    "2,2,kat": {
+      "ssr": "beats all options",
+      "i10high": "kat1/2/3",
+      "i10sp.low": "kat2/3/4",
+      "i18pc": "kat1/4"
+    },
     "1,2,2": {
-      "bothl&r": "qcf1+2 || df1 || db4 || db3 || df4 || db2"
+      "bothl&r": "qcf1+2 || db4 || df4",
+      "i10high": "df1 || df4 || d1+2 || db3 || df2",
+      "i10sp.low": "df1 || df4 || df2",
+      "i18pc": "d3 || db4 || db3 || d1+2"
     },
     "df1": {
-      "swr": "",
-      "bothl&r": "qcf1+2 || b2 || db4 || db3 || df4 || db2  "
+      "bothl&r": "qcf1+2 || db4 || d3 || df4 || db2  "
     },
     "2,2": {
-      "bothl&r": "qcf1+2 || df1 || db4 || db3 || df4 || db2"
+      "bothl&r": "qcf1+2 || db4 || db2"
     },
     "4,2": {
-      "bothl&r": "bt1+2 || btd4 || btd2 || bt1 || bt4",
+      "bothl&r": "btd4 || bt4",
+      "i10high": "btf1+2 || bt1+2 || btd4 || btd2 || bt1 || bt4",
+      "i10sp.low": "btf1+2 || bt1+2 || bt3",
       "i18pc": "bt1 || btd4 || btd2 || btgrab"
     },
     "ws1,1": {
-      "bothl&r": "d1 || f1+2 || qcf1+2 || b2 || df1 || db4 || db3 || df4 || db2  "
+      "bothl&r": "d1 || qcf1+2 || b2 || df1 || db4 || db3 || df4 || db2"
     },
     "d1ob": {
       "bothl&r": "ws2"
@@ -214,11 +234,10 @@
       "bothl&r": ""
     },
     "ws4": {
-      "bothl&r": "qcf1+2 || db3"
+      "bothl&r": "qcf1+2 || db4 || d3 || db2  "
     },
     "df4": {
-      "swr": "",
-      "bothl&r": ""
+      "bothl&r": "d1+2"
     },
     "df3": {
       "swr": "",
@@ -355,8 +374,8 @@
       "b2": {
         "wall5": [
           {
-            "damage": 76,
-            "inputs": "ws2,1 > f3+4,bt4 > set1,2,1 > 3+4 > qcf1"
+            "damage": 74,
+            "inputs": "ws2,1 > f4,set1 > f4,set1,2,1 > 3+4 > f4,setub3+4"
           },
           {
             "damage": 0,
@@ -525,6 +544,7 @@
       "mid": ["d3+4 || setuf4 || set4,3 || ub3+4 || df4 || ws4 || dp2 || b3"]
     }
   },
+  "blockpushback": "df1,3 || set1+2",
   "rapunishers": [
     {
       "damage": 0,
@@ -572,6 +592,20 @@
         "inputs": ""
       }
     ],
+    "kat1,2": [
+      {
+        "damage": 77,
+        "inputs": "u1 > b1,df1,wallcombo"
+      },
+      {
+        "damage": 73,
+        "inputs": "b4,3 > splat > df1,wallcombo"
+      },
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
     "f2,3": [
       {
         "damage": 77,
@@ -580,6 +614,20 @@
       {
         "damage": 73,
         "inputs": "b4,3 > splat > df1,wallcombo"
+      },
+      {
+        "damage": 0,
+        "inputs": ""
+      }
+    ],
+    "b4,3": [
+      {
+        "damage": 77,
+        "inputs": "b4,3 > splat > df1,wallcombo"
+      },
+      {
+        "damage": 69,
+        "inputs": "b4,3 > splat > df1,heatu1+2"
       },
       {
         "damage": 0,
@@ -683,6 +731,20 @@
         "damage": 0,
         "inputs": ""
       }
+    ],
+    "db3,3,4": [
+      {
+        "damage": 56,
+        "inputs": "b4,3 > splat > df1,wallcombo"
+      },
+      {
+        "damage": 54,
+        "inputs": "df1,3 > splat > 1,df1,wallcombo"
+      },
+      {
+        "damage": 0,
+        "inputs": ""
+      }
     ]
   },
   "wallbreak": [
@@ -737,25 +799,7 @@
           "inputs": ""
         }
       ]
-    },
-    "wallonestuff": [
-      {
-        "damage": 86,
-        "inputs": "db2,3 > splat > ffF2+4 > break > bs1 > f3,2,bs1 > f3,2,1 > ffF2+4"
-      },
-      {
-        "damage": 86,
-        "inputs": "db2,3 > splat > ffF2+4 > break > bs1 > f3,2,bs1 > f3,2,1 > ffF2+4"
-      },
-      {
-        "damage": 0,
-        "inputs": ""
-      },
-      {
-        "damage": 0,
-        "inputs": ""
-      }
-    ]
+    }
   },
   "launchers": {
     "damageData": {
@@ -787,55 +831,15 @@
         }
       ]
     },
-    "u3": {
-      "wall5": [
-        {
-          "damage": 70,
-          "inputs": "f3+4,bt4 > f4,set1,2,1 > 3+4 > qcf1"
-        },
-        {
-          "damage": 70,
-          "inputs": "df4 > f3+4,bt4,set1,2,1 > 3+4 > qcf1"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall4": [
-        {
-          "damage": 84,
-          "inputs": "f3+4,bt4 > f4,set1,2 > splat > df1,3 > splat > 1,df1,wallcombo"
-        },
-        {
-          "damage": 81,
-          "inputs": "f3+4,bt4 > f4,set1,2 > splat > df1,3 > splat > 1,wallcombo"
-        },
-        {
-          "damage": 75,
-          "inputs": "f4,set1 > f4,set1,2 > splat > df1,3 > splat > df1,wallcombo"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall1": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ]
-    },
     "ub3+4": {
       "wall5": [
         {
-          "damage": 85,
-          "inputs": "3+4 > f4 > f3+4,bt4 > set1,hb > f1+2,hdash > qcf1+2"
+          "damage": 87,
+          "inputs": "3+4 > f4 > f3+4,bt4 > set1,hb > f1+2,hdash > wr3"
+        },
+        {
+          "damage": 77,
+          "inputs": "3+4 > f4 > f3+4,bt4 > set1 > qcf1"
         },
         {
           "damage": 76,
@@ -875,61 +879,37 @@
         }
       ]
     },
-    "dp": {
+    "u3+4": {
       "wall5": [
-        {
-          "damage": 63,
-          "inputs": "bt4 > f3+4,bt4 > set1 > qcf1"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall4": [
-        {
-          "damage": 75,
-          "inputs": "f3+4,bt4 > set1,2 > splat > 1,df1,wallcombo"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall1": [
-        {
-          "damage": 0,
-          "inputs": ""
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ]
-    },
-    "df2": {
-      "wall5": [
-        {
-          "damage": 77,
-          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2,hdash > qcf1+2"
-        },
-        {
-          "damage": 69,
-          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > qcf1"
-        },
-        {
-          "damage": 0,
-          "inputs": ""
-        }
-      ],
-      "wall4": [
         {
           "damage": 83,
-          "inputs": "u3 > f3+4,bt4 > set1,2 > splat > df1,3 > splat > 1,df1,wallcombo"
+          "inputs": "f4 > f4 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2 > wr3"
         },
         {
-          "damage": 81,
-          "inputs": "u3 > f4,set1,2,2 > splat > df1,3 > splat > 1,df1,wallcombo"
+          "damage": 80,
+          "inputs": "f4 > f4 > f3+4,bt4 > set1,2,1 > kat3 > qcf2"
+        },
+        {
+          "damage": 75,
+          "inputs": "f4 > f4 > f3+4,bt4 > set1,2,1 > 3+4 > f4,ub3+4"
+        },
+        {
+          "damage": 73,
+          "inputs": "f4 > f4 > f3+4,bt4 > set1,2,1 > 3+4 > qcf1"
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
         }
       ],
       "wall1": [
@@ -945,6 +925,22 @@
     },
     "ws3": {
       "wall5": [
+        {
+          "damage": 82,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2,hdash > wr3"
+        },
+        {
+          "damage": 79,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > kat3 > qcf2 "
+        },
+        {
+          "damage": 74,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > f4,setub3+4"
+        },
+        {
+          "damage": 73,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > u3"
+        },
         {
           "damage": 72,
           "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > qcf1"
@@ -975,11 +971,19 @@
         }
       ]
     },
-    "u3+4": {
+    "kat3,2": {
       "wall5": [
         {
-          "damage": 73,
-          "inputs": "f4 > f4 > f3+4,bt4 > set1,2,1 > 3+4 > qcf1"
+          "damage": 82,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2,hdash > wr3"
+        },
+        {
+          "damage": 74,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > f4,setub3+4"
+        },
+        {
+          "damage": 72,
+          "inputs": ""
         },
         {
           "damage": 0,
@@ -990,6 +994,134 @@
         {
           "damage": 0,
           "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
+    },
+    "u3": {
+      "wall5": [
+        {
+          "damage": 80,
+          "inputs": "df4 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2 > wr3"
+        },
+        {
+          "damage": 72,
+          "inputs": "df4 > f3+4,bt4 > set1,2,1 > 3+4 > f4,setub3+4"
+        },
+        {
+          "damage": 70,
+          "inputs": "f3+4,bt4 > f4,set1,2,1 > 3+4 > qcf1"
+        },
+        {
+          "damage": 70,
+          "inputs": "df4 > f3+4,bt4,set1,2,1 > 3+4 > qcf1"
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 84,
+          "inputs": "df4 > f3+4,bt4 > set1,2 > splat > df1,3 > splat > 1,df1,wallcombo"
+        },
+        {
+          "damage": 81,
+          "inputs": "f3+4,bt4 > f4,set1,2 > splat > df1,3 > splat > 1,wallcombo"
+        },
+        {
+          "damage": 75,
+          "inputs": "f4,set1 > f4,set1,2 > splat > df1,3 > splat > df1,wallcombo"
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
+    },
+    "df2": {
+      "wall5": [
+        {
+          "damage": 79,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2,hdash > wr3"
+        },
+        {
+          "damage": 77,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > hb > f1+2/set1+2,hdash > qcf1+2"
+        },
+        {
+          "damage": 71,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > f4,setub3+4"
+        },
+        {
+          "damage": 69,
+          "inputs": "u3 > f3+4,bt4 > set1,2,1 > 3+4 > qcf1/ff4,2"
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 83,
+          "inputs": "u3 > f3+4,bt4 > set1,2 > splat > df1,3 > splat > 1,df1,wallcombo"
+        },
+        {
+          "damage": 81,
+          "inputs": "u3 > f4,set1,2,2 > splat > df1,3 > splat > 1,df1,wallcombo"
+        }
+      ],
+      "wall1": [
+        {
+          "damage": 0,
+          "inputs": ""
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ]
+    },
+    "dp": {
+      "wall5": [
+        {
+          "damage": 63,
+          "inputs": "bt4 > f3+4,bt4 > set1 > qcf1"
+        },
+        {
+          "damage": 0,
+          "inputs": ""
+        }
+      ],
+      "wall4": [
+        {
+          "damage": 75,
+          "inputs": "f3+4,bt4 > set1,2 > splat > 1,df1,wallcombo"
         },
         {
           "damage": 0,
@@ -1127,7 +1259,7 @@
     }
   },
   "mixups": "ws1,1..d1 || ",
-  "canDelay": ["df1,3 || ws1,1 || ws2,1 || kat1,2"],
+  "canDelay": ["df1,2/3 || ws1,1 || ws2,1 || kat1,2"],
   "placeholder": {
     "wall5": [
       {
